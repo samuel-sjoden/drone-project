@@ -96,7 +96,7 @@ class TestFlightSimulator:
         drone1.takeoff(10)
         drone2.takeoff(10)
         drone1.move_to(0, 0, 10)
-        drone2.move_to(2, 2, 10)  # Within 5m default
+        drone2.move_to(2, 2, 10)  # Within default min_distance of 5.0m
         
         collisions = sim.check_collisions()
         assert len(collisions) == 1

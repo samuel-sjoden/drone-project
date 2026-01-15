@@ -2,7 +2,7 @@
 
 from enum import Enum
 from dataclasses import dataclass
-from typing import Tuple, Optional
+from typing import Optional
 import math
 
 

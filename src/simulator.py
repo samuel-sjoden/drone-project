@@ -1,5 +1,6 @@
 """Simple drone flight simulator."""
 
+from datetime import datetime
 from typing import List, Optional
 from .drone import Drone, DroneState, Position
 
@@ -166,6 +167,7 @@ class FlightSimulator:
             message: Event description
         """
         self.flight_log.append({
+            "timestamp": datetime.now().isoformat(),
             "drone": drone_name,
             "event": event_type,
             "message": message
