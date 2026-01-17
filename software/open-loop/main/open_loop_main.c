@@ -1,5 +1,5 @@
 #include "driver/gptimer.h" 
-#include "driver/gpio.h"
+#include "driver/dedic_gpio.h"
 #include "sdkconfig.h"
 #include <stdint.h>
 
@@ -62,14 +62,13 @@ gptimer_config_t timer_config = {
 };
 
 
-IRAM_ATTR static void change_global_state(gptimer_handle_t timer, const gptimer_alarm_data_t *edata, void * user_ctx) {
-	uint8_t prev_state = GLOBAL_STATE;
+IRAM_ATTR static bool change_global_state(gptimer_handle_t timer, const gptimer_alarm_event_data_t *edata, void * user_ctx) {
 	GLOBAL_STATE = GLOBAL_STATE % NUM_POSITIONAL_STATES + 1;
 	uint8_t high_side = STATES[GLOBAL_STATE];
 	uint8_t low_side = (~high_side) & 0b111;
     uint32_t gpio_values = (high_side << 3) | low_side;
 	dedic_gpio_bundle_write(gpios, 0b111111, gpio_values);
-	return;
+	return true;
 }
 
 gptimer_alarm_config_t alarm_config = {

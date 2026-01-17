@@ -1,0 +1,28 @@
+menu "Motor GPIO Configuration"
+
+config GPIO_OUTPUT_0
+    int "High-side driver A GPIO"
+    default 2
+
+config GPIO_OUTPUT_1
+    int "High-side driver B GPIO"
+    default 4
+
+config GPIO_OUTPUT_2
+    int "High-side driver C GPIO"
+    default 5
+
+config GPIO_OUTPUT_3
+    int "low-side driver A GPIO"
+    default 18
+
+config GPIO_OUTPUT_4
+    int "low-side driver B GPIO"
+    default 19
+
+config GPIO_OUTPUT_5
+    int "low-side driver C GPIO"
+    default 21
+
+endmenu
+
