@@ -77,7 +77,6 @@ gptimer_alarm_config_t alarm_config = {
 	.alarm_count = CYCLE_PERIOD,
 	.flags.auto_reload_on_alarm = true,
 };
-gptimer_set_alarm_action(state_timer, &alarm_config);
 gptimer_event_callbacks_t callback = {
 	.on_alarm = change_global_state,
 };
@@ -85,6 +84,7 @@ gptimer_event_callbacks_t callback = {
 void app_main(void) {
 	dedic_gpio_new_bundle(&gpios_config, &gpios);
 	gptimer_new_timer(&timer_config, &state_timer);
+	gptimer_set_alarm_action(state_timer, &alarm_config);
 	gptimer_register_event_callbacks(state_timer, &callback, NULL);
 	gptimer_enable(state_timer);
 	for(;;) {
