@@ -11,6 +11,20 @@
 #define GPIO_OUTPUT_IO_4 CONFIG_GPIO_OUTPUT_4
 #define GPIO_OUTPUT_IO_5 CONFIG_GPIO_OUTPUT_5
 
+// The representation of the states of the high side fets of the half bridge
+static const uint8_t STATE_BITS = 3;
+static const uint8_t STATE_FIELD_MASK =  ((1 << STATE_BITS) - 1);
+static const uint32_t GPIO_BIT_MASK = (1 << (STATE_BITS * 2)) - 1;
+static const uint32_t STATES_PACKED =
+    (0b111u << (7 * STATE_BITS)) |
+    (0b101u << (6 * STATE_BITS)) |
+    (0b100u << (5 * STATE_BITS)) |
+    (0b110u << (4 * STATE_BITS)) |
+    (0b101u << (3 * STATE_BITS)) |
+    (0b011u << (2 * STATE_BITS)) |
+    (0b001u << (1 * STATE_BITS)) |
+    (0b000u);
+
 int gpio_bundle[6] = {GPIO_OUTPUT_IO_0, GPIO_OUTPUT_IO_1, GPIO_OUTPUT_IO_2, GPIO_OUTPUT_IO_3, GPIO_OUTPUT_IO_4, GPIO_OUTPUT_IO_5};
 dedic_gpio_bundle_handle_t gpios = NULL;
 dedic_gpio_bundle_config_t gpios_config = {
@@ -21,38 +35,11 @@ dedic_gpio_bundle_config_t gpios_config = {
     },
 };
 
-
-// The possible states the stator coils can be commutated with
-// The representaion is of the high side fets 0bABC
-// Each high side fet has a corresponding low side fet which should always have the opposite
-// position as the high side fets
-// TODO: this can just be a 32 bit integer with these chunks in them
-const uint8_t STATES[8] = {
-	0b000,
-	0b001,
-	0b011,
-	0b101,
-	0b110,
-	0b100,
-	0b101,
-	0b111
-};
-const uint8_t NUM_POSITIONAL_STATES = 6;
-
-const uint16_t DC_LINK_MILIV = 12000;
-const uint16_t PHASOR_MAGNITUDE_MILIV = 12000;
-// const uint8_t NUM_MECHANICAL_POLES = 4;
-// volatile uint16_t MECHANICAL_ANGULAR_FREQ = 0;
-// volatile uint16_t ELECTRICAL_ANGLE_DEG = 0;
-// volatile uint16_t ELECTRICAL_ANGULAR_FREQ_DEG = NUM_MECHANICAL_POLES * MECHANICAL_ANGULAR_FREQ;
-
 const int TIMER_RESOLUTION = 1 * 1000 * 1000; // timer resolution set to 1MHz
-// TODO: this will eventually be replaced with the desired speed (the desired electrical freq)
 const int CYCLE_PERIOD = 100000;
 
 // global state of the stators being commutated. The zero state is the dead state of the motor
 volatile uint8_t GLOBAL_STATE = 6;
-
 
 gptimer_handle_t state_timer = NULL;
 gptimer_config_t timer_config = {
@@ -63,11 +50,16 @@ gptimer_config_t timer_config = {
 
 
 IRAM_ATTR static bool change_global_state(gptimer_handle_t timer, const gptimer_alarm_event_data_t *edata, void * user_ctx) {
-	GLOBAL_STATE = GLOBAL_STATE % NUM_POSITIONAL_STATES + 1;
-	uint8_t high_side = STATES[GLOBAL_STATE];
-	uint8_t low_side = (~high_side) & 0b111;
-    uint32_t gpio_values = (high_side << 3) | low_side;
-	dedic_gpio_bundle_write(gpios, 0b111111, gpio_values);
+	GLOBAL_STATE++;
+	if (GLOBAL_STATE > 6) {
+		GLOBAL_STATE = 1;
+	} 
+
+	uint8_t high_side = (STATES_PACKED >> (GLOBAL_STATE * STATE_BITS)) & STATE_FIELD_MASK;
+	uint8_t low_side = (~high_side) & STATE_FIELD_MASK;
+    uint32_t gpio_values = (high_side << STATE_BITS) | low_side;
+
+	dedic_gpio_bundle_write(gpios, GPIO_BIT_MASK, gpio_values);
 	return true;
 }
 
