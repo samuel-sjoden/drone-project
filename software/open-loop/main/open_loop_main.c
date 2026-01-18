@@ -25,7 +25,14 @@ static const uint32_t STATES_PACKED =
     (0b001u << (1 * STATE_BITS)) |
     (0b000u);
 
-int gpio_bundle[6] = {GPIO_OUTPUT_IO_0, GPIO_OUTPUT_IO_1, GPIO_OUTPUT_IO_2, GPIO_OUTPUT_IO_3, GPIO_OUTPUT_IO_4, GPIO_OUTPUT_IO_5};
+const int gpio_bundle[6] = {
+	GPIO_OUTPUT_IO_0, 
+	GPIO_OUTPUT_IO_1, 
+	GPIO_OUTPUT_IO_2, 
+	GPIO_OUTPUT_IO_3, 
+	GPIO_OUTPUT_IO_4, 
+	GPIO_OUTPUT_IO_5
+};
 dedic_gpio_bundle_handle_t gpios = NULL;
 dedic_gpio_bundle_config_t gpios_config = {
     .gpio_array = gpio_bundle,
@@ -57,7 +64,7 @@ IRAM_ATTR static bool change_global_state(gptimer_handle_t timer, const gptimer_
 
 	uint8_t high_side = (STATES_PACKED >> (GLOBAL_STATE * STATE_BITS)) & STATE_FIELD_MASK;
 	uint8_t low_side = (~high_side) & STATE_FIELD_MASK;
-    uint32_t gpio_values = (high_side << STATE_BITS) | low_side;
+    uint32_t gpio_values = ((uint32_t)high_side << STATE_BITS) | low_side;
 
 	dedic_gpio_bundle_write(gpios, GPIO_BIT_MASK, gpio_values);
 	return true;
