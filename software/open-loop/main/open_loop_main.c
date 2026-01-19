@@ -1,7 +1,7 @@
 #include "driver/dedic_gpio.h"
 #include "driver/gptimer.h"
-#include "freertos/FreeRTOS.h"
 #include "esp_log.h"
+#include "freertos/FreeRTOS.h"
 #include "sdkconfig.h"
 #include <stdint.h>
 
@@ -36,13 +36,13 @@ dedic_gpio_bundle_config_t gpios_config = {
 };
 
 const int TIMER_RESOLUTION = 1 * 1000 * 1000; // timer resolution set to 1MHz
-const int CYCLE_PERIOD = 100000;
+const int CYCLE_PERIOD = 500000;
 
 // global state of the stators being commutated. The zero state is the dead
 // state of the motor
-volatile uint8_t GLOBAL_STATE = 6;
+volatile uint8_t global_state_p = 6;
 
-const static char* TAG = "LKD";
+const static char *TAG = "LKD";
 
 gptimer_handle_t state_timer = NULL;
 gptimer_config_t timer_config = {
@@ -51,17 +51,17 @@ gptimer_config_t timer_config = {
     .resolution_hz = TIMER_RESOLUTION,
 };
 
-IRAM_ATTR static bool change_global_state(gptimer_handle_t timer,
-                                const gptimer_alarm_event_data_t *edata,
-                                void *user_ctx) {
-  GLOBAL_STATE++;
-  if (GLOBAL_STATE > 6) {
-    GLOBAL_STATE = 1;
+IRAM_ATTR static bool
+change_global_state(gptimer_handle_t timer,
+                    const gptimer_alarm_event_data_t *edata, void *user_ctx) {
+  global_state_p++;
+  if (global_state_p > 6) {
+    global_state_p = 1;
   }
 
-  uint8_t high_side =
-      (STATES_PACKED >> (GLOBAL_STATE * STATE_BITS)) & STATE_FIELD_MASK;
-  uint8_t low_side = (~high_side) & STATE_FIELD_MASK;
+  uint32_t high_side =
+      (STATES_PACKED >> (global_state_p * STATE_BITS)) & STATE_FIELD_MASK;
+  uint32_t low_side = (~high_side) & STATE_FIELD_MASK;
   uint32_t gpio_values = ((uint32_t)high_side << STATE_BITS) | low_side;
 
   dedic_gpio_bundle_write(gpios, GPIO_BIT_MASK, gpio_values);
@@ -78,20 +78,14 @@ gptimer_event_callbacks_t callback = {
 };
 
 void app_main(void) {
-  ESP_LOGI(TAG, "Continous ADC now running!");
   dedic_gpio_new_bundle(&gpios_config, &gpios);
-  ESP_LOGI(TAG, "Continous ADC now running!");
   gptimer_new_timer(&timer_config, &state_timer);
-  ESP_LOGI(TAG, "Continous ADC now running!");
   gptimer_set_alarm_action(state_timer, &alarm_config);
-  ESP_LOGI(TAG, "Continous ADC now running!");
   gptimer_register_event_callbacks(state_timer, &callback, NULL);
-  ESP_LOGI(TAG, "Continous ADC now running!");
   gptimer_enable(state_timer);
-  ESP_LOGI(TAG, "Continous ADC now running!");
   gptimer_start(state_timer);
-  ESP_LOGI(TAG, "Continous ADC now running!");
   for (;;) {
-    vTaskDelay(1);
+    vTaskDelay(pdMS_TO_TICKS(100));
+    ESP_LOGI(TAG, "%d", global_state_p);
   }
 }
