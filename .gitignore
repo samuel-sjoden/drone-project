@@ -3,3 +3,4 @@
 DRONE 101 Vault/
 build/
 .cache/
+compile_commands.json

@@ -1,6 +1,7 @@
 #include "driver/gptimer.h" 
 #include "driver/dedic_gpio.h"
 #include "sdkconfig.h"
+#include "freertos/FreeRTOS.h"
 #include <stdint.h>
 
 
@@ -86,7 +87,7 @@ void app_main(void) {
 	gptimer_register_event_callbacks(state_timer, &callback, NULL);
 	gptimer_enable(state_timer);
 	for(;;) {
-
+    vTaskDelay(1);
 	}
 }
 
