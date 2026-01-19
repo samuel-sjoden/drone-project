@@ -13,8 +13,8 @@
 
 // The representation of the states of the high side fets of the half bridge
 static const uint8_t STATE_BITS = 3;
-static const uint8_t STATE_FIELD_MASK =  ((1 << STATE_BITS) - 1);
-static const uint32_t GPIO_BIT_MASK = (1 << (STATE_BITS * 2)) - 1;
+static const uint8_t STATE_FIELD_MASK =  ((1 << (STATE_BITS + 1)) - 1);
+static const uint32_t GPIO_BIT_MASK = (1 << (STATE_BITS * 2 + 1)) - 1;
 static const uint32_t STATES_PACKED =
     (0b111u << (7 * STATE_BITS)) |
     (0b101u << (6 * STATE_BITS)) |
