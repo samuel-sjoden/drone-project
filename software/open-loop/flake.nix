@@ -11,7 +11,7 @@
 
   outputs = { self, nixpkgs, nixpkgs-esp-dev }:
     let
-      system = "x86_64-linux"; # adjust if needed
+      system = builtins.currentSystem; 
 
       pkgs = import nixpkgs {
         inherit system;
