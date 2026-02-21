@@ -1,5 +1,4 @@
-#include <stdint.h>
-
+#include "foc.h"
 // Calculates the duty cycle for the uvw legs of an inverter given a space
 // vector in the stationary alpha beta system Duty cycles are output in the form
 // 0 to 100
@@ -107,8 +106,8 @@ void foc_svpwm_duty_calculate(const foc_ab_t *ab_in, foc_uvw_t *uvw_out,
 // with respect to the alpha axis, gives a vector in the alpha beta system
 void foc_inverse_park(const float angle, const foc_dq_t *dq_in,
                       foc_ab_t *ab_out) {
-  const float sin = sin(angle);
-  const float cos = cos(angle);
+  float sin, cos;
+  sin_and_cos(angle, &sin, &cos);
   ab_out->alpha = (dq_in->d) * cos - (dq_in->q) * sin;
   ab_out->beta = (dq_in->d) * sin + (dq_in->q) * cos;
 }
