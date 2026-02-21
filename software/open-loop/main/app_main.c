@@ -1,0 +1,7 @@
+
+
+#define GPIO_OUTPUT_IO_0 CONFIG_GPIO_OUTPUT_0
+#define GPIO_OUTPUT_IO_1 CONFIG_GPIO_OUTPUT_1
+#define GPIO_OUTPUT_IO_2 CONFIG_GPIO_OUTPUT_2
+#define MCPWM_TIMER_RESOLUTION 1 * 1000 * 1000 // 1 MHz
+#define FOC_PWM_PERIOD 50                      // microseconds
