@@ -10,7 +10,7 @@ esp_err_t inverter_create(const inverter_config_t *config,
     return ESP_ERR_INVALID_ARG;
   }
   esp_err_t ret;
-  inverter_handle_t *inverter_dev = calloc(1, sizeof(inverter_handle_t));
+  inverter_handle_t inverter_dev = calloc(1, sizeof(struct inverter_t));
 
   if (!inverter_dev) {
     ESP_LOGE(TAG, "no memory");
@@ -60,14 +60,14 @@ esp_err_t inverter_create(const inverter_config_t *config,
             MCPWM_GEN_COMPARE_EVENT_ACTION_END()),
         err, TAG, "Set generator actions failed");
   }
-  inverter_out = inverter_dev;
+  *inverter_out = inverter_dev;
   return ESP_OK;
 err:
   free(inverter_dev);
   return ret;
 }
 
-esp_err_t inverter_register_cbs(inverter_handle_t *handle,
+esp_err_t inverter_register_cbs(inverter_handle_t handle,
                                 const mcpwm_timer_event_callbacks_t *event,
                                 void *user_ctx) {
   ESP_RETURN_ON_ERROR(
@@ -76,7 +76,7 @@ esp_err_t inverter_register_cbs(inverter_handle_t *handle,
   return ESP_OK;
 }
 
-esp_err_t inverter_start(inverter_handle_t *handle,
+esp_err_t inverter_start(inverter_handle_t handle,
                          mcpwm_timer_start_stop_cmd_t command) {
   ESP_RETURN_ON_FALSE(handle, ESP_ERR_INVALID_ARG, TAG, "invalid argument");
   if ((command != MCPWM_TIMER_STOP_EMPTY) &&
@@ -89,7 +89,7 @@ esp_err_t inverter_start(inverter_handle_t *handle,
   return ESP_OK;
 }
 
-esp_err_t inverter_set_duty(inverter_handle_t *handle, uint16_t u, uint16_t v,
+esp_err_t inverter_set_duty(inverter_handle_t handle, uint16_t u, uint16_t v,
                             uint16_t w) {
   ESP_RETURN_ON_FALSE(handle, ESP_ERR_INVALID_ARG, TAG, "invalid argument");
 
@@ -105,7 +105,7 @@ esp_err_t inverter_set_duty(inverter_handle_t *handle, uint16_t u, uint16_t v,
   return ESP_OK;
 }
 
-esp_err_t inverter_del(inverter_handle_t *handle) {
+esp_err_t inverter_del(inverter_handle_t handle) {
   ESP_RETURN_ON_FALSE(handle, ESP_ERR_INVALID_ARG, TAG, "invalid argument");
 
   ESP_RETURN_ON_ERROR(mcpwm_timer_disable(handle->timer), TAG,
