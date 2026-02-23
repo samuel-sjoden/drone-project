@@ -21,9 +21,9 @@ static const float RADIANS_TRAVELLED_PER_PERIOD =
 static const char *TAG = "foc inverter";
 
 static volatile float electrical_angle_radians = 0.0f;
-static volatile foc_dq_t dq = {0.0f, 0.0f};
-static volatile foc_ab_t ab = {0.0f, 0.0f};
-static volatile foc_uvw_t uvw = {0.0f, 0.0f, 0.0f};
+static foc_dq_t dq = {0.0f, 0.0f};
+static foc_ab_t ab = {0.0f, 0.0f};
+static foc_uvw_t uvw = {0.0f, 0.0f, 0.0f};
 static volatile uint16_t uvw_duty[3] = {0, 0, 0};
 
 bool inverter_callback(mcpwm_timer_handle_t timer,
@@ -38,7 +38,7 @@ void vInverterUpdate(void *pvParameters) {
   inverter_handle_t *inverter_ref = (inverter_handle_t *)pvParameters;
   for (;;) {
     ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
-    electrical_angle_radians += ELECTRICAL_RADIANS_PER_SECOND;
+    electrical_angle_radians += RADIANS_TRAVELLED_PER_PERIOD;
     if (electrical_angle_radians > TWO_PI) {
       electrical_angle_radians -= TWO_PI;
     }

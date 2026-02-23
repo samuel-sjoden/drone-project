@@ -1,8 +1,4 @@
-#define TWO_PI 6.28318530718
-#define PI TWO_PI / 2
-#define LUT_SIZE 1024
-#define INTEGERS_PER_RADIAN ((uint16_t)(PI + PI / 2) / LUT_SIZE)
-#define COSINE_PHASE_SHIFT ((uint16_t)PI / 2 * INTEGERS_PER_RADIAN)
+#include "foc.h"
 
 const float sin_lut[1024] = {
     0.0,
