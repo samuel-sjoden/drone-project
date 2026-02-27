@@ -10,15 +10,15 @@
 #define GPIO_OUTPUT_W CONFIG_W_LEG_GPIO
 
 #define MCPWM_TIMER_RESOLUTION 1 * 1000 * 1000 // 1 MHz
-#define FOC_PWM_PERIOD 50                      // microseconds
+#define FOC_PWM_PERIOD 25                      // microseconds
 #define INVETER_UPDATE_TASK_STACK_SIZE 4096
-static const float FOC_ELECTRICAL_FREQUENCY = 0.33f; // Hz
-static const float FOC_ELECTRICAL_AMPLITUDE = 25.0f; // Based on ticks of period
+static const float FOC_ELECTRICAL_FREQUENCY = 1000.0f; // Hz
+static const float FOC_ELECTRICAL_AMPLITUDE = 12.5f; // Based on ticks of period
 static const float ELECTRICAL_RADIANS_PER_SECOND =
     FOC_ELECTRICAL_FREQUENCY * TWO_PI;
 static const float RADIANS_TRAVELLED_PER_PERIOD =
     ELECTRICAL_RADIANS_PER_SECOND /
-    ((float)MCPWM_TIMER_RESOLUTION / ((float)FOC_PWM_PERIOD / 2));
+    ((float)MCPWM_TIMER_RESOLUTION / ((float)FOC_PWM_PERIOD));
 static const char *TAG = "foc inverter";
 
 static volatile float electrical_angle_radians = 0.0f;
