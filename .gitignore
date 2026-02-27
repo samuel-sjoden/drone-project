@@ -4,3 +4,9 @@ DRONE 101 Vault/
 build/
 .cache/
 compile_commands.json
+*.zip
+*.idx
+fp-info-cache
+fp-lib-table
+sdkconfig
+sdkconfig.old
