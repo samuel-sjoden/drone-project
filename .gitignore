@@ -10,3 +10,8 @@ fp-info-cache
 fp-lib-table
 sdkconfig
 sdkconfig.old
+current-sense/
+current-sense-backups/
+gain_stage/
+spice_sim/
+motor-driver-backups/
