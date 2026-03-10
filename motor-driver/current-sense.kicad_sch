@@ -685,107 +685,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 82.55 213.36)
@@ -1073,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 152.4) (xy 134.62 156.21)
+			(xy 134.62 152.4) (xy 134.62 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 232.41 113.03)
+			(xy 232.41 110.49) (xy 232.41 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 232.41) (xy 135.89 236.22)
+			(xy 135.89 232.41) (xy 135.89 237.49)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 234.95) (xy 226.06 236.22)
+			(xy 226.06 234.95) (xy 226.06 240.03)
 		)
 		(stroke
 			(width 0)
@@ -2503,6 +2402,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 240.03) (xy 224.79 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40a3c0c-6d73-40eb-87e5-a117bd4248e5")
+	)
+	(wire
+		(pts
 			(xy 43.18 180.34) (xy 43.18 143.51)
 		)
 		(stroke
@@ -2942,6 +2851,50 @@
 		)
 		(uuid "05de6aa0-4088-4afa-b9be-0a0c6b1bbb95")
 	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 87.63 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10859947-1576-47ae-98dd-60924d264ede")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 87.63 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13af7495-083d-4691-a830-7156b5184ecd")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 166.37 236.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d65fa2-ad4a-4a4f-b6fc-e1cf8ecaf8a7")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 228.6 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "281dd58b-5fa2-4375-9388-c87274e9a16d")
+	)
 	(hierarchical_label "V_CURRENT_SENSE_OUT"
 		(shape input)
 		(at 242.57 97.79 0)
@@ -2986,6 +2939,105 @@
 		)
 		(uuid "3e7b276f-4600-4169-94b4-1c7468bbdfea")
 	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 177.8 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f1c7789-c06a-4292-a815-ebc5ba1c550b")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 88.9 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5231376f-2ccd-4e30-91eb-db0f8bc2856a")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 87.63 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d10283d-80bd-4579-80e5-2e37f155f545")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 88.9 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6671f82d-0d2d-4ecc-b04b-cb3aeeeb969c")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 135.89 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8191d4f9-ca53-409d-8221-f52819cae256")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 134.62 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90a98d31-c89a-4802-ba35-e3b710e1ee97")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 135.89 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93e937fd-0a06-4922-af78-0d0e57281671")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 224.79 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "964d1a62-0098-4efe-8103-f1e91f1990af")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 134.62 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b65e6fd-9e8c-47ef-9c36-dbdd9ae382ed")
+	)
 	(hierarchical_label "V_CURRENT_SENSE_IN"
 		(shape input)
 		(at 43.18 133.35 180)
@@ -2997,77 +3049,82 @@
 		)
 		(uuid "a29a14e3-94cf-41d2-98b8-f9d2056f4f18")
 	)
-	(symbol
-		(lib_id "power:+5V")
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 182.88 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2c03ca5-2444-407e-8120-23ac59460537")
+	)
+	(hierarchical_label "5V"
+		(shape input)
 		(at 135.89 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05b4b573-bc5a-4f15-839a-33140bd748a9")
-		(property "Reference" "#PWR?"
-			(at 135.89 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "+5V"
-			(at 135.89 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "b578dda0-8969-46cb-8149-a7aefb367352")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 135.89 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 135.89 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "c35d5ac1-d814-4575-9049-6ef6c39082c3")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 86.36 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Datasheet" ""
-			(at 135.89 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "c7815c70-b4f0-4d6d-8467-bfd205e25c1a")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 232.41 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "e109641d-b638-4743-b920-e517002df1b9")
+	)
+	(hierarchical_label "MOTOR_GND"
+		(shape input)
+		(at 182.88 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(pin "1"
-			(uuid "df208efe-1d64-490a-8ee0-63235379f2ab")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR011")
-					(unit 1)
-				)
+		(uuid "ee69198a-427f-40b1-a53a-d646989ae015")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 231.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
+			(justify left)
 		)
+		(uuid "fb165b7f-14d7-47d8-81d9-893e74279fcb")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3079,7 +3136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09e5c88a-b8e9-41de-bd39-6751de2ba3a0")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 95.25 39.3699 0)
 			(effects
 				(font
@@ -3139,7 +3196,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3155,7 +3212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d6e1638-d6ed-45ab-8157-26018cf78cde")
-		(property "Reference" "R?"
+		(property "Reference" "R59"
 			(at 179.07 227.3299 0)
 			(effects
 				(font
@@ -3215,79 +3272,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 231.14 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f4ab221-ddee-4bd3-8ceb-a8bad1be5348")
-		(property "Reference" "#PWR?"
-			(at 231.14 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 231.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65cbb86a-ee26-4a7f-a253-4b444e8cff29")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15989e8f-0b53-4c2a-b09e-8a987642e8aa")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 118.11 204.47 0)
 			(effects
 				(font
@@ -3460,79 +3445,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aed2ff5-03cf-4c1f-bf81-2019a6b2e837")
-		(property "Reference" "#PWR?"
-			(at 86.36 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30dd0997-56d8-42e9-b7a3-4ed0ebf8c4e6")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b6ef92d-72b1-4249-b62e-c7865caadda4")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 46.99 137.16 90)
 			(effects
 				(font
@@ -3606,79 +3519,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20b51cb9-b8be-431f-baf2-39886de1a928")
-		(property "Reference" "#PWR?"
-			(at 182.88 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17ed0891-e75b-4251-85bb-86fb8a343243")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3694,7 +3535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305443a2-1978-48d1-9bb1-03be52f18ea2")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 119.38 13.97 90)
 			(effects
 				(font
@@ -3752,7 +3593,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3768,7 +3609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b102e3-bdfd-4106-82f9-15936bf4e6e0")
-		(property "Reference" "R?"
+		(property "Reference" "R24"
 			(at 146.05 210.8199 0)
 			(effects
 				(font
@@ -3828,79 +3669,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30bbddb7-a22e-4824-be00-6d0718eb4c04")
-		(property "Reference" "#PWR?"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eff5d72f-2541-4923-bf4a-b430b95695bf")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3916,7 +3685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33bd1c39-650b-4b45-9977-0a685dc7d34e")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 118.11 102.87 90)
 			(effects
 				(font
@@ -3974,7 +3743,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3990,7 +3759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40519ac0-f1a7-44d8-b58e-7b778d2da9d1")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 146.05 41.9099 0)
 			(effects
 				(font
@@ -4050,79 +3819,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 201.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45088661-3789-4f49-af28-d5b142037cbd")
-		(property "Reference" "#PWR?"
-			(at 88.9 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ca8ff36-3278-4e23-b744-eb03aaa7b669")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4138,7 +3835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b7b3d2-4236-4ae1-bbae-7dedd1c60ca5")
-		(property "Reference" "R?"
+		(property "Reference" "R58"
 			(at 168.91 227.3299 0)
 			(effects
 				(font
@@ -4198,79 +3895,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 205.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47caf895-82be-4608-b785-d224587737b1")
-		(property "Reference" "#PWR?"
-			(at 177.8 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "895922cc-5876-4838-8d4a-26c385b481c3")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -4286,7 +3911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4844f35d-4484-441d-833d-8263352233f2")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 86.36 58.4199 0)
 			(effects
 				(font
@@ -4346,79 +3971,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4860d7a4-8e95-47e6-9de0-d497f430b9c1")
-		(property "Reference" "#PWR?"
-			(at 232.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b8b5fa0-e407-4c92-8b97-3ba3a9db6d6c")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4434,7 +3987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a6d3f97-d958-474e-9489-1614e880eb97")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 85.09 147.3199 0)
 			(effects
 				(font
@@ -4494,7 +4047,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4510,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd507e7-af74-4d89-8922-ba92f91b3b38")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 146.05 55.8799 0)
 			(effects
 				(font
@@ -4570,7 +4123,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4586,7 +4139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f21710f-f8e8-4564-a4a0-a739f68f0a0f")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 73.66 38.1 90)
 			(effects
 				(font
@@ -4644,79 +4197,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50850885-c54d-4c60-ab14-b30b0cbeace6")
-		(property "Reference" "#PWR?"
-			(at 88.9 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82bb4cda-ecad-4ec5-a354-b36f8b7ead83")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4732,7 +4213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5159c22d-23a9-4d76-9af8-d8d9c87e6bbc")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 86.36 208.2799 0)
 			(effects
 				(font
@@ -4792,7 +4273,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4808,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d31325-f21b-48a1-bc97-014287aa1a03")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 48.26 207.01 90)
 			(effects
 				(font
@@ -4866,79 +4347,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "597f6dba-adaa-4386-95c9-8941488c5235")
-		(property "Reference" "#PWR?"
-			(at 226.06 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb582c32-e5c2-4894-b82c-606054a2fea3")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4954,7 +4363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63bc0b2d-ff07-4667-8bf8-2a46cfac49ce")
-		(property "Reference" "R?"
+		(property "Reference" "R64"
 			(at 210.82 68.58 90)
 			(effects
 				(font
@@ -5012,7 +4421,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -5028,7 +4437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b3bebca-9e8e-4688-92d8-cfcb7d9512f4")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 46.99 127 90)
 			(effects
 				(font
@@ -5086,7 +4495,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5102,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ff6ffd0-71b9-4c8b-85ef-733b802ade57")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 73.66 207.01 90)
 			(effects
 				(font
@@ -5160,7 +4569,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5176,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70df2e02-34e5-4fcf-ad03-5907dabe35e1")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 48.26 48.26 90)
 			(effects
 				(font
@@ -5234,7 +4643,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5250,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73838803-dc50-47db-afae-691aa3ffacd7")
-		(property "Reference" "C?"
+		(property "Reference" "C16"
 			(at 118.11 245.11 90)
 			(effects
 				(font
@@ -5308,79 +4717,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 228.6 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a6ea380-9669-4401-bb1b-ea890970c9e3")
-		(property "Reference" "#PWR?"
-			(at 228.6 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 228.6 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2545f472-4a19-49ed-8271-88b10f9915cf")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5396,7 +4733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cfea65d-6401-49b9-b46b-9e89177ea1e6")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 95.25 227.3299 0)
 			(effects
 				(font
@@ -5456,79 +4793,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ee28a43-bb62-48f8-a28a-b57b6a49bbba")
-		(property "Reference" "#PWR?"
-			(at 182.88 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9bcc2bc-1e0f-42d9-9002-2ce705564686")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5544,7 +4809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812a4fb4-8235-45ab-a8de-c1f00124d413")
-		(property "Reference" "C?"
+		(property "Reference" "C18"
 			(at 119.38 182.88 90)
 			(effects
 				(font
@@ -5602,7 +4867,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5618,7 +4883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "813f0cca-3751-4f5a-bc5a-b2ee2d169169")
-		(property "Reference" "R?"
+		(property "Reference" "R63"
 			(at 207.01 189.23 90)
 			(effects
 				(font
@@ -5676,223 +4941,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "844a09a0-962a-4c48-8ce5-cc6c4805221f")
-		(property "Reference" "#PWR?"
-			(at 87.63 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da85434e-fa56-42f4-a63e-10791b95fa36")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89c741e6-3dbc-4dfc-aa1a-84d4250dce67")
-		(property "Reference" "#PWR?"
-			(at 135.89 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab0a543a-3e2e-4511-a842-948d578e3722")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fcab57c-c236-48c0-b0a8-b85ae5db148b")
-		(property "Reference" "#PWR?"
-			(at 134.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2766c9ee-4415-438f-980a-04d5333fec3a")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -5908,7 +4957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b1629a2-be2f-45e9-a9b3-ba313eac3824")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 86.36 227.3299 0)
 			(effects
 				(font
@@ -5968,7 +5017,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5984,7 +5033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eaf8ccf-8550-4a76-bea9-a0d37683087f")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 118.11 76.2 90)
 			(effects
 				(font
@@ -6042,7 +5091,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6058,7 +5107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f8b1431-e5ea-46ec-b837-e07becf275d2")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -6215,7 +5264,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6231,7 +5280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f21f60-ad3f-44dc-9223-c10baaafc27d")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 48.26 217.17 90)
 			(effects
 				(font
@@ -6289,7 +5338,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6305,7 +5354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6976152-26ba-43f7-ba6b-569b09bc6a02")
-		(property "Reference" "R?"
+		(property "Reference" "R25"
 			(at 146.05 224.7899 0)
 			(effects
 				(font
@@ -6365,7 +5414,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6381,7 +5430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d90b3d-fd2a-43fe-bc35-dde20265167d")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 48.26 38.1 90)
 			(effects
 				(font
@@ -6439,7 +5488,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6455,7 +5504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a881fd6f-631e-4339-aa68-8ea2bb5c9d8a")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 95.25 58.4199 0)
 			(effects
 				(font
@@ -6515,7 +5564,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6531,7 +5580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a898fb65-8c1a-4cd2-b57a-6c5afc3a1c25")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 93.98 128.2699 0)
 			(effects
 				(font
@@ -6591,7 +5640,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6607,7 +5656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acdb7c6e-e8c3-4804-9486-2639a65fe024")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 176.53 233.68 0)
 			(effects
 				(font
@@ -6663,7 +5712,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6679,7 +5728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1e3b574-5095-4b2c-8d03-43deae04f219")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 116.84 124.46 0)
 			(effects
 				(font
@@ -6836,7 +5885,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6852,7 +5901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36e1946-d9fb-428d-8617-15f2a50a7776")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 73.66 217.17 90)
 			(effects
 				(font
@@ -6910,7 +5959,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6926,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc4ad6f8-2e72-4cc8-8847-64ae8795255b")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 85.09 128.2699 0)
 			(effects
 				(font
@@ -6986,7 +6035,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7002,7 +6051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdea5613-8aa5-4174-a478-c96b2aa75796")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 116.84 165.1 90)
 			(effects
 				(font
@@ -7060,7 +6109,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7076,7 +6125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c973f238-b655-4d9c-b0ce-c48349f0da6d")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 72.39 137.16 90)
 			(effects
 				(font
@@ -7134,7 +6183,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7150,7 +6199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc285b8a-00ac-4253-b436-2a182a66dbfd")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 93.98 147.3199 0)
 			(effects
 				(font
@@ -7210,151 +6259,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd070046-8dee-40b1-ba11-8c80c5b4770b")
-		(property "Reference" "#PWR?"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3023114c-a7dd-4545-a26f-7652311ef4b5")
-		)
-		(instances
-			(project ""
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd1d779f-a1a4-4e4e-b404-802637f645ea")
-		(property "Reference" "#PWR?"
-			(at 87.63 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edf571eb-717a-4b63-9ea8-2fe6b0a09e8d")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7370,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b77fb8-2461-418a-8b91-51aa595478aa")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 95.25 208.2799 0)
 			(effects
 				(font
@@ -7430,7 +6335,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7446,7 +6351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d41d8c2b-0de8-4007-acab-2120f74b062f")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 205.74 207.01 0)
 			(effects
 				(font
@@ -7603,151 +6508,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d855a21c-0dcc-414a-8b3b-73e26e529d79")
-		(property "Reference" "#PWR?"
-			(at 166.37 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c7dd255-e0b7-4bcc-b899-8048011df0d3")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d862fc29-7fbd-4223-9141-b4f681d946bb")
-		(property "Reference" "#PWR?"
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c5ebfff-c70f-44ae-b100-d18dff51b024")
-		)
-		(instances
-			(project ""
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7763,7 +6524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da582b43-21e8-43b7-afd7-052c2a599a6d")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 210.82 82.55 0)
 			(effects
 				(font
@@ -7920,7 +6681,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7936,7 +6697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e092d80c-64ce-4ee2-b4a0-1b3c63abc71c")
-		(property "Reference" "R?"
+		(property "Reference" "R60"
 			(at 180.34 212.0899 0)
 			(effects
 				(font
@@ -7996,7 +6757,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -8012,7 +6773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4861a0a-cd93-4b41-97c7-103252623dac")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 86.36 39.3699 0)
 			(effects
 				(font
@@ -8072,7 +6833,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8088,7 +6849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71647df-b84b-43e6-b798-b2ca73856c8f")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 144.78 130.8099 0)
 			(effects
 				(font
@@ -8148,7 +6909,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8164,7 +6925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e90c82dc-32be-45c6-a67e-a5bd35152a12")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 144.78 144.7799 0)
 			(effects
 				(font
@@ -8224,7 +6985,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8240,7 +7001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee90f6fe-e684-46d6-8869-8648d9ae16d3")
-		(property "Reference" "R?"
+		(property "Reference" "R62"
 			(at 185.42 106.6799 0)
 			(effects
 				(font
@@ -8300,7 +7061,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -8316,7 +7077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f645cfd7-3409-499d-b482-fce2317bd02e")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 72.39 127 90)
 			(effects
 				(font
@@ -8374,7 +7135,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8390,7 +7151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f816ddd3-3d19-4170-b4ce-33339a10aeb6")
-		(property "Reference" "R?"
+		(property "Reference" "R61"
 			(at 185.42 85.0899 0)
 			(effects
 				(font
@@ -8450,7 +7211,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -8466,7 +7227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5f8641-658c-4244-8d16-ecc30149b39e")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 73.66 48.26 90)
 			(effects
 				(font
@@ -8524,79 +7285,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 134.62 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe1d7841-a356-426a-8ade-d3083fc48288")
-		(property "Reference" "#PWR?"
-			(at 134.62 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 134.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 134.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef7935d5-fd44-4bfe-beae-e261c6156c80")
-		)
-		(instances
-			(project "current-sense"
-				(path "/14b53516-7ab2-47c8-8e94-c5beb6fd44de"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "#PWR?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8612,7 +7301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff44123e-0619-4071-b755-6e57e2bc2174")
-		(property "Reference" "R?"
+		(property "Reference" "R65"
 			(at 212.09 118.11 90)
 			(effects
 				(font
@@ -8670,7 +7359,7 @@
 			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/5c70832b-4bf7-4293-9eac-400db3aae7be"
-					(reference "R?")
+					(reference "R65")
 					(unit 1)
 				)
 			)

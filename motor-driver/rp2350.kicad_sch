@@ -5,4 +5,158 @@
 	(uuid "4b5e28aa-4b2e-4fc2-b7e8-9797cd752b07")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 35.56 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0597f7a2-6541-4367-b43a-9fd2514eadc9")
+	)
+	(hierarchical_label "PWM_U_H"
+		(shape input)
+		(at 35.56 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d2cce96-fdcf-4c74-ae7a-91226fbb058f")
+	)
+	(hierarchical_label "BACK_EMF_V"
+		(shape input)
+		(at 35.56 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f7c4399-776e-4da2-9546-882b750b9690")
+	)
+	(hierarchical_label "PWM_V_L"
+		(shape input)
+		(at 35.56 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "511b7565-8cc9-4e91-956c-b94a7ec4acf6")
+	)
+	(hierarchical_label "PWM_W_H"
+		(shape input)
+		(at 35.56 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "596f1dcf-f572-4039-90cd-4a38d02207c3")
+	)
+	(hierarchical_label "PWM_W_L"
+		(shape input)
+		(at 35.56 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5db34703-c53f-46e1-badc-7ca0fc200c15")
+	)
+	(hierarchical_label "CURRENT_SENSE_U"
+		(shape input)
+		(at 35.56 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60bfb3a7-d17e-4b89-b986-691e9846b3b5")
+	)
+	(hierarchical_label "PWM_U_L"
+		(shape input)
+		(at 35.56 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d89e9f4-b8a0-492d-b859-447b94f2b467")
+	)
+	(hierarchical_label "MCU_GND"
+		(shape input)
+		(at 35.56 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0c22f2a-d0f5-407f-8457-575e5e5e6821")
+	)
+	(hierarchical_label "PWM_V_H"
+		(shape input)
+		(at 35.56 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b200762a-1e3e-49f5-b46e-e96c6fc8afa1")
+	)
+	(hierarchical_label "BACK_EMF_U"
+		(shape input)
+		(at 35.56 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba947051-8988-4165-8d91-b721895e74ca")
+	)
+	(hierarchical_label "CURRENT_SENSE_W"
+		(shape input)
+		(at 35.56 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2fc5489-fcca-44f4-99e9-98474586755b")
+	)
+	(hierarchical_label "CURRENT_SENSE_V"
+		(shape input)
+		(at 35.56 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9fb63d5-154c-4b6a-a892-20c31bc0a0c3")
+	)
+	(hierarchical_label "BACK_EMF_W"
+		(shape input)
+		(at 35.56 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f165417e-f8fa-460c-87a2-963741b67b60")
+	)
 )
