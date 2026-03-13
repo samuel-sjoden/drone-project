@@ -950,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 82.55) (xy 62.23 82.55)
+			(xy 55.88 82.55) (xy 91.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 74.93 85.09)
+			(xy 54.61 85.09) (xy 91.44 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1050,16 +1050,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 85.09) (xy 91.44 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eff3702-49ec-4d4d-81b1-005ac1404daa")
-	)
-	(wire
-		(pts
 			(xy 210.82 55.88) (xy 210.82 60.96)
 		)
 		(stroke
@@ -1070,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 69.85) (xy 55.88 69.85)
+			(xy 55.88 69.85) (xy 91.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 72.39) (xy 73.66 72.39)
+			(xy 55.88 72.39) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 95.25) (xy 62.23 95.25)
+			(xy 57.15 95.25) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 97.79) (xy 73.66 97.79)
+			(xy 57.15 97.79) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1207,16 +1197,6 @@
 			(type default)
 		)
 		(uuid "8abfbe05-f8f5-43f1-9c0a-2507ca5e07a7")
-	)
-	(wire
-		(pts
-			(xy 81.28 97.79) (xy 91.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ccc2441-0fcc-41fa-b96b-68bb2f8458d1")
 	)
 	(wire
 		(pts
@@ -1257,16 +1237,6 @@
 			(type default)
 		)
 		(uuid "9a41c527-4f5d-4f45-b6a1-e166f52e52cb")
-	)
-	(wire
-		(pts
-			(xy 69.85 95.25) (xy 91.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be2d399-df30-4d49-ab7d-9dbe9c003b33")
 	)
 	(wire
 		(pts
@@ -1327,16 +1297,6 @@
 			(type default)
 		)
 		(uuid "d57d15bf-aae9-4705-98de-317ac6f37171")
-	)
-	(wire
-		(pts
-			(xy 68.58 69.85) (xy 91.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63f9861-fbd8-4da9-ad9d-3b36b65b8f17")
 	)
 	(wire
 		(pts
@@ -1410,16 +1370,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 91.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b4f4e5-cc10-494a-b224-bd17a35bac42")
-	)
-	(wire
-		(pts
 			(xy 210.82 39.37) (xy 210.82 48.26)
 		)
 		(stroke
@@ -1427,16 +1377,6 @@
 			(type default)
 		)
 		(uuid "ee82f37b-4f0a-44e2-8475-aaf48a336cec")
-	)
-	(wire
-		(pts
-			(xy 81.28 72.39) (xy 91.44 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effd377e-dae4-44ce-bd58-0c5e51568b3e")
 	)
 	(wire
 		(pts
@@ -1480,17 +1420,6 @@
 			(justify right)
 		)
 		(uuid "2deb8bcb-65d0-4def-81b7-955982bf671d")
-	)
-	(hierarchical_label "V_LEG_LOW"
-		(shape input)
-		(at 115.57 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3edbe8c0-1e1b-4ae8-90d9-0dff73e7c5fb")
 	)
 	(hierarchical_label "U_LEG_HIGH"
 		(shape input)
@@ -1674,7 +1603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 48.26 90)
 			(effects
 				(font
@@ -1723,80 +1652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1675faec-1425-44fc-9a5f-4184f2c0f981")
-		(property "Reference" "R70"
-			(at 77.47 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5"
-			(at 77.47 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d4abcb9-25b1-44b0-90c6-a6568f746acd")
-		)
-		(pin "1"
-			(uuid "298a34d3-1bd2-4812-aacc-7bd2d278d058")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6"
-					(reference "R70")
-					(unit 1)
-				)
-			)
-			(project "gate-driver"
-				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 204.47 93.98 180)
 		(unit 1)
@@ -1824,7 +1679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 203.5048 90.17 0)
 			(effects
 				(font
@@ -1900,7 +1755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.482 52.07 90)
 			(effects
 				(font
@@ -2116,7 +1971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.8948 64.77 0)
 			(effects
 				(font
@@ -2192,7 +2047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 210.82 64.77 0)
 			(effects
 				(font
@@ -2286,7 +2141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 149.86 59.69 0)
 			(effects
 				(font
@@ -2353,80 +2208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68d7d9ee-cd1f-40a3-9a60-896da93c0529")
-		(property "Reference" "R69"
-			(at 77.47 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5"
-			(at 77.47 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a6aa455-59bb-460f-aa48-8bafc8450b95")
-		)
-		(pin "1"
-			(uuid "a8d4996b-00f5-4d83-98bc-472b03e1a909")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6"
-					(reference "R69")
-					(unit 1)
-				)
-			)
-			(project "gate-driver"
-				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 81.28 50.8 0)
 		(unit 1)
@@ -2454,7 +2235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.2452 54.61 0)
 			(effects
 				(font
@@ -2530,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.042 52.07 90)
 			(effects
 				(font
@@ -2606,7 +2387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 175.26 63.5 0)
 			(effects
 				(font
@@ -2700,7 +2481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.6748 77.47 0)
 			(effects
 				(font
@@ -2743,302 +2524,6 @@
 			(project "gate-driver"
 				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbc2aa55-c818-4387-8f7e-3e780d3ff824")
-		(property "Reference" "R71"
-			(at 78.74 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5"
-			(at 78.74 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "264ef46b-2a01-414c-ae2b-5b9a6fb0a9c7")
-		)
-		(pin "1"
-			(uuid "31079cc5-7e9a-4f73-8a58-92219d82aa6e")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6"
-					(reference "R71")
-					(unit 1)
-				)
-			)
-			(project "gate-driver"
-				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5288611-f65c-4812-8c12-623a19f32129")
-		(property "Reference" "R67"
-			(at 66.04 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5"
-			(at 66.04 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89179031-9c71-46ac-9da0-50ba5314fa48")
-		)
-		(pin "1"
-			(uuid "c7924d3e-2048-480e-9ad0-8aacdb31eb6b")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-			(project "gate-driver"
-				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f74785ad-04c9-4423-a20c-1e97e9e1a42b")
-		(property "Reference" "R66"
-			(at 64.77 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5"
-			(at 64.77 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3458815-74c6-4b15-8e9f-5d3068344d10")
-		)
-		(pin "1"
-			(uuid "7b08a477-f2f0-4095-b329-1a5d3a508c74")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-			(project "gate-driver"
-				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fab8c236-c481-4fb4-b66b-4530f86bf41c")
-		(property "Reference" "R68"
-			(at 66.04 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5"
-			(at 66.04 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae2d84b7-fc51-4e8d-a85c-22ac50ea47d5")
-		)
-		(pin "1"
-			(uuid "48ba0037-e262-4888-8ab5-2419332e9a9d")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-			(project "gate-driver"
-				(path "/c9a2b6ba-9743-469f-bb82-072bfc937cbb"
-					(reference "R15")
 					(unit 1)
 				)
 			)

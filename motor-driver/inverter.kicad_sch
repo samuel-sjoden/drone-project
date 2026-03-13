@@ -585,6 +585,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MOTOR BULK CAPACITORS"
+		(exclude_from_sim no)
+		(at 221.234 19.05 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "66b7caa1-f011-4f13-86e5-db6eff1fc4cb")
+	)
+	(text "1 electrolytic (330uF), 2 ceramic (47uF, 1uF)"
+		(exclude_from_sim no)
+		(at 239.776 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c680fb7b-a1d5-4a4d-8411-be30b646b09d")
+	)
 	(junction
 		(at 135.89 129.54)
 		(diameter 0)
@@ -1445,28 +1465,6 @@
 		)
 		(uuid "fdce479c-a380-476e-8e2b-017ceb761af2")
 	)
-	(label "MOTOR BULK CAPACITORS"
-		(at 198.12 20.32 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5489b261-6086-44e0-82fe-8a5964b22083")
-	)
-	(label "1 electrolytic (330uF), 2 ceramic (47uF, 1uF)"
-		(at 215.9 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab4657f5-ef55-49ff-b61d-a53e4e0a895f")
-	)
 	(hierarchical_label "V_LEG_BST"
 		(shape input)
 		(at 181.61 91.44 0)
@@ -1671,7 +1669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IPD090N03L:DPAK228P998X235-3N"
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -1771,7 +1769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IPD090N03L:DPAK228P998X235-3N"
 			(at 257.81 73.66 0)
 			(effects
 				(font
@@ -1868,7 +1866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 240.03 105.918 90)
 			(effects
 				(font
@@ -1936,7 +1934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.85 105.918 90)
 			(effects
 				(font
@@ -2006,7 +2004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 50.038 96.52 90)
 			(effects
 				(font
@@ -2074,7 +2072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 76.708 90)
 			(effects
 				(font
@@ -2144,7 +2142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.668 95.25 90)
 			(effects
 				(font
@@ -2214,7 +2212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.138 104.14 90)
 			(effects
 				(font
@@ -2284,7 +2282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IPD090N03L:DPAK228P998X235-3N"
 			(at 175.26 72.39 0)
 			(effects
 				(font
@@ -2454,7 +2452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.608 115.57 90)
 			(effects
 				(font
@@ -2594,7 +2592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IPD090N03L:DPAK228P998X235-3N"
 			(at 257.81 101.6 0)
 			(effects
 				(font
@@ -2692,7 +2690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 105.918 90)
 			(effects
 				(font
@@ -2762,7 +2760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 93.218 120.65 90)
 			(effects
 				(font
@@ -2830,7 +2828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 207.01 77.978 90)
 			(effects
 				(font
@@ -2900,7 +2898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IPD090N03L:DPAK228P998X235-3N"
 			(at 93.98 101.6 0)
 			(effects
 				(font
@@ -3000,7 +2998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 246.888 116.84 90)
 			(effects
 				(font
@@ -3070,7 +3068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.518 116.84 90)
 			(effects
 				(font
@@ -3140,7 +3138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "330uFCap:CAPPRD500W60D1000H1400"
 			(at 209.2452 34.29 0)
 			(effects
 				(font
@@ -3208,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.1 76.708 90)
 			(effects
 				(font
@@ -3278,7 +3276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 174.498 121.92 90)
 			(effects
 				(font
@@ -3348,7 +3346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 257.048 123.19 90)
 			(effects
 				(font
@@ -3418,7 +3416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IPD090N03L:DPAK228P998X235-3N"
 			(at 175.26 101.6 0)
 			(effects
 				(font

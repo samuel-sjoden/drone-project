@@ -168,6 +168,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "motor specs https://www.aliexpress.com/item/1005008725901196.html#nav-specification"
+		(exclude_from_sim no)
+		(at 69.596 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d81e6b7-52cf-4630-9593-df813acee60d")
+	)
+	(junction
+		(at 182.88 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09986ff6-8009-400b-9fd9-bc79ba1289c4")
+	)
 	(junction
 		(at 93.98 49.53)
 		(diameter 0)
@@ -185,6 +201,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f7a1dda-352b-4ec0-8338-e110ff2ff7b2")
+	)
+	(junction
+		(at 179.07 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670b3c8f-0278-4acc-a19e-57e37837ee4d")
 	)
 	(junction
 		(at 129.54 68.58)
@@ -243,6 +265,16 @@
 			(type default)
 		)
 		(uuid "16ee290e-cb9e-4833-a921-9fbc685e502b")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3d1a9b-5c95-498c-89d0-f999c1c78a00")
 	)
 	(wire
 		(pts
@@ -336,6 +368,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 26.67) (xy 36.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e62bcbe-0141-41fc-aaf6-d87636586b1e")
+	)
+	(wire
+		(pts
 			(xy 71.12 68.58) (xy 129.54 68.58)
 		)
 		(stroke
@@ -386,6 +428,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 26.67) (xy 199.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0b886b-6c51-43e8-aa3e-b5b00af9ef72")
+	)
+	(wire
+		(pts
 			(xy 105.41 63.5) (xy 105.41 76.2)
 		)
 		(stroke
@@ -406,16 +458,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 62.23) (xy 180.34 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "443ba0f5-ec44-4523-9636-27c0ed8ee165")
-	)
-	(wire
-		(pts
 			(xy 120.65 63.5) (xy 120.65 76.2)
 		)
 		(stroke
@@ -423,6 +465,16 @@
 			(type default)
 		)
 		(uuid "492c66f3-f3ea-497b-b090-2dfb606169b4")
+	)
+	(wire
+		(pts
+			(xy 182.88 64.77) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49be043b-f0e5-445d-844a-73104c78142d")
 	)
 	(wire
 		(pts
@@ -476,6 +528,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 63.5) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56efc205-451e-4170-bcbe-d9e76f017402")
+	)
+	(wire
+		(pts
 			(xy 196.85 29.21) (xy 39.37 29.21)
 		)
 		(stroke
@@ -493,6 +555,16 @@
 			(type default)
 		)
 		(uuid "5ea44f14-2e48-447b-8eb5-f42d6738c713")
+	)
+	(wire
+		(pts
+			(xy 43.18 100.33) (xy 36.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edbf964-3a77-4151-a98b-6444449212b6")
 	)
 	(wire
 		(pts
@@ -516,7 +588,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 127 66.04)
+			(xy 180.34 66.04) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -576,6 +648,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 76.2) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78758f32-7e28-4233-80ad-5a085bdc86a2")
+	)
+	(wire
+		(pts
 			(xy 50.8 63.5) (xy 50.8 76.2)
 		)
 		(stroke
@@ -583,6 +665,16 @@
 			(type default)
 		)
 		(uuid "78a8eef6-2e42-4008-8d44-f8974ef47084")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7ddf1d-4e13-4492-ac4d-bf175cf29d62")
 	)
 	(wire
 		(pts
@@ -666,6 +758,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 64.77) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39b741f-67a0-47d4-843d-fc1407f1e080")
+	)
+	(wire
+		(pts
 			(xy 40.64 30.48) (xy 40.64 92.71)
 		)
 		(stroke
@@ -673,6 +775,16 @@
 			(type default)
 		)
 		(uuid "b8104022-e859-493e-bee1-f01be291cd81")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c654fdf3-6b6c-42db-a460-fa991501729f")
 	)
 	(wire
 		(pts
@@ -693,6 +805,26 @@
 			(type default)
 		)
 		(uuid "d03e30c4-e52f-4c9a-b011-4edcb66c27f6")
+	)
+	(wire
+		(pts
+			(xy 182.88 64.77) (xy 199.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da75658b-0fde-400e-bfef-54d24fedc8ca")
+	)
+	(wire
+		(pts
+			(xy 199.39 26.67) (xy 199.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac2c62b-97fe-4e4d-a087-43fe453d6b7e")
 	)
 	(wire
 		(pts
@@ -804,16 +936,6 @@
 		)
 		(uuid "fad0d1ff-070c-40d1-965a-59a462d2109c")
 	)
-	(label "motor specs https:{slash}{slash}www.aliexpress.com{slash}item{slash}1005008725901196.html#nav-specification"
-		(at 25.4 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef684d59-5be3-409f-a87c-e36a722417cf")
-	)
 	(symbol
 		(lib_id "Device:L")
 		(at 77.47 73.66 90)
@@ -839,7 +961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -882,8 +1004,8 @@
 		)
 	)
 	(sheet
-		(at 44.45 39.37)
-		(size 43.18 24.13)
+		(at 44.45 36.83)
+		(size 43.18 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -897,7 +1019,7 @@
 		)
 		(uuid "006f8521-297c-4f18-906f-5fd24d242194")
 		(property "Sheetname" "back-emf-sensing"
-			(at 44.45 35.56 0)
+			(at 44.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +1028,7 @@
 			)
 		)
 		(property "Sheetfile" "back_emf_sensing.kicad_sch"
-			(at 44.45 37.084 0)
+			(at 44.45 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,6 +1130,78 @@
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 76.2)
+		(size 45.72 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30757110-9ea8-4637-854f-74954ea5d29f")
+		(property "Sheetname" "connectors"
+			(at 147.32 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 147.32 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 182.88 76.2 90)
+			(uuid "fdeb8783-1c75-460c-825c-89d2450e6640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "14V" input
+			(at 175.26 76.2 90)
+			(uuid "6f1510dc-e631-4081-a2d5-ab16bf3f52a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 179.07 76.2 90)
+			(uuid "0ce792f6-d2fc-4d92-a210-9775bd2cd525")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f"
+					(page "7")
 				)
 			)
 		)
@@ -1225,7 +1419,7 @@
 	)
 	(sheet
 		(at 147.32 36.83)
-		(size 44.45 25.4)
+		(size 44.45 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1248,7 +1442,7 @@
 			)
 		)
 		(property "Sheetfile" "current-sense.kicad_sch"
-			(at 147.32 62.8146 0)
+			(at 147.32 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1511,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 182.88 62.23 270)
+			(at 182.88 63.5 270)
 			(uuid "78bd76fd-7234-4f44-9ec3-b216843212fa")
 			(effects
 				(font
@@ -1327,7 +1521,7 @@
 			)
 		)
 		(pin "MOTOR_GND" input
-			(at 180.34 62.23 270)
+			(at 180.34 63.5 270)
 			(uuid "9bbc8a5c-53d3-417e-a1ae-d8863e49a3c5")
 			(effects
 				(font
@@ -1345,8 +1539,8 @@
 		)
 	)
 	(sheet
-		(at 96.52 40.64)
-		(size 43.18 22.86)
+		(at 96.52 36.83)
+		(size 43.18 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1360,7 +1554,7 @@
 		)
 		(uuid "d36b7053-ee22-4492-bdec-8a6a56460e2b")
 		(property "Sheetname" "inverter"
-			(at 96.52 36.83 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1563,7 @@
 			)
 		)
 		(property "Sheetfile" "inverter.kicad_sch"
-			(at 96.52 38.1 0)
+			(at 96.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,6 +1890,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 43.18 100.33 180)
+			(uuid "9cb4ab15-e924-4307-b4b5-42da399d2309")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
