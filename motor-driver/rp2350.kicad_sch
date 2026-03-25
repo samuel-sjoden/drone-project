@@ -3744,128 +3744,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(circle
 		(center 133.35 106.045)
@@ -4073,12 +3951,6 @@
 		(uuid "34c9ab56-9e9f-4890-a1f2-f800621ee4fb")
 	)
 	(junction
-		(at 38.1 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "363b6fbe-5f44-44eb-a3ce-4b9a3b22b228")
-	)
-	(junction
 		(at 250.19 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4125,12 +3997,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441032a8-52f0-4f29-8bff-d78e38a8511a")
-	)
-	(junction
-		(at 55.88 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47f513df-a6dc-43e5-962c-8d170afe3013")
 	)
 	(junction
 		(at 250.19 175.26)
@@ -4319,12 +4185,6 @@
 		(uuid "99e209c0-591e-4cd3-b45b-7fdce6a60ad6")
 	)
 	(junction
-		(at 48.26 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a7b5805-a3e0-4651-a30a-83523dc66a19")
-	)
-	(junction
 		(at 166.37 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4507,6 +4367,10 @@
 	(no_connect
 		(at 30.48 54.61)
 		(uuid "dc4ecc63-3bbc-430c-bf11-712d9a98230d")
+	)
+	(no_connect
+		(at 30.48 44.45)
+		(uuid "e49128a8-7d82-4b5b-ae2a-ba18137df4ea")
 	)
 	(wire
 		(pts
@@ -4717,16 +4581,6 @@
 			(type default)
 		)
 		(uuid "12d20077-523c-429e-8a14-d6e7d53cda58")
-	)
-	(wire
-		(pts
-			(xy 38.1 43.18) (xy 38.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13898245-16bd-43f2-ba00-dd8133f869c6")
 	)
 	(wire
 		(pts
@@ -5250,16 +5104,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 48.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bdd3ab5-d633-464c-b475-3cf36c8438be")
-	)
-	(wire
-		(pts
 			(xy 234.95 180.34) (xy 250.19 180.34)
 		)
 		(stroke
@@ -5590,16 +5434,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 48.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b1afe1-a14e-4924-b8d6-a465a899020b")
-	)
-	(wire
-		(pts
 			(xy 234.95 215.9) (xy 250.19 215.9)
 		)
 		(stroke
@@ -5667,16 +5501,6 @@
 			(type default)
 		)
 		(uuid "6a7c42ed-62dd-41c2-a0f4-e377d66228c2")
-	)
-	(wire
-		(pts
-			(xy 38.1 44.45) (xy 48.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d078820-7574-4a59-895f-ece5194dfc8a")
 	)
 	(wire
 		(pts
@@ -5877,16 +5701,6 @@
 			(type default)
 		)
 		(uuid "81880e00-d648-4f6a-ad54-8400af3cdf4d")
-	)
-	(wire
-		(pts
-			(xy 48.26 53.34) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8194a32c-a88d-4160-9328-f6e212300763")
 	)
 	(wire
 		(pts
@@ -7007,16 +6821,6 @@
 			(type default)
 		)
 		(uuid "e2ef63f7-826f-428c-bdc0-7ea08952af31")
-	)
-	(wire
-		(pts
-			(xy 30.48 44.45) (xy 38.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3113bc5-2c03-4383-a72a-bac8a984d40e")
 	)
 	(wire
 		(pts
@@ -10242,76 +10046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 38.1 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f069fc0")
-		(property "Reference" "#PWR02"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 38.481 38.7858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1eaadc72-3cdb-4b28-a074-47811e2b77ae")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 53.34 0)
 		(unit 1)
@@ -10453,80 +10187,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f09255d")
-		(property "Reference" "C1"
-			(at 51.181 48.3616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 51.181 50.673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.2252 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c8b31b5-0bd1-4950-975b-9856efc6199a")
-		)
-		(pin "2"
-			(uuid "7d3a8989-9bb3-41aa-88e4-d49115915485")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 93.98 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10552,7 +10212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 53.34 0)
 			(effects
 				(font
@@ -10594,76 +10254,6 @@
 			(project "RP2350_80QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f093d45")
-		(property "Reference" "#PWR03"
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be5e1adf-3d9c-4b0c-af63-ea5718eb5f47")
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10988,7 +10578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 304.4952 158.75 0)
 			(effects
 				(font
