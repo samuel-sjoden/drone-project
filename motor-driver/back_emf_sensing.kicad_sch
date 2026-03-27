@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "edd781a8-d95e-4036-a68d-5907edf66127")
 	(paper "A4")
+	(title_block
+		(company "Drone ")
+		(comment 1 "Samuel Sjoden")
+	)
 	(lib_symbols
 		(symbol "Comparator:LM397"
 			(pin_names

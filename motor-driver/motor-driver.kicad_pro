@@ -488,35 +488,145 @@
         "wire_width": 6
       },
       {
-        "line_style": 0,
         "name": "MOTOR_PHASE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(119, 69, 255)",
-        "wire_width": 394
+        "priority": 3,
+        "schematic_color": "rgb(30, 38, 255)",
+        "wire_width": 10
       },
       {
         "line_style": 0,
-        "name": "MOTOR_POWER",
+        "name": "POWER_HIGH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(6, 29, 168)",
+        "wire_width": 10
+      },
+      {
+        "line_style": 0,
+        "name": "POWER_LOW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(62, 117, 32)"
+      },
+      {
+        "line_style": 0,
+        "name": "SIGNAL_DIGITAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(163, 99, 36)"
+      },
+      {
+        "line_style": 0,
+        "name": "SIGNAL_SENSITIVE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(136, 255, 114)",
-        "wire_width": 787
+        "schematic_color": "rgb(157, 11, 25)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RP2350/BACK_EMF_U": [
+        "SIGNAL_DIGITAL"
+      ],
+      "/RP2350/BACK_EMF_V": [
+        "SIGNAL_DIGITAL"
+      ],
+      "/RP2350/BACK_EMF_W": [
+        "SIGNAL_DIGITAL"
+      ],
+      "/RP2350/CURRENT_SENSE_U": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "/RP2350/CURRENT_SENSE_V": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "/RP2350/CURRENT_SENSE_W": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "/inverter/current_sense_u/SHUNT+": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "/inverter/current_sense_v/SHUNT+": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "/inverter/current_sense_w/SHUNT+": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "MOTOR_NEUTRAL_REF": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "Net-(MOSFET1-Pad1)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(MOSFET7-Pad1)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(MOSFET9-Pad1)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(NT1-Pad2)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(NT2-Pad2)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(NT3-Pad2)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(NT4-Pad1)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(NT5-Pad1)": [
+        "MOTOR_PHASE"
+      ],
+      "Net-(NT6-Pad1)": [
+        "MOTOR_PHASE"
+      ]
+    },
     "netclass_patterns": [
       {
-        "netclass": "MOTOR_POWER",
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/inverter/back_emf_[uvw]/BEMF_DIG"
+      },
+      {
+        "netclass": "MOTOR_PHASE",
+        "pattern": "/inverter/inverter_[uvw]/SHUNT_.*"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER_HIGH",
         "pattern": "V_BUS"
       },
       {
-        "netclass": "MOTOR_POWER",
-        "pattern": "MOTOR_GND"
+        "netclass": "POWER_LOW",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "SIGNAL_SENSITIVE",
+        "pattern": "/inverter/back_emf_[uvw]/BEMF"
+      },
+      {
+        "netclass": "SIGNAL_SENSITIVE",
+        "pattern": "/inverter/current_sense_[uvw]/CURRENT_SENSE"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/inverter/gate-driver/[UVW]_GATE_[HL]"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/inverter/PWM*"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "5V"
       }
     ]
   },
@@ -661,14 +771,6 @@
       "Root"
     ],
     [
-      "006f8521-297c-4f18-906f-5fd24d242194",
-      "back-emf-sensing"
-    ],
-    [
-      "5c70832b-4bf7-4293-9eac-400db3aae7be",
-      "current-sensing"
-    ],
-    [
       "fc9ab5c1-5213-4422-8df6-375c5f661fb4",
       "RP2350"
     ],
@@ -677,12 +779,48 @@
       "inverter"
     ],
     [
-      "4d07c5fe-897d-43ce-aa48-e1c56cf4c6b6",
+      "30757110-9ea8-4637-854f-74954ea5d29f",
+      "connectors"
+    ],
+    [
+      "63ac6fcd-c469-40cb-85df-0f41f3a5177a",
+      "inverter_v"
+    ],
+    [
+      "2f904d17-17ae-4a9d-ac5f-e6bb3191a3f4",
+      "inverter_w"
+    ],
+    [
+      "e5439fff-5f30-49ba-87ec-c8b9c8d18afa",
+      "back_emf_v"
+    ],
+    [
+      "5dcb47c1-5cbd-4c06-ae20-6bf4ebc0293f",
+      "back_emf_u"
+    ],
+    [
+      "d55dfac5-5848-47fb-8309-2ae121a74f55",
+      "back_emf_w"
+    ],
+    [
+      "ac62132b-3509-4a1c-a20a-99fe7376af0d",
       "gate-driver"
     ],
     [
-      "30757110-9ea8-4637-854f-74954ea5d29f",
-      "connectors"
+      "66c4064f-6677-423e-92fa-0fdb45cd4b17",
+      "current_sense_v"
+    ],
+    [
+      "f72d9f77-0bf6-4a4a-add0-5e2372bd6839",
+      "current_sense_u"
+    ],
+    [
+      "7d8ebe4c-0ee3-4602-8190-2918d9e2b81c",
+      "current_sense_w"
+    ],
+    [
+      "f60ce443-a199-4869-b113-ff19f2313a8a",
+      "inverter_u"
     ]
   ],
   "text_variables": {}
