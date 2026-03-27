@@ -486,6 +486,22 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "line_style": 0,
+        "name": "MOTOR_PHASE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(119, 69, 255)",
+        "wire_width": 394
+      },
+      {
+        "line_style": 0,
+        "name": "MOTOR_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(136, 255, 114)",
+        "wire_width": 787
       }
     ],
     "meta": {
@@ -493,7 +509,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "V_BUS"
+      },
+      {
+        "netclass": "MOTOR_POWER",
+        "pattern": "MOTOR_GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
