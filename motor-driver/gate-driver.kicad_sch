@@ -1475,73 +1475,7 @@
 			)
 		)
 	)
-	(hierarchical_label "W_GATE_H"
-		(shape input)
-		(at 115.57 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05601feb-8f5f-4090-be8e-51b8b90bf548")
-	)
-	(hierarchical_label "V_LEG_BST"
-		(shape input)
-		(at 186.69 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cf1ecf2-bf5d-484f-80fb-6a181bd001e8")
-	)
-	(hierarchical_label "PWM_W_LOW"
-		(shape input)
-		(at 57.15 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2deb8bcb-65d0-4def-81b7-955982bf671d")
-	)
-	(hierarchical_label "U_GATE_H"
-		(shape input)
-		(at 115.57 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "557c73e5-4942-44d4-9cd8-1002ed36d698")
-	)
-	(hierarchical_label "PWM_V_LOW"
-		(shape input)
-		(at 54.61 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "56ae65ed-8e47-431e-94c2-d86ed4a41c70")
-	)
-	(hierarchical_label "U_GATE_L"
-		(shape input)
-		(at 115.57 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68275ce1-7b0f-4084-9ca2-2c280bb9bd3c")
-	)
-	(hierarchical_label "PWM_W_HIGH"
+	(hierarchical_label "PWM_U_HIGH"
 		(shape input)
 		(at 57.15 95.25 180)
 		(effects
@@ -1550,73 +1484,29 @@
 			)
 			(justify right)
 		)
-		(uuid "74ac0c60-1f8f-4549-b6c6-5b987a2b11b2")
+		(uuid "05c22c38-2005-4371-acbf-e6cf360381a2")
 	)
-	(hierarchical_label "PWM_V_HIGH"
+	(hierarchical_label "U_GATE_H"
 		(shape input)
-		(at 55.88 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99f4c0c8-2624-428f-a592-e85b72537e7b")
-	)
-	(hierarchical_label "W_GATE_L"
-		(shape input)
-		(at 115.57 100.33 0)
+		(at 115.57 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a0907edb-18c0-4f41-9df1-a4b071b9cf9f")
+		(uuid "0fd752a1-a664-4b6a-947a-9c1b30d79fcd")
 	)
-	(hierarchical_label "PWM_U_LOW"
+	(hierarchical_label "W_GATE_H"
 		(shape input)
-		(at 55.88 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5ac188b-5c5b-4d87-b9f9-a4c338b7f96f")
-	)
-	(hierarchical_label "U_LEG_BST"
-		(shape input)
-		(at 160.02 72.39 0)
+		(at 115.57 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b15a71d8-c624-4047-b557-16348b5e830d")
-	)
-	(hierarchical_label "PWM_U_HIGH"
-		(shape input)
-		(at 55.88 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be7a1950-8401-4d7c-8e4a-6f3875f4c213")
-	)
-	(hierarchical_label "V_GATE_H"
-		(shape input)
-		(at 115.57 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c66f90ec-6e77-4120-9ad8-86fbe9bda0b5")
+		(uuid "214a6e0f-2449-4687-9dcc-a106f5b8feed")
 	)
 	(hierarchical_label "V_GATE_L"
 		(shape input)
@@ -1627,9 +1517,42 @@
 			)
 			(justify left)
 		)
-		(uuid "d44d5eba-3114-4eb5-a9d1-7d0cb22212ac")
+		(uuid "21ea3f35-abab-4be5-9673-12bdf29ec632")
 	)
-	(hierarchical_label "W_LEG_BST"
+	(hierarchical_label "PWM_W_LOW"
+		(shape input)
+		(at 55.88 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37137d69-a72f-4ad8-8a12-74ab02a61dd2")
+	)
+	(hierarchical_label "PWM_W_HIGH"
+		(shape input)
+		(at 55.88 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56fab22f-f087-4b3a-a856-a1799a48efe5")
+	)
+	(hierarchical_label "W_GATE_L"
+		(shape input)
+		(at 115.57 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6aeb7b13-1184-4395-9a3e-7e56dc91141b")
+	)
+	(hierarchical_label "U_LEG_BST"
 		(shape input)
 		(at 210.82 97.79 0)
 		(effects
@@ -1638,7 +1561,84 @@
 			)
 			(justify left)
 		)
-		(uuid "fb0132a1-a800-4936-b045-858ddb728526")
+		(uuid "80e72c87-e117-4a00-ab11-876f94efc116")
+	)
+	(hierarchical_label "U_GATE_L"
+		(shape input)
+		(at 115.57 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aef5eac9-097d-4927-820f-ff96e7b850b0")
+	)
+	(hierarchical_label "V_LEG_BST"
+		(shape input)
+		(at 186.69 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b014578d-d1a0-4a8d-9da4-d03fc7946025")
+	)
+	(hierarchical_label "PWM_V_HIGH"
+		(shape input)
+		(at 55.88 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6aa2d32-c730-4133-b0ec-d8929267853e")
+	)
+	(hierarchical_label "PWM_U_LOW"
+		(shape input)
+		(at 57.15 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c969a935-f393-4ba7-9169-349871eb18e1")
+	)
+	(hierarchical_label "V_GATE_H"
+		(shape input)
+		(at 115.57 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf5fb2fb-cbd9-4c67-8d29-b58a3095750d")
+	)
+	(hierarchical_label "W_LEG_BST"
+		(shape input)
+		(at 160.02 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df7d6769-aa54-461f-bd36-0debf56975af")
+	)
+	(hierarchical_label "PWM_V_LOW"
+		(shape input)
+		(at 54.61 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eaeeb5c1-e2dd-4406-a352-648db6803a73")
 	)
 	(symbol
 		(lib_id "Device:R")

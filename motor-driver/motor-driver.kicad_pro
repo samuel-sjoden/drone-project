@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.52,
-          "width": 0.94
+          "height": 0.62,
+          "width": 0.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,9 +56,27 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.8
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|155232678|65221153|F.Cu|4|11c6016d-f929-4cea-b5fd-305de456c3f5|513fd9fe-bd5c-48f0-abbd-9a65aebb656e",
+          "1V1 is connected internally"
+        ],
+        [
+          "unconnected_items|155232678|65221153|F.Cu|4|11c6016d-f929-4cea-b5fd-305de456c3f5|93185d14-e355-4c6b-9a99-c5e339939f50",
+          "1V1 is connected internally"
+        ],
+        [
+          "unconnected_items|156832678|55428153|F.Cu|4|d5b99830-a059-4cbd-b1fe-ad7cf62ef358|513fd9fe-bd5c-48f0-abbd-9a65aebb656e",
+          "1V1 is connected internally"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +141,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -135,8 +153,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
@@ -471,7 +489,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -482,7 +500,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -490,38 +508,53 @@
       {
         "name": "MOTOR_PHASE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(30, 38, 255)",
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 10
       },
       {
         "line_style": 0,
         "name": "POWER_HIGH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(6, 29, 168)",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 10
       },
       {
         "line_style": 0,
         "name": "POWER_LOW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(62, 117, 32)"
+        "priority": 3,
+        "schematic_color": "rgb(62, 117, 32)",
+        "track_width": 0.25
       },
       {
         "line_style": 0,
         "name": "SIGNAL_DIGITAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(163, 99, 36)"
+        "priority": 1,
+        "schematic_color": "rgb(163, 99, 36)",
+        "track_width": 0.3
       },
       {
         "line_style": 0,
         "name": "SIGNAL_SENSITIVE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(157, 11, 25)"
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.8,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -547,6 +580,15 @@
       "/RP2350/CURRENT_SENSE_W": [
         "SIGNAL_SENSITIVE"
       ],
+      "/RP2350/GPIO45_ADC5": [
+        "SIGNAL_SENSITIVE"
+      ],
+      "/RP2350/USB_D+": [
+        "USB"
+      ],
+      "/RP2350/USB_D-": [
+        "USB"
+      ],
       "/inverter/current_sense_u/SHUNT+": [
         "SIGNAL_SENSITIVE"
       ],
@@ -555,6 +597,24 @@
       ],
       "/inverter/current_sense_w/SHUNT+": [
         "SIGNAL_SENSITIVE"
+      ],
+      "/inverter/inverter_u/SHUNT_N": [
+        "MOTOR_PHASE"
+      ],
+      "/inverter/inverter_u/SHUNT_P": [
+        "MOTOR_PHASE"
+      ],
+      "/inverter/inverter_v/SHUNT_N": [
+        "MOTOR_PHASE"
+      ],
+      "/inverter/inverter_v/SHUNT_P": [
+        "MOTOR_PHASE"
+      ],
+      "/inverter/inverter_w/SHUNT_N": [
+        "MOTOR_PHASE"
+      ],
+      "/inverter/inverter_w/SHUNT_P": [
+        "MOTOR_PHASE"
       ],
       "MOTOR_NEUTRAL_REF": [
         "SIGNAL_SENSITIVE"
@@ -622,7 +682,7 @@
       },
       {
         "netclass": "SIGNAL_DIGITAL",
-        "pattern": "/inverter/PWM*"
+        "pattern": "/RP2350/PWM*"
       },
       {
         "netclass": "POWER_LOW",

@@ -1513,6 +1513,68 @@
 		)
 		(uuid "23acfae4-2a6f-4a3e-bb96-d72b2a122755")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 177.8 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "602258e9-5e13-4266-92bd-5e18f2cb609d")
+		(property "Netclass" "USB"
+			(at 178.4985 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -36.83 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 176.53 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8bdcac7-b62b-4349-80ca-54dc4db8254f")
+		(property "Netclass" "USB"
+			(at 177.2285 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -38.1 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 168.91 95.25 0)

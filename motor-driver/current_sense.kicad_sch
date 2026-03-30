@@ -1023,7 +1023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10414966-eaf3-4945-b6e1-4d6aa8e19994")
-		(property "Reference" "C_bypass1"
+		(property "Reference" "C_bypass2"
 			(at 194.31 90.1699 0)
 			(effects
 				(font
@@ -1041,7 +1041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 95.25 0)
 			(effects
 				(font
@@ -1077,11 +1077,11 @@
 		(instances
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/66c4064f-6677-423e-92fa-0fdb45cd4b17"
-					(reference "C_bypass1")
+					(reference "C_bypass2")
 					(unit 1)
 				)
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/7d8ebe4c-0ee3-4602-8190-2918d9e2b81c"
-					(reference "C_bypass2")
+					(reference "C_bypass3")
 					(unit 1)
 				)
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f72d9f77-0bf6-4a4a-add0-5e2372bd6839"
@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48bcaa62-cb5b-4159-91fc-2d80829328f3")
-		(property "Reference" "U19"
+		(property "Reference" "U20"
 			(at 153.67 86.6392 0)
 			(effects
 				(font
@@ -1302,11 +1302,11 @@
 		(instances
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/66c4064f-6677-423e-92fa-0fdb45cd4b17"
-					(reference "U19")
+					(reference "U20")
 					(unit 1)
 				)
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/7d8ebe4c-0ee3-4602-8190-2918d9e2b81c"
-					(reference "U20")
+					(reference "U21")
 					(unit 1)
 				)
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f72d9f77-0bf6-4a4a-add0-5e2372bd6839"

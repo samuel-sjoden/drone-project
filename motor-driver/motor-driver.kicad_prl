@@ -1,13 +1,10 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 9,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "/back-emf-sensing/MOTOR_GND",
-      "/RP2350/5V"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -23,20 +20,24 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
-      "pads": false,
+      "pads": true,
       "text": true,
-      "tracks": false,
+      "tracks": true,
       "vias": true,
       "zones": true
     },
     "visible_items": [
       "vias",
+      "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
+      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -49,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_f7555505",
+    "visible_layers": "ffffffff_ffffffff_ffffd57d_f75575a7",
     "zone_display_mode": 0
   },
   "git": {
