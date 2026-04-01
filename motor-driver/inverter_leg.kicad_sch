@@ -1233,9 +1233,9 @@
 		)
 		(uuid "b084d4b1-12d3-494f-9297-2d52115aad5c")
 	)
-	(text "Low ESR ceramic capacitors \nplaced near inverter leg"
+	(text "Low ESR ceramic capacitors (10uF)\nplaced near inverter leg"
 		(exclude_from_sim no)
-		(at 230.378 33.528 0)
+		(at 233.68 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,6 +1334,12 @@
 		(uuid "51d6ec1e-9b3c-4b35-809e-d869c6207ff6")
 	)
 	(junction
+		(at 113.03 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739c945a-3e3f-48bc-89e2-d9ba322536ac")
+	)
+	(junction
 		(at 194.31 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1370,10 +1376,22 @@
 		(uuid "a67ebee7-5e12-492e-97ba-7b00014c1d36")
 	)
 	(junction
+		(at 123.19 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc2e473-66a8-4dc2-a9e0-4619a62f965f")
+	)
+	(junction
 		(at 149.86 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c56edae3-5231-493c-bbe7-aace35f05ba7")
+	)
+	(junction
+		(at 199.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0ea0f2a-6f56-4a45-8a13-582fad90cc97")
 	)
 	(junction
 		(at 231.14 39.37)
@@ -1404,6 +1422,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1f5926f-8729-46d0-a9e1-7c9bb8882f09")
+	)
+	(junction
+		(at 166.37 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f61ae319-742e-4951-bc8e-75bcdaa60a39")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0549bff3-51f7-4c4a-ab64-c42095e10b6d")
 	)
 	(wire
 		(pts
@@ -1507,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 144.78) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df76feb-87b8-436b-8f4f-b6b3cd12de7e")
+	)
+	(wire
+		(pts
 			(xy 217.17 83.82) (xy 209.55 83.82)
 		)
 		(stroke
@@ -1527,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 72.39) (xy 154.94 72.39)
+			(xy 102.87 72.39) (xy 113.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1604,16 +1648,6 @@
 			(type default)
 		)
 		(uuid "5b3646b2-4e78-4d7d-8909-a43278069245")
-	)
-	(wire
-		(pts
-			(xy 111.76 144.78) (xy 154.94 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c25b497-f281-43d3-a1c2-5bf48fe13309")
 	)
 	(wire
 		(pts
@@ -1747,13 +1781,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 209.55 80.01)
+			(xy 194.31 80.01) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9044c144-27e9-451f-8c8e-afd44c9f2067")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e9e47d-5a17-48ca-8ee8-c8dc00e642a5")
 	)
 	(wire
 		(pts
@@ -1804,6 +1848,16 @@
 			(type default)
 		)
 		(uuid "ab60f453-e859-4854-8a19-1f2982e19006")
+	)
+	(wire
+		(pts
+			(xy 111.76 144.78) (xy 123.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea8cb79-8053-4845-a8b9-8a25f631b1db")
 	)
 	(wire
 		(pts
@@ -1917,6 +1971,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 80.01) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee73b224-c5d9-4743-87e0-f7d4e4294995")
+	)
+	(wire
+		(pts
 			(xy 149.86 139.7) (xy 149.86 154.94)
 		)
 		(stroke
@@ -1924,16 +1988,6 @@
 			(type default)
 		)
 		(uuid "f1f354d9-6870-47ee-b451-716a334e41bf")
-	)
-	(wire
-		(pts
-			(xy 153.67 80.01) (xy 173.99 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ccc947-5114-4950-9f8d-291acc3d8b3f")
 	)
 	(wire
 		(pts
@@ -1974,6 +2028,16 @@
 			(type default)
 		)
 		(uuid "fac3aae8-79c2-468f-8f62-1f608649071c")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb7cc4f-87c2-431d-9af1-01d451b00281")
 	)
 	(label "SHUNT_N"
 		(at 219.71 74.93 0)
@@ -2250,7 +2314,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fd9d5be-b31e-4d47-9efc-4ce5d9343d38")
 		(property "Reference" "C8"
 			(at 210.82 41.9099 0)
@@ -2261,8 +2324,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 210.82 44.4499 0)
+		(property "Value" "GRM188R6YA106MA73D"
+			(at 205.994 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,13 +2478,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "GRM188R6YA106MA73D"
 			(at 246.38 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -2469,6 +2533,156 @@
 				)
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f60ce443-a199-4869-b113-ff19f2313a8a"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f6db87-64df-4a57-8709-738063972c3a")
+		(property "Reference" "GATE_H2"
+			(at 115.57 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 115.57 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76591a1-c710-4b76-bc41-07f8927add86")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/2f904d17-17ae-4a9d-ac5f-e6bb3191a3f4"
+					(reference "GATE_H3")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/63ac6fcd-c469-40cb-85df-0f41f3a5177a"
+					(reference "GATE_H2")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f60ce443-a199-4869-b113-ff19f2313a8a"
+					(reference "GATE_H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "532fef2c-2bc9-47ff-841a-574ca8fa2e7c")
+		(property "Reference" "GATE_L2"
+			(at 125.73 140.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17e203c0-0c7f-46b6-830c-7d728bd4f23a")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/2f904d17-17ae-4a9d-ac5f-e6bb3191a3f4"
+					(reference "GATE_L3")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/63ac6fcd-c469-40cb-85df-0f41f3a5177a"
+					(reference "GATE_L2")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f60ce443-a199-4869-b113-ff19f2313a8a"
+					(reference "GATE_L1")
 					(unit 1)
 				)
 			)
@@ -2591,13 +2805,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "GRM188R6YA106MA73D"
 			(at 234.95 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -2756,7 +2971,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e26421c-db2f-4cd9-a4f9-24904b158fbe")
 		(property "Reference" "C43"
 			(at 223.52 41.9099 0)
@@ -2767,13 +2981,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 223.52 44.4499 0)
+		(property "Value" "GRM188R6YA106MA73D"
+			(at 229.362 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -2904,10 +3119,160 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 199.39 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8145085-4d6b-4fd4-bba7-8655058bf998")
+		(property "Reference" "SHUNT-2"
+			(at 201.93 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 201.93 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02d2faf-6eaf-4272-b2e9-ce81d6e2725a")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/2f904d17-17ae-4a9d-ac5f-e6bb3191a3f4"
+					(reference "SHUNT-3")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/63ac6fcd-c469-40cb-85df-0f41f3a5177a"
+					(reference "SHUNT-2")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f60ce443-a199-4869-b113-ff19f2313a8a"
+					(reference "SHUNT-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e6747b-8944-44aa-9385-acfe96b396a3")
+		(property "Reference" "SHUNT+2"
+			(at 168.91 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.91 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b83a14b5-73fe-4635-9b7e-d30e52331346")
+		)
+		(instances
+			(project ""
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/2f904d17-17ae-4a9d-ac5f-e6bb3191a3f4"
+					(reference "SHUNT+3")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/63ac6fcd-c469-40cb-85df-0f41f3a5177a"
+					(reference "SHUNT+2")
+					(unit 1)
+				)
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b/f60ce443-a199-4869-b113-ff19f2313a8a"
+					(reference "SHUNT+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 234.95 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

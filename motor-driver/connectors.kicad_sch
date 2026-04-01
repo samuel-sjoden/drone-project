@@ -708,6 +708,280 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "S4B-XH-A:S4B-XH-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.85 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S4B-XH-A"
+				(at -6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "S4B-XH-A:JST_S4B-XH-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Through Hole, Right Angle 4 position 0.098 (2.50mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "S4B-XH-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "S4B-XH-A_0_0"
+				(rectangle
+					(start -6.35 -5.08)
+					(end 6.35 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 4.7625)
+					(end -4.1275 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 2.2225)
+					(end -4.1275 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 -0.3175)
+					(end -4.1275 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 -2.8575)
+					(end -4.1275 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XT60PW-F:XT60PW-F"
 			(pin_names
 				(offset 1.016)
@@ -1210,6 +1484,16 @@
 		)
 		(uuid "51cd32c8-6a11-45cc-8c6f-51cbb065652f")
 	)
+	(text "SPI Connection\n"
+		(exclude_from_sim no)
+		(at 214.122 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b81aeb70-886c-4458-be55-b5b6eaf3df25")
+	)
 	(text "RP MircoUSB"
 		(exclude_from_sim no)
 		(at 162.052 81.28 0)
@@ -1260,6 +1544,26 @@
 			(type default)
 		)
 		(uuid "136622c1-2bb1-4f8c-82fd-1c1184d0fe1a")
+	)
+	(wire
+		(pts
+			(xy 224.79 91.44) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e74866b-f1a1-4b85-ae1a-5fe7ead0d7fa")
+	)
+	(wire
+		(pts
+			(xy 224.79 96.52) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410605a7-b166-49b5-b9f6-ce4e86f9d82b")
 	)
 	(wire
 		(pts
@@ -1323,6 +1627,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 99.06) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad4bb5b-0a34-42c2-834a-4407d551ed34")
+	)
+	(wire
+		(pts
 			(xy 111.76 91.44) (xy 101.6 91.44)
 		)
 		(stroke
@@ -1360,6 +1674,16 @@
 			(type default)
 		)
 		(uuid "d765a132-3a23-4121-a60f-744b0207cf29")
+	)
+	(wire
+		(pts
+			(xy 224.79 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee27cd8f-194a-4b3c-b12e-c830c5de1b33")
 	)
 	(label "USB_D+"
 		(at 185.42 95.25 180)
@@ -1513,6 +1837,50 @@
 		)
 		(uuid "23acfae4-2a6f-4a3e-bb96-d72b2a122755")
 	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 228.6 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b28c7e0-d0ed-4579-be03-68f85736a811")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 228.6 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee113fff-de96-4893-b5d6-6721133f9707")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 228.6 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee901b86-31e1-4949-9d18-61df880875e4")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 228.6 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7cc8c6d-bec8-47f2-b8df-488d777df7df")
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -1593,8 +1961,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_B_Micro"
-			(at 182.88 105.41 0)
+		(property "Value" "10103594-0001LF"
+			(at 189.738 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,6 +2546,171 @@
 			(project ""
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S4B-XH-A:S4B-XH-A")
+		(at 214.63 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdfd14f5-fc79-411e-a055-4552573e5967")
+		(property "Reference" "J5"
+			(at 214.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S4B-XH-A"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "S4B-XH-A:JST_S4B-XH-A"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole, Right Angle 4 position 0.098 (2.50mm)"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=eda"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=snap"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S4B-XH-A"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "81bd8abd-ea0f-4997-98e0-d5a317810f20")
+		)
+		(pin "2"
+			(uuid "fcb4236d-0dd2-42e2-ba12-04efae570002")
+		)
+		(pin "1"
+			(uuid "5ce86b59-91cb-45ac-b9dc-7fd5d86fd878")
+		)
+		(pin "4"
+			(uuid "bdc3a415-455c-4802-953d-1fc1f721b54a")
+		)
+		(instances
+			(project ""
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
+					(reference "J5")
 					(unit 1)
 				)
 			)

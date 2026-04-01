@@ -2448,89 +2448,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3428,7 +3345,7 @@
 	)
 	(text "Check if have to be externally pulled up or down"
 		(exclude_from_sim no)
-		(at 281.686 119.126 0)
+		(at 275.59 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,6 +3385,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5bd2e22-a554-4369-9101-d3953beb02df")
+	)
+	(text "SPI Bus 0"
+		(exclude_from_sim no)
+		(at 262.636 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eafab327-65a4-4a84-9c61-d76e41b2eafd")
 	)
 	(junction
 		(at 119.38 115.57)
@@ -3808,10 +3735,6 @@
 		(uuid "6ce69e16-d22d-48c3-ac1f-e8d8568b1a9e")
 	)
 	(no_connect
-		(at 250.19 121.92)
-		(uuid "6e67888f-ff49-44e9-b370-5048c9cc7843")
-	)
-	(no_connect
 		(at 250.19 220.98)
 		(uuid "74138cc1-ff29-4cbf-9969-69097fb139a2")
 	)
@@ -3826,10 +3749,6 @@
 	(no_connect
 		(at 250.19 223.52)
 		(uuid "7f5d620d-ee04-4b3e-8b43-6035d83d4d00")
-	)
-	(no_connect
-		(at 250.19 129.54)
-		(uuid "89c22412-7755-4d10-98b6-60b7eb6c7651")
 	)
 	(no_connect
 		(at 250.19 142.24)
@@ -3872,10 +3791,6 @@
 		(uuid "c77d89e6-3c8a-4434-98fe-391540649155")
 	)
 	(no_connect
-		(at 250.19 127)
-		(uuid "c8b83b2f-92b5-4241-a37e-039ad93efe98")
-	)
-	(no_connect
 		(at 250.19 111.76)
 		(uuid "c9a8cda6-7aa6-4d09-a523-0d4de3f80187")
 	)
@@ -3890,10 +3805,6 @@
 	(no_connect
 		(at 250.19 205.74)
 		(uuid "e7d212a6-da58-415f-9e61-b69cb1f8caf0")
-	)
-	(no_connect
-		(at 250.19 124.46)
-		(uuid "ed0146af-7a91-429b-9eb2-09c850224783")
 	)
 	(no_connect
 		(at 250.19 198.12)
@@ -6734,6 +6645,17 @@
 		)
 		(uuid "08867892-c464-47ed-8813-68490475169d")
 	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 250.19 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09fc0a4c-94e0-40d6-84c0-1ad3c16ccb78")
+	)
 	(hierarchical_label "BACK_EMF_U"
 		(shape input)
 		(at 250.19 165.1 0)
@@ -6777,6 +6699,17 @@
 			(justify left)
 		)
 		(uuid "231312a7-b891-476d-83a9-b32ddc0d8fd3")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 250.19 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24857be4-7963-4491-98b6-7392c21bba31")
 	)
 	(hierarchical_label "CURRENT_SENSE_W"
 		(shape input)
@@ -6833,6 +6766,17 @@
 		)
 		(uuid "716b795f-a4f8-45e5-962f-bca7976350fd")
 	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 250.19 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ce3bd7b-4bc0-4951-bef4-9cfbdb8e553c")
+	)
 	(hierarchical_label "PWM_U_L"
 		(shape input)
 		(at 250.19 182.88 0)
@@ -6876,6 +6820,17 @@
 			(justify left)
 		)
 		(uuid "c00c6e98-4981-4c99-9d80-0658ae261e80")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 250.19 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daa33208-0a5f-4422-a8fb-fc4adc8ebfaa")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8198,278 +8153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 251.46 259.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ef4c292")
-		(property "Reference" "H1"
-			(at 254 257.9116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 254 260.223 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 251.46 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 251.46 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ef4cf1f")
-		(property "Reference" "H2"
-			(at 254 262.9916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 254 265.303 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 251.46 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 251.46 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ef4d323")
-		(property "Reference" "H3"
-			(at 254 268.0716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 254 270.383 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 251.46 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 251.46 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ef4d57b")
-		(property "Reference" "H4"
-			(at 254 273.1516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 254 275.463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 251.46 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor-driver"
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-			(project "RP2350_80QFN_minimal"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
 		(at 76.2 44.45 0)
 		(unit 1)
@@ -8486,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-3.3_SOT223"
+		(property "Value" "NCP1117ST33T3G"
 			(at 76.2 40.6146 0)
 			(effects
 				(font
@@ -9646,7 +9329,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "434133025816"
 			(at 133.35 160.02 0)
 			(effects
 				(font
@@ -9928,7 +9611,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f70ee66-41ca-4ae7-b93c-70a7d8aa391d")
 		(property "Reference" "L2"
-			(at 135.89 106.68 0)
+			(at 135.89 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,8 +9619,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3u"
-			(at 135.89 109.22 0)
+		(property "Value" "AOTA-B201610S3R3-101-T"
+			(at 135.89 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,7 +10503,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "434133025816"
 			(at 130.81 132.0799 90)
 			(effects
 				(font
@@ -10895,7 +10578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2350_80QFN"
+		(property "Value" "RP2350B"
 			(at 200.3141 243.84 0)
 			(effects
 				(font

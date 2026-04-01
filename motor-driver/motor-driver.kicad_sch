@@ -41,7 +41,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 106.68) (xy 113.03 106.68)
+			(xy 105.41 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f04950-a1c9-4251-a56c-9547de56ab79")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -78,6 +88,26 @@
 			(type default)
 		)
 		(uuid "49513f63-7b0f-4827-9851-df19996969a8")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 113.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58bf9d85-2fa6-44a9-b99f-1e8f526b97d3")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1dea3f-5fc1-4916-9beb-e0c943ff5cc0")
 	)
 	(wire
 		(pts
@@ -121,13 +151,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 109.22) (xy 113.03 109.22)
+			(xy 105.41 101.6) (xy 113.03 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d65931a7-01aa-4a52-ac9f-39753583d019")
+	)
+	(wire
+		(pts
+			(xy 105.41 107.95) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e7343d-1309-4f3e-a7ab-4d73221047e5")
 	)
 	(wire
 		(pts
@@ -194,7 +234,7 @@
 			)
 		)
 		(pin "USB_D+" input
-			(at 105.41 106.68 0)
+			(at 105.41 99.06 0)
 			(uuid "32ce32a8-83ce-44d6-863d-b500a49fd66a")
 			(effects
 				(font
@@ -204,8 +244,48 @@
 			)
 		)
 		(pin "USB_D-" input
-			(at 105.41 109.22 0)
+			(at 105.41 101.6 0)
 			(uuid "687794f1-2cd3-4c6c-be7d-a4f3466258db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 105.41 105.41 0)
+			(uuid "92dbb4c2-acfa-46fc-ae97-c76f03f9f131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 105.41 107.95 0)
+			(uuid "e8cd5598-8344-4142-8caa-ea42cfef9ac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 105.41 110.49 0)
+			(uuid "4e5cb6f3-8dce-4b4a-91f6-84f80f53a5d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 105.41 113.03 0)
+			(uuid "015ed6d2-9345-4a99-8cb7-eafac22bd049")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +616,7 @@
 			)
 		)
 		(pin "USB_D+" input
-			(at 113.03 106.68 180)
+			(at 113.03 99.06 180)
 			(uuid "d8f2894b-daf1-4055-a9a7-ffb568b2e3cd")
 			(effects
 				(font
@@ -546,8 +626,48 @@
 			)
 		)
 		(pin "USB_D-" input
-			(at 113.03 109.22 180)
+			(at 113.03 101.6 180)
 			(uuid "6523ea02-d360-4018-bc3a-e59e52b05453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 113.03 105.41 180)
+			(uuid "d1df787d-c3ae-4f7b-a183-3883db81dd9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 113.03 107.95 180)
+			(uuid "5daf9594-b151-46e4-b306-1429a1d587f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 113.03 110.49 180)
+			(uuid "1c8d2641-8b3b-43ee-ab12-26cde50a588f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 113.03 113.03 180)
+			(uuid "6fb6c69e-067e-4840-8aa1-564c0d45ac26")
 			(effects
 				(font
 					(size 1.27 1.27)
