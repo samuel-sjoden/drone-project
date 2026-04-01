@@ -646,6 +646,36 @@
 		(uuid "023766c4-9adf-4dc7-b8f8-8f2b013a6717")
 	)
 	(junction
+		(at 90.17 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "040bfea3-ad89-41ac-a249-59d749ebc4ad")
+	)
+	(junction
+		(at 104.14 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e192f37-aa91-42d0-8fe8-b53569652b31")
+	)
+	(junction
+		(at 93.98 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e5ac904-b6c0-458a-ae66-339debe90154")
+	)
+	(junction
+		(at 248.8459 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3069eb26-9d94-463f-834e-d16beb810daa")
+	)
+	(junction
+		(at 240.03 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47973cb0-e6d8-4e14-9d22-70adb56471a7")
+	)
+	(junction
 		(at 234.95 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -662,12 +692,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9afb0a9a-09e0-454f-88bd-e06e7ce011f4")
-	)
-	(junction
-		(at 240.03 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8eac53c-688e-4b24-9ddd-32eeb040336c")
 	)
 	(wire
 		(pts
@@ -731,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 142.24) (xy 154.94 142.24)
+			(xy 74.93 142.24) (xy 93.98 142.24)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 107.95 124.46)
+			(xy 101.6 124.46) (xy 104.14 124.46)
 		)
 		(stroke
 			(width 0)
@@ -811,6 +835,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7c4a6e-6612-494f-b39e-80e052af6c04")
+	)
+	(wire
+		(pts
 			(xy 190.5 57.15) (xy 204.47 57.15)
 		)
 		(stroke
@@ -821,7 +855,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 40.64) (xy 242.57 40.64)
+			(xy 93.98 142.24) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1d6dd7-4523-48b7-8ae0-aa1a3ac926e0")
+	)
+	(wire
+		(pts
+			(xy 237.49 40.64) (xy 240.03 40.64)
 		)
 		(stroke
 			(width 0)
@@ -838,16 +882,6 @@
 			(type default)
 		)
 		(uuid "33c22dc6-b2bc-4fa0-a8b3-aa8c02129f48")
-	)
-	(wire
-		(pts
-			(xy 237.49 40.64) (xy 240.03 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb3f3d2-ca5c-43da-ab57-0fb97f94e089")
 	)
 	(wire
 		(pts
@@ -1021,7 +1055,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 69.85) (xy 251.46 69.85)
+			(xy 90.17 139.7) (xy 154.94 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86003d4d-a0a5-48ec-b0dd-f145d805eb72")
+	)
+	(wire
+		(pts
+			(xy 245.11 69.85) (xy 248.8459 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1111,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 139.7) (xy 154.94 139.7)
+			(xy 74.93 139.7) (xy 90.17 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1198,6 +1242,26 @@
 			(type default)
 		)
 		(uuid "f4622c3e-8f76-4557-8f6f-d67a64896fa8")
+	)
+	(wire
+		(pts
+			(xy 248.8459 69.85) (xy 251.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70e74ce-d10e-43a5-8f9f-049e6f476a3b")
+	)
+	(wire
+		(pts
+			(xy 240.03 40.64) (xy 242.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0e9e44-1d8a-40de-8bb0-ff1bb2686714")
 	)
 	(wire
 		(pts
@@ -1434,6 +1498,138 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "29405cc3-f119-42bc-8097-4a8e12f51b96")
+		(property "Reference" "NEUTRAL"
+			(at 244.094 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 242.316 48.5139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68aeccfe-61c9-4636-b861-c51a879f35a2")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b"
+					(reference "NEUTRAL")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "32b41fa4-a8d4-4797-a6aa-acea30f0529c")
+		(property "Reference" "WGATE_H1"
+			(at 85.852 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 87.63 135.1281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6145c384-13ef-42ab-9e95-46788e4aac28")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b"
+					(reference "WGATE_H1")
+					(unit 1)
 				)
 			)
 		)
@@ -1793,16 +1989,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 240.03 40.64 180)
+		(at 104.14 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc8dad0-d0b1-449b-81f2-2d4951b926f3")
-		(property "Reference" "NEUTRAL1"
-			(at 242.57 42.6719 0)
+		(uuid "9178c76c-18c8-4ad7-9853-abe13a0bbe73")
+		(property "Reference" "SENSEW1"
+			(at 99.822 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2006,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 242.57 45.2119 0)
+			(at 101.6 119.8881 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,8 +2014,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 234.95 40.64 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 40.64 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +2033,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 240.03 40.64 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,12 +2042,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef17499c-b357-4a82-bd0e-1d11cc893c83")
+			(uuid "cfa774d3-5ab8-466b-97ec-d6e5d9b17857")
 		)
 		(instances
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b"
-					(reference "NEUTRAL1")
+					(reference "SENSEW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.8459 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9872f87e-701c-4805-803c-8f840484b36c")
+		(property "Reference" "BEMFU1"
+			(at 253.1639 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.3859 74.4219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 243.7659 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.7659 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 248.8459 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a35ffa0-df70-4bdd-ad87-1b9e42fdc5dd")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b"
+					(reference "BEMFU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9fe4ad-6f68-4a0d-a65b-7e13cff1f525")
+		(property "Reference" "WGATE_BST1"
+			(at 97.79 147.0661 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.012 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b5a98ef-a6cb-4214-a084-d80dc1b4cf89")
+		)
+		(instances
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/d36b7053-ee22-4492-bdec-8a6a56460e2b"
+					(reference "WGATE_BST1")
 					(unit 1)
 				)
 			)
