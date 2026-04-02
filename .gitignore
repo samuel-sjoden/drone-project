@@ -15,3 +15,4 @@ current-sense-backups/
 gain_stage/
 spice_sim/
 motor-driver-backups/
+.DS_Store
