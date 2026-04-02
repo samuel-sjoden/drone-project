@@ -1996,6 +1996,33 @@
 				)
 			)
 		)
+		(property "MPN" "10103594-0001LF"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "449cc4b1-bc2d-44cc-a687-70165bb1536d")
 		)
@@ -2183,16 +2210,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 119.38 113.03 0)
 			(effects
@@ -2233,26 +2250,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Connector Header Surface Mount 2 position 0.079 (2.00mm)"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "JST"
 			(at 119.38 113.03 0)
 			(effects
@@ -2260,6 +2257,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-PH-SM4-TB"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2354,16 +2369,6 @@
 				(hide yes)
 			)
 		)
-		(property "CREATOR" "KARTHIK"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "None"
 			(at 123.19 93.98 0)
 			(effects
@@ -2375,16 +2380,6 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=eda"
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -2434,26 +2429,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "AMASS"
 			(at 123.19 93.98 0)
 			(effects
@@ -2461,6 +2436,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XT60PW-F"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2615,16 +2608,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Connector Header Through Hole, Right Angle 4 position 0.098 (2.50mm)"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
 			(at 214.63 93.98 0)
 			(effects
@@ -2636,16 +2619,6 @@
 			)
 		)
 		(property "Price" "None"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=eda"
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -2675,7 +2648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "MANUFACTURER" "JST"
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -2685,13 +2658,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "JST"
+		(property "MPN" "S4B-XH-A"
 			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -1886,7 +1886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "33"
 			(at 152.4 49.5299 0)
 			(effects
 				(font
@@ -1914,6 +1914,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0733RL"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 149.86 48.26 0)
 			(effects
 				(font
@@ -1956,7 +1983,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 187.96 95.2499 0)
 			(effects
 				(font
@@ -1984,6 +2011,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 184.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
 			(at 184.15 93.98 0)
 			(effects
 				(font
@@ -2083,16 +2137,6 @@
 				(hide yes)
 			)
 		)
-		(property "CREATOR" "DIZAR"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "None"
 			(at 149.86 58.42 0)
 			(effects
@@ -2104,16 +2148,6 @@
 			)
 		)
 		(property "Package" "MicroSMP Vishay General Semiconductor - Diodes Division"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P6-M3/89A/Vishay/view-part/?ref=eda"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -2173,26 +2207,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Diode,Schottky Barrier,Vr 60V,If 1A,Pkg MicroSMP,Vf 0.52V,Cj 40pF,Tj +150degc"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Vishay"
 			(at 149.86 58.42 0)
 			(effects
@@ -2200,6 +2214,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MSS1P6-M3/89A"
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2237,7 +2269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "33"
 			(at 177.8 53.3399 0)
 			(effects
 				(font
@@ -2265,6 +2297,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0733RL"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 175.26 52.07 0)
 			(effects
 				(font
@@ -2345,6 +2404,33 @@
 			)
 		)
 		(property "Sim.Library" "./"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FAN7388MX"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "onsemi"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -2498,16 +2584,6 @@
 				(hide yes)
 			)
 		)
-		(property "CREATOR" "DIZAR"
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "None"
 			(at 175.26 62.23 0)
 			(effects
@@ -2519,16 +2595,6 @@
 			)
 		)
 		(property "Package" "MicroSMP Vishay General Semiconductor - Diodes Division"
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P6-M3/89A/Vishay/view-part/?ref=eda"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -2588,26 +2654,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Diode,Schottky Barrier,Vr 60V,If 1A,Pkg MicroSMP,Vf 0.52V,Cj 40pF,Tj +150degc"
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Vishay"
 			(at 175.26 62.23 0)
 			(effects
@@ -2615,6 +2661,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MSS1P6-M3/89A"
+			(at 175.26 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 175.26 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2709,16 +2773,6 @@
 				(hide yes)
 			)
 		)
-		(property "CREATOR" "DIZAR"
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "None"
 			(at 210.82 63.5 0)
 			(effects
@@ -2730,16 +2784,6 @@
 			)
 		)
 		(property "Package" "MicroSMP Vishay General Semiconductor - Diodes Division"
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P6-M3/89A/Vishay/view-part/?ref=eda"
 			(at 210.82 63.5 0)
 			(effects
 				(font
@@ -2799,26 +2843,6 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Diode,Schottky Barrier,Vr 60V,If 1A,Pkg MicroSMP,Vf 0.52V,Cj 40pF,Tj +150degc"
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 210.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Vishay"
 			(at 210.82 63.5 0)
 			(effects
@@ -2826,6 +2850,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MSS1P6-M3/89A"
+			(at 210.82 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 210.82 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2863,7 +2905,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 153.67 69.8499 0)
 			(effects
 				(font
@@ -2891,6 +2933,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
 			(at 149.86 68.58 0)
 			(effects
 				(font
@@ -2933,7 +3002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 85.09 49.5299 0)
 			(effects
 				(font
@@ -2961,6 +3030,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C105K4RACTU"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
 			(at 81.28 48.26 0)
 			(effects
 				(font
@@ -3003,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "33"
 			(at 213.36 53.3399 0)
 			(effects
 				(font
@@ -3031,6 +3127,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0733RL"
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -3073,7 +3196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 171.45 82.5499 0)
 			(effects
 				(font
@@ -3101,6 +3224,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
 			(at 167.64 81.28 0)
 			(effects
 				(font

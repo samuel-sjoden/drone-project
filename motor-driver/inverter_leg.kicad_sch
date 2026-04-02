@@ -2260,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM188R6YA106MA73D"
+		(property "Value" "10u"
 			(at 205.994 49.53 0)
 			(effects
 				(font
@@ -2288,6 +2288,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA106MA73D"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 207.01 43.18 0)
 			(effects
 				(font
@@ -2372,6 +2399,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CSSU2512FT5L00"
+			(at 189.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 189.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 189.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60cc618b-d331-417c-8a90-5914afa80ef8")
 		)
@@ -2414,7 +2468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM188R6YA106MA73D"
+		(property "Value" "10u"
 			(at 246.38 44.4499 0)
 			(effects
 				(font
@@ -2443,6 +2497,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA106MA73D"
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 242.57 43.18 0)
 			(effects
 				(font
@@ -2493,7 +2574,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AON6512"
+		(property "Value" "NMOS"
 			(at 161.29 120.6499 90)
 			(effects
 				(font
@@ -2524,6 +2605,33 @@
 		)
 		(property "Description" ""
 			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AON6512"
+			(at 147.32 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 147.32 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor Inc."
+			(at 147.32 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM188R6YA106MA73D"
+		(property "Value" "10u"
 			(at 234.95 44.4499 0)
 			(effects
 				(font
@@ -2620,6 +2728,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA106MA73D"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -2670,7 +2805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AON6512"
+		(property "Value" "NMOS"
 			(at 161.29 44.4499 90)
 			(effects
 				(font
@@ -2701,6 +2836,33 @@
 		)
 		(property "Description" ""
 			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AON6512"
+			(at 147.32 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 147.32 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor Inc."
+			(at 147.32 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM188R6YA106MA73D"
+		(property "Value" "10u"
 			(at 229.362 49.784 0)
 			(effects
 				(font
@@ -2796,6 +2958,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA106MA73D"
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 219.71 43.18 0)
 			(effects
 				(font
@@ -2873,6 +3062,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 96.52 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 96.52 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 96.52 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,6 +3174,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 234.95 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 234.95 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db5e7441-c6f7-46b5-962b-001dacf0c4cd")
 		)
@@ -3025,6 +3259,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 111.76 148.59 0)
 			(effects
 				(font
@@ -3111,6 +3372,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62754433-7fb1-4078-a31b-1cde0aefe2f8")
 		)
@@ -3180,6 +3468,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 95.25 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 95.25 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 95.25 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
