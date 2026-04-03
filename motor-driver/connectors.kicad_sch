@@ -9,7 +9,7 @@
 		(comment 1 "Samuel Sjoden")
 	)
 	(lib_symbols
-		(symbol "B2B-PH-SM4-TB:B2B-PH-SM4-TB"
+		(symbol "61300411121:61300411121"
 			(pin_names
 				(offset 1.016)
 			)
@@ -17,7 +17,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 6.35 0)
+				(at -5.08 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,8 +25,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "B2B-PH-SM4-TB"
-				(at 0 -5.08 0)
+			(property "Value" "61300411121"
+				(at -5.08 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,7 +34,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+			(property "Footprint" "61300411121:WURTH_61300411121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,16 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "JST"
+			(property "Description" "Connector Header Through Hole 4 position 0.100 (2.54mm)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
+			(property "MF" "Wurth Electronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +73,37 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "NON STANDARD-2 JST"
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/61300411121/Wurth+Electronics/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -102,7 +123,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/61300411121/Wurth+Electronics/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -112,7 +133,7 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "MP" "61300411121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -122,7 +143,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "N/A"
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=395921&manufacturer=Wurth Electronics&part_name=61300411121&search_term=61300411121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -132,27 +153,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "B2B-PH-SM4-TB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Connector Header Surface Mount 2 position 0.079 (2.00mm)"
+			(property "Description_1" "4 pins, 1 row, straight, gold plating"
 				(at 0 0 0)
 				(effects
 					(font
@@ -172,7 +173,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "JST"
+			(property "AVAILABILITY" "In Stock"
 				(at 0 0 0)
 				(effects
 					(font
@@ -182,10 +183,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "B2B-PH-SM4-TB_0_0"
+			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/61300411121/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "61300411121_0_0"
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 2.54)
+						(xy -5.08 6.35) (xy -3.81 7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -197,7 +208,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 1.27 5.08)
+						(xy -5.08 5.08) (xy -3.175 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -209,7 +220,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -1.27)
+						(xy -5.08 2.54) (xy -3.175 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -221,7 +232,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 1.905 2.54)
+						(xy -5.08 0) (xy -3.175 0)
 					)
 					(stroke
 						(width 0.254)
@@ -233,7 +244,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.905 0)
+						(xy -5.08 -2.54) (xy -3.175 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -245,7 +256,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
+						(xy -5.08 -3.81) (xy -3.81 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -256,8 +267,19 @@
 					)
 				)
 				(rectangle
-					(start 0.635 2.2225)
-					(end 2.2225 2.8575)
+					(start -4.4847 -5.08)
+					(end 5.6753 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -4.445 4.7625)
+					(end -2.8575 5.3975)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -267,8 +289,8 @@
 					)
 				)
 				(rectangle
-					(start 0.635 -0.3175)
-					(end 2.2225 0.3175)
+					(start -4.445 2.2225)
+					(end -2.8575 2.8575)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -277,53 +299,39 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 7.62 -2.54)
-					)
+				(rectangle
+					(start -4.445 -0.3175)
+					(end -2.8575 0.3175)
 					(stroke
-						(width 0.254)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 1.27 5.08)
-					)
+				(rectangle
+					(start -4.445 -2.8575)
+					(end -2.8575 -2.2225)
 					(stroke
-						(width 0.254)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -10.16 5.08 0)
 					(length 5.08)
-					(name "1"
+					(name "01"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "01"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -332,16 +340,52 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
-					(name "2"
+					(name "02"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -708,7 +752,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "S4B-XH-A:S4B-XH-A"
+		(symbol "S2B-PH-K-S_LF__SN_:S2B-PH-K-S_LF__SN_"
 			(pin_names
 				(offset 1.016)
 			)
@@ -716,7 +760,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -6.85 7.62 0)
+				(at -5.08 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -724,8 +768,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "S4B-XH-A"
-				(at -6.35 -7.62 0)
+			(property "Value" "S2B-PH-K-S_LF__SN_"
+				(at -5.08 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -733,7 +777,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "S4B-XH-A:JST_S4B-XH-A"
+			(property "Footprint" "S2B-PH-K-S_LF__SN_:JST_S2B-PH-K-S_LF__SN_"
 				(at 0 0 0)
 				(effects
 					(font
@@ -752,16 +796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "JST"
+			(property "Description" "Connector Header Through Hole, Right Angle 2 position"
 				(at 0 0 0)
 				(effects
 					(font
@@ -771,7 +806,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Connector Header Through Hole, Right Angle 4 position 0.098 (2.50mm)"
+			(property "MF" "JST Sales America Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -781,7 +816,47 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "NON STANDARD-2 J.S.T."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -801,7 +876,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=eda"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -811,7 +886,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=snap"
+			(property "MP" "S2B-PH-K-S(LF)(SN)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -821,7 +896,17 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "S4B-XH-A"
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=46878&manufacturer=JST Sales America Inc.&part_name=S2B-PH-K-S(LF)(SN)&search_term=s2b-ph-k-s"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Through Hole, Right Angle 2 position"
 				(at 0 0 0)
 				(effects
 					(font
@@ -841,7 +926,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "JST"
+			(property "AVAILABILITY" "Unavailable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -851,10 +936,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "S4B-XH-A_0_0"
+			(symbol "S2B-PH-K-S_LF__SN__0_0"
 				(rectangle
-					(start -6.35 -5.08)
-					(end 6.35 7.62)
+					(start -5.08 -5.08)
+					(end 5.08 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -863,52 +948,8 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -5.715 4.7625)
-					(end -4.1275 5.3975)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -5.715 2.2225)
-					(end -4.1275 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -5.715 -0.3175)
-					(end -4.1275 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -5.715 -2.8575)
-					(end -4.1275 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at -10.16 5.08 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -926,7 +967,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -936,42 +977,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1506,10 +1511,10 @@
 		(uuid "bac76a83-f729-4d99-9d23-cb08ae33561d")
 	)
 	(junction
-		(at 111.76 91.44)
+		(at 111.76 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4aec1d14-a4c4-420d-b6d9-12a1f629f675")
+		(uuid "6c47c880-3587-499b-b343-1815dbb0b099")
 	)
 	(junction
 		(at 166.37 106.68)
@@ -1527,13 +1532,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 111.76 91.44)
+			(xy 110.49 113.03) (xy 114.3 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d013b00-ff85-438e-9f64-5422e10c640d")
+		(uuid "0dc1f6d1-c867-47d7-a807-201b463de82e")
 	)
 	(wire
 		(pts
@@ -1557,6 +1562,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f547dc1-653e-4143-8f40-21811107c3ac")
+	)
+	(wire
+		(pts
 			(xy 224.79 96.52) (xy 228.6 96.52)
 		)
 		(stroke
@@ -1567,16 +1582,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 113.03) (xy 114.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b0829c-fd52-42dd-a965-bac7bba2c550")
-	)
-	(wire
-		(pts
 			(xy 166.37 106.68) (xy 166.37 107.95)
 		)
 		(stroke
@@ -1584,26 +1589,6 @@
 			(type default)
 		)
 		(uuid "42af6597-83a1-41aa-8075-3fc3a8bc5488")
-	)
-	(wire
-		(pts
-			(xy 110.49 110.49) (xy 114.3 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42ffae28-f4c8-474a-83ff-83c5997623ea")
-	)
-	(wire
-		(pts
-			(xy 107.95 93.98) (xy 113.03 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9f6e16-6af2-4c11-96a8-3946d2b0b5c3")
 	)
 	(wire
 		(pts
@@ -1627,6 +1612,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 110.49) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e909a88-4317-4ee7-b059-650704eb16b7")
+	)
+	(wire
+		(pts
 			(xy 224.79 99.06) (xy 228.6 99.06)
 		)
 		(stroke
@@ -1637,13 +1632,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 101.6 91.44)
+			(xy 111.76 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6af904e-0a5e-4a2b-a95c-f4dbe068f9af")
+		(uuid "8901ebb4-3a68-4a12-b80d-904e50cc1858")
+	)
+	(wire
+		(pts
+			(xy 107.95 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dca9e3-fd64-48cd-8ed1-eae7c61e5f3a")
 	)
 	(wire
 		(pts
@@ -1705,7 +1710,7 @@
 		)
 		(uuid "d55cafe4-0d3d-4ac3-b742-eb34d680ff5b")
 	)
-	(global_label "5V"
+	(global_label "GND"
 		(shape input)
 		(at 110.49 110.49 180)
 		(fields_autoplaced yes)
@@ -1715,9 +1720,9 @@
 			)
 			(justify right)
 		)
-		(uuid "062d1526-9412-42e8-ab07-360a5a720517")
+		(uuid "50f7877e-1f03-4cb2-8309-8d930e329911")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.2067 110.49 0)
+			(at 103.6343 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1732,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "5V"
 		(shape input)
 		(at 110.49 113.03 180)
 		(fields_autoplaced yes)
@@ -1737,31 +1742,9 @@
 			)
 			(justify right)
 		)
-		(uuid "69cc6883-0171-48b2-8248-a9b4f1c3202a")
+		(uuid "8997c287-9a13-4051-9230-f144cb664700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6343 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_BUS"
-		(shape input)
-		(at 101.6 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f294a3c-64bd-42f4-bb96-a8fd6e1975bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.7486 91.44 0)
+			(at 105.2067 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1778,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 107.95 93.98 180)
+		(at 107.95 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1803,9 +1786,31 @@
 			)
 			(justify right)
 		)
-		(uuid "de788363-d407-42d5-874f-0819f581abcf")
+		(uuid "d3475967-c0ac-412b-a76b-dd9f51a9019e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.0943 93.98 0)
+			(at 101.0943 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_BUS"
+		(shape input)
+		(at 101.6 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb08e8ae-78c1-4433-9ef4-39271a5d3977")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7486 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,6 +2047,12 @@
 			(uuid "57d64b92-bc98-4938-bc7d-1cc2114ab4c8")
 		)
 		(instances
+			(project "connectors"
+				(path "/1fc65dcf-4a12-4b84-a002-27a26f83f61a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
 					(reference "J1")
@@ -2106,6 +2117,12 @@
 			(uuid "b3a26f34-5c75-4c98-aa0e-7e3fc3454d2e")
 		)
 		(instances
+			(project "connectors"
+				(path "/1fc65dcf-4a12-4b84-a002-27a26f83f61a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
 					(reference "#PWR01")
@@ -2115,35 +2132,33 @@
 		)
 	)
 	(symbol
-		(lib_id "B2B-PH-SM4-TB:B2B-PH-SM4-TB")
-		(at 119.38 113.03 0)
+		(lib_id "61300411121:61300411121")
+		(at 214.63 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c9b0dd1-f593-4594-99d5-cbfbac87cb1b")
-		(property "Reference" "J4"
-			(at 128.27 110.4899 0)
+		(uuid "064db82a-b93b-4b62-a7f3-42d7e169d838")
+		(property "Reference" "J5"
+			(at 214.3323 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "B2B-PH-SM4-TB"
-			(at 128.27 113.0299 0)
+		(property "Value" "61300411121"
+			(at 214.3323 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
-			(at 119.38 113.03 0)
+		(property "Footprint" "61300411121:WURTH_61300411121"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 113.03 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 113.03 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,18 +2185,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "JST"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
-			(at 119.38 113.03 0)
+		(property "MF" "Wurth Electronics"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,8 +2195,48 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "NON STANDARD-2 JST"
-			(at 119.38 113.03 0)
+		(property "DESCRIPTION" "Connector Header Through Hole 4 position 0.100 (2.54mm)"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/61300411121/Wurth+Electronics/view-part/?ref=eda"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2246,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 119.38 113.03 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,8 +2255,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 119.38 113.03 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/61300411121/Wurth+Electronics/view-part/?ref=snap"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,8 +2265,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "N/A"
-			(at 119.38 113.03 0)
+		(property "MP" "61300411121"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,8 +2275,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
-			(at 119.38 113.03 0)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=395921&manufacturer=Wurth Electronics&part_name=61300411121&search_term=61300411121"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,8 +2285,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "B2B-PH-SM4-TB"
-			(at 119.38 113.03 0)
+		(property "Description_1" "4 pins, 1 row, straight, gold plating"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,8 +2295,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "JST"
-			(at 119.38 113.03 0)
+		(property "Availability" "In Stock"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,8 +2305,28 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B2B-PH-SM4-TB"
-			(at 119.38 113.03 0)
+		(property "AVAILABILITY" "In Stock"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/61300411121/?ref=eda"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300411121"
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,8 +2334,73 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 119.38 113.03 0)
+		(pin "03"
+			(uuid "63dbeeca-325a-4fa1-a1eb-03d5736284f8")
+		)
+		(pin "04"
+			(uuid "ef5c6d12-58ca-44de-9014-b5b3eed3b424")
+		)
+		(pin "01"
+			(uuid "66e24e87-e79b-49bd-845c-1f0f938df091")
+		)
+		(pin "02"
+			(uuid "4dc428db-12ce-4aa3-bef1-9b433a98d89b")
+		)
+		(instances
+			(project ""
+				(path "/1fc65dcf-4a12-4b84-a002-27a26f83f61a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "motor-driver"
+				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S2B-PH-K-S_LF__SN_:S2B-PH-K-S_LF__SN_")
+		(at 124.46 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17110eff-aa21-463b-b9a5-28b9faaf971d")
+		(property "Reference" "J6"
+			(at 130.81 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-K-S_LF__SN_"
+			(at 130.81 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S2B-PH-K:JST_S2B-PH-K-S_LF__SN_"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,16 +2408,165 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5d6db5e4-5643-43ef-b245-76a7d80a4a79")
+		(property "Description" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales America Inc."
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.8mm"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-2 J.S.T."
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST/view-part/?ref=eda"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-K-S(LF)(SN)/JST/view-part/?ref=snap"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S2B-PH-K-S(LF)(SN)"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=46878&manufacturer=JST Sales America Inc.&part_name=S2B-PH-K-S(LF)(SN)&search_term=s2b-ph-k-s"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole, Right Angle 2 position"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Connector Header Through Hole, Right Angle 2 position"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ce7420a6-a7ab-4933-84e3-2182779b97f4")
+			(uuid "5a96ebbb-55ba-43c5-92e0-d99898ae33fe")
+		)
+		(pin "2"
+			(uuid "6a7bb122-3d7c-4c98-bd4f-b4ca523676a1")
 		)
 		(instances
 			(project ""
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2470,6 +2749,12 @@
 			(uuid "ea0a7819-a59a-4712-9260-ec584d698e6f")
 		)
 		(instances
+			(project "connectors"
+				(path "/1fc65dcf-4a12-4b84-a002-27a26f83f61a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
 					(reference "J3")
@@ -2480,7 +2765,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 111.76 91.44 0)
+		(at 111.76 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2489,7 +2774,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f45130e-b4c4-4777-aa16-6b05b4f515f1")
 		(property "Reference" "#FLG01"
-			(at 111.76 89.535 0)
+			(at 111.76 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,15 +2783,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 111.76 86.36 0)
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 91.44 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 91.44 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2810,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 111.76 91.44 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2822,7 @@
 			(uuid "516d28fc-2550-4a49-a57e-4ad28e452304")
 		)
 		(instances
-			(project ""
+			(project "motor-driver"
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
 					(reference "#FLG01")
 					(unit 1)
@@ -2544,157 +2830,10 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "S4B-XH-A:S4B-XH-A")
-		(at 214.63 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdfd14f5-fc79-411e-a055-4552573e5967")
-		(property "Reference" "J5"
-			(at 214.63 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S4B-XH-A"
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "S4B-XH-A:JST_S4B-XH-A"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "JST"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S4B-XH-A/JST/view-part/?ref=snap"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "S4B-XH-A"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "S4B-XH-A"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "81bd8abd-ea0f-4997-98e0-d5a317810f20")
-		)
-		(pin "2"
-			(uuid "fcb4236d-0dd2-42e2-ba12-04efae570002")
-		)
-		(pin "1"
-			(uuid "5ce86b59-91cb-45ac-b9dc-7fd5d86fd878")
-		)
-		(pin "4"
-			(uuid "bdc3a415-455c-4802-953d-1fc1f721b54a")
-		)
-		(instances
-			(project ""
-				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/30757110-9ea8-4637-854f-74954ea5d29f"
-					(reference "J5")
-					(unit 1)
-				)
-			)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

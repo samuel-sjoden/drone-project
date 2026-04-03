@@ -2260,7 +2260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "GRM188R6YA106MA73D"
 			(at 205.994 49.53 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "GRM188R6YA106MA73D"
 			(at 246.38 44.4499 0)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "GRM188R6YA106MA73D"
 			(at 234.95 44.4499 0)
 			(effects
 				(font
@@ -2929,7 +2929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "GRM188R6YA106MA73D"
 			(at 229.362 49.784 0)
 			(effects
 				(font
