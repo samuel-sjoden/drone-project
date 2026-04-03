@@ -16,3 +16,6 @@ gain_stage/
 spice_sim/
 motor-driver-backups/
 .DS_Store
+flight-controller-backups/
+Library/
+.history/
