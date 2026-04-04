@@ -2833,12 +2833,6 @@
 		(uuid "e14971da-5275-4444-b529-40b7cbee2f75")
 	)
 	(junction
-		(at 224.79 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "004b2c77-c953-4dee-87f1-fc1d79042ec4")
-	)
-	(junction
 		(at 68.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2881,12 +2875,6 @@
 		(uuid "31981b50-31b1-49ba-9402-c4ddac4daa06")
 	)
 	(junction
-		(at 190.5 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39467ec3-1c53-4947-ad99-6690984aa7d8")
-	)
-	(junction
 		(at 125.73 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2921,6 +2909,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "539933fb-7f75-45e5-8233-2405c00e982e")
+	)
+	(junction
+		(at 190.5 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e67d765-9bbc-46ba-8854-c43b0a8050d1")
 	)
 	(junction
 		(at 204.47 24.13)
@@ -3043,10 +3037,24 @@
 		(uuid "ddf3ecef-9ed7-433a-8e42-101e8e26d348")
 	)
 	(junction
+		(at 224.79 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1058e7f-8380-4a53-b149-24ab9d69472d")
+	)
+	(junction
 		(at 113.03 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe8e19b1-8694-4320-a315-6ed5de743978")
+	)
+	(no_connect
+		(at 161.29 45.72)
+		(uuid "4db24374-9303-4d7e-9d0b-f8b2ef533945")
+	)
+	(no_connect
+		(at 135.89 76.2)
+		(uuid "54335965-5116-4b7b-a18f-b6bcfe603740")
 	)
 	(wire
 		(pts
@@ -3250,16 +3258,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 190.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28fc3b62-b72d-4413-a8a1-cdda394b5e45")
-	)
-	(wire
-		(pts
 			(xy 49.53 53.34) (xy 45.72 53.34)
 		)
 		(stroke
@@ -3327,16 +3325,6 @@
 			(type default)
 		)
 		(uuid "2f8d3f67-f6bc-4589-9492-8172c061bee8")
-	)
-	(wire
-		(pts
-			(xy 135.89 76.2) (xy 135.89 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311be63e-1a1b-4eab-b29c-b0e173798bad")
 	)
 	(wire
 		(pts
@@ -3680,16 +3668,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 180.34 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718ca7a2-caf5-48cb-b6a5-6cf28c65388d")
-	)
-	(wire
-		(pts
 			(xy 161.29 58.42) (xy 171.45 58.42)
 		)
 		(stroke
@@ -3867,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "92d706f9-9234-4707-9d21-ab75f0b3cf72")
+	)
+	(wire
+		(pts
+			(xy 186.69 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c1d1ce-4b8d-4f87-b9b5-09c31e7c066f")
 	)
 	(wire
 		(pts
@@ -4200,16 +4188,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 85.09) (xy 180.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d453eb72-df22-46f0-b9c5-d6e5bbc982d3")
-	)
-	(wire
-		(pts
 			(xy 177.8 68.58) (xy 177.8 78.74)
 		)
 		(stroke
@@ -4410,16 +4388,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 119.38) (xy 224.79 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4478b13-47a9-44c0-aa94-6ab7de30b532")
-	)
-	(wire
-		(pts
 			(xy 125.73 87.63) (xy 125.73 80.01)
 		)
 		(stroke
@@ -4538,6 +4506,30 @@
 		)
 		(uuid "cec8d6da-c9f0-4ed3-b02f-f6350e96d6e7")
 	)
+	(global_label "5V"
+		(shape input)
+		(at 186.69 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f05336d1-aaeb-4434-9f9c-956c6a98da42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.4067 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "15V"
 		(shape input)
 		(at 33.02 24.13 180)
@@ -4641,6 +4633,84 @@
 				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 92.71 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "035fba6f-f855-4f0a-ad18-242cc6d9ff51")
+		(property "Reference" "#PWR010"
+			(at 92.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 92.71 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9c58242-d125-4d0e-82ca-249a11647331")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4810,88 +4880,6 @@
 				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ca4356a-44b8-451e-aa24-4e41248b5874")
-		(property "Reference" "#PWR014"
-			(at 190.5 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98ccce59-2ca9-4ef2-92be-072e3bd53e60")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR014")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5475,88 +5463,6 @@
 				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 224.79 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26f6b105-7b00-4c7e-b23e-84c95fde34fb")
-		(property "Reference" "#PWR010"
-			(at 224.79 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 224.79 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 224.79 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "719f61b1-91d5-4140-ac37-35cb1048d906")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6765,6 +6671,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 224.79 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59424059-5050-4fd6-a915-9945fc860e1a")
+		(property "Reference" "#PWR02"
+			(at 224.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 224.79 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 224.79 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a04c032-8115-4253-aa12-08617b357c40")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 41.91 0)
 		(unit 1)
@@ -6840,6 +6824,84 @@
 				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 232.41 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7315f82e-7837-4bf1-a0dc-342c6b926165")
+		(property "Reference" "#PWR03"
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 232.41 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 232.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67251c75-db8d-4f0c-ac6d-b1c5958258e7")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6926,88 +6988,6 @@
 				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 92.71 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7497bf7f-7ae1-4f10-9f73-b4a60e65139e")
-		(property "Reference" "#PWR02"
-			(at 92.71 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 92.71 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 92.71 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd37e4ea-60e6-4b62-94c0-9a96e0113797")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7795,6 +7775,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95d0a8ea-da2b-43d8-b4b2-c35dab3b6b59")
+		(property "Reference" "#PWR014"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 190.5 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b825c79-ddf9-42e1-a950-191a5de967c8")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 166.37 113.03 270)
 		(unit 1)
@@ -8457,88 +8515,6 @@
 				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 232.41 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b36e6bda-d74a-49cd-87a2-8f9dc5937be7")
-		(property "Reference" "#PWR03"
-			(at 232.41 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 232.41 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 232.41 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0d6116f-ba16-4f4d-aad2-9c5efe430c2a")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
