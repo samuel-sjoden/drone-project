@@ -626,7 +626,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "BMS",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -641,8 +641,8 @@
     "top_level_sheets": [
       {
         "filename": "Power Board.kicad_sch",
-        "name": "Power Board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "name": "Flight_Controller",
+        "uuid": "e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
       }
     ],
     "used_designators": "",
@@ -651,7 +651,15 @@
   "sheets": [
     [
       "e1d5dd76-ec41-4f53-aa0b-5d03fb935d99",
-      "Root"
+      "Flight_Controller"
+    ],
+    [
+      "0ae66413-31be-46ac-8f24-41e2814c9afd",
+      "BMS"
+    ],
+    [
+      "ab31c291-e8bf-479a-b3ea-b25df21dfdbf",
+      "Flight_Controller"
     ]
   ],
   "text_variables": {},
