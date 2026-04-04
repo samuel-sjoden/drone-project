@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power Board.kicad_pro",
+    "filename": "flight-controller.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,18 +640,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Power Board.kicad_sch",
-        "name": "Flight_Controller",
+        "filename": "flight-controller.kicad_sch",
+        "name": "flight-controller",
         "uuid": "e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J2,J7,#PWR15-16",
     "variants": []
   },
   "sheets": [
     [
       "e1d5dd76-ec41-4f53-aa0b-5d03fb935d99",
-      "Flight_Controller"
+      "flight-controller"
     ],
     [
       "0ae66413-31be-46ac-8f24-41e2814c9afd",

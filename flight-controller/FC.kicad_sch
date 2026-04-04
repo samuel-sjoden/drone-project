@@ -1301,7 +1301,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-MINI-1")
-		(at 80.01 64.77 0)
+		(at 77.47 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1312,7 +1312,7 @@
 		(fields_autoplaced yes)
 		(uuid "f724dded-755d-4759-a40b-cad2619f125d")
 		(property "Reference" "U2"
-			(at 82.1533 31.75 0)
+			(at 79.6133 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1323,7 +1323,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-MINI-1"
-			(at 82.1533 34.29 0)
+			(at 79.6133 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1334,7 +1334,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S2-MINI-1"
-			(at 95.25 93.98 0)
+			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1345,7 +1345,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf"
-			(at 80.01 24.13 0)
+			(at 77.47 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1356,7 +1356,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"
-			(at 80.01 21.59 0)
+			(at 77.47 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1562,7 +1562,7 @@
 			(uuid "1fc95ae3-20ca-4064-a0fc-7f0429364f89")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/ab31c291-e8bf-479a-b3ea-b25df21dfdbf"
 					(reference "U2")
 					(unit 1)

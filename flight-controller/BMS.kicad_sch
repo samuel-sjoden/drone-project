@@ -778,189 +778,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2997,7 +2814,7 @@
 	)
 	(text "BMS"
 		(exclude_from_sim no)
-		(at 24.13 24.892 0)
+		(at 36.576 18.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3028,16 +2845,16 @@
 		(uuid "0585b714-12a0-416e-bfe8-f2d93bbf9881")
 	)
 	(junction
+		(at 127 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cc521fb-59a9-4b57-9cf6-f39522d5bcb9")
+	)
+	(junction
 		(at 166.37 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10716d39-19a4-44f6-a774-f35df9305e3b")
-	)
-	(junction
-		(at 137.16 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19517d0c-8277-4ec2-a841-6224922bad3e")
 	)
 	(junction
 		(at 100.33 101.6)
@@ -3112,34 +2929,10 @@
 		(uuid "6052abb8-fe2b-443c-8457-1926c2b01830")
 	)
 	(junction
-		(at 127 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "656a9645-4558-4e5e-a598-9eb68ebcefb6")
-	)
-	(junction
 		(at 97.79 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a78cee9-5c5a-4be5-a3ea-cae58012de2e")
-	)
-	(junction
-		(at 139.7 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70c9c499-1718-4445-abd1-f5160ffaa93a")
-	)
-	(junction
-		(at 35.56 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7207944c-b708-4bc2-817d-c23669e72c9f")
-	)
-	(junction
-		(at 139.7 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73caa416-8500-428a-95d6-0522363c6616")
 	)
 	(junction
 		(at 68.58 50.8)
@@ -3188,12 +2981,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b91b2cf1-5199-4846-a748-7f2934ba609c")
-	)
-	(junction
-		(at 127 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9b835b8-a3c6-4158-b2b4-68ddb1199d37")
 	)
 	(junction
 		(at 204.47 34.29)
@@ -3254,12 +3041,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf3ecef-9ed7-433a-8e42-101e8e26d348")
-	)
-	(junction
-		(at 137.16 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f10dbda5-14ec-406f-8841-d24ceab58750")
 	)
 	(junction
 		(at 113.03 187.96)
@@ -3329,16 +3110,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 139.7 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0abb3ac3-e3ae-4ab8-887f-3c98c19485ac")
-	)
-	(wire
-		(pts
 			(xy 100.33 48.26) (xy 100.33 101.6)
 		)
 		(stroke
@@ -3376,16 +3147,6 @@
 			(type default)
 		)
 		(uuid "12b8392b-db9c-4b89-9685-2cae112a6abd")
-	)
-	(wire
-		(pts
-			(xy 142.24 162.56) (xy 142.24 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136186f7-a0e1-4e50-88cf-b0096da10eeb")
 	)
 	(wire
 		(pts
@@ -3439,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 173.99) (xy 139.7 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1febbb51-9969-439b-a29d-72f043643ce0")
-	)
-	(wire
-		(pts
 			(xy 224.79 83.82) (xy 227.33 83.82)
 		)
 		(stroke
@@ -3496,16 +3247,6 @@
 			(type default)
 		)
 		(uuid "27b8f96e-f5cc-4c1e-8161-23091b695c99")
-	)
-	(wire
-		(pts
-			(xy 137.16 158.75) (xy 139.7 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "282148c7-0e7a-4128-9330-c2a486651e54")
 	)
 	(wire
 		(pts
@@ -3649,16 +3390,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 171.45) (xy 139.7 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b117206-355e-4dbb-aa0a-b1df40cdbff9")
-	)
-	(wire
-		(pts
 			(xy 87.63 104.14) (xy 87.63 101.6)
 		)
 		(stroke
@@ -3706,16 +3437,6 @@
 			(type default)
 		)
 		(uuid "44695213-51cc-4a2d-b513-bc97bdac60d0")
-	)
-	(wire
-		(pts
-			(xy 142.24 165.1) (xy 142.24 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "465278bc-3d56-4e4c-b408-ef7bed8c47db")
 	)
 	(wire
 		(pts
@@ -3909,16 +3630,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 173.99) (xy 139.7 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "692b8c95-6e80-4f6e-9a63-31320c9f4acd")
-	)
-	(wire
-		(pts
 			(xy 90.17 161.29) (xy 92.71 161.29)
 		)
 		(stroke
@@ -4029,16 +3740,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 24.13) (xy 237.49 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c138118-71a5-4f2f-bfe9-ef3a49d2a0dd")
-	)
-	(wire
-		(pts
 			(xy 177.8 78.74) (xy 203.2 78.74)
 		)
 		(stroke
@@ -4046,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "7d835819-9f86-4f92-a308-d81a121c6848")
-	)
-	(wire
-		(pts
-			(xy 139.7 171.45) (xy 139.7 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed44448-ad69-4a59-9e7d-b6a767412ae9")
 	)
 	(wire
 		(pts
@@ -4086,16 +3777,6 @@
 			(type default)
 		)
 		(uuid "82b27a29-48f7-4c68-b3bb-279373e46c8d")
-	)
-	(wire
-		(pts
-			(xy 35.56 59.69) (xy 35.56 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c72d92-4b29-46ae-9f7a-2d0bffd7f9a4")
 	)
 	(wire
 		(pts
@@ -4146,26 +3827,6 @@
 			(type default)
 		)
 		(uuid "896b6c2c-b458-4b29-9560-d1ccfcc611b5")
-	)
-	(wire
-		(pts
-			(xy 127 187.96) (xy 137.16 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8acb8e26-913d-4725-9135-5c74ec03831b")
-	)
-	(wire
-		(pts
-			(xy 137.16 158.75) (xy 137.16 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba0822b-6749-4997-acb4-79dcffae867a")
 	)
 	(wire
 		(pts
@@ -4279,7 +3940,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 57.15) (xy 33.02 57.15)
+			(xy 30.48 158.75) (xy 38.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3b0d68-cc68-4ed9-8139-d4fb2b83abdc")
+	)
+	(wire
+		(pts
+			(xy 33.02 24.13) (xy 163.83 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4339,16 +4010,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 162.56) (xy 142.24 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abac9f6e-bd31-45ac-a7ee-2eed865df57b")
-	)
-	(wire
-		(pts
 			(xy 49.53 81.28) (xy 49.53 63.5)
 		)
 		(stroke
@@ -4386,36 +4047,6 @@
 			(type default)
 		)
 		(uuid "b2362bce-b5bc-450e-af5d-fe07e82f3654")
-	)
-	(wire
-		(pts
-			(xy 35.56 59.69) (xy 33.02 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5315ac5-4c55-43dd-aeee-4c61c456dbf7")
-	)
-	(wire
-		(pts
-			(xy 35.56 24.13) (xy 35.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b62b3e71-a84c-4c8b-b142-56fb3675e8f6")
-	)
-	(wire
-		(pts
-			(xy 137.16 182.88) (xy 147.32 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7748163-8f7e-4bf3-85b6-82302b874d8e")
 	)
 	(wire
 		(pts
@@ -4459,27 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 165.1) (xy 142.24 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef6da85-9361-4226-9cb5-59a9ce062ea9")
-	)
-	(wire
-		(pts
-			(xy 137.16 187.96) (xy 137.16 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0c48bd-a383-4717-9cfe-ec1bb9d7f31c")
-	)
-	(wire
-		(pts
-			(xy 127 158.75) (xy 137.16 158.75)
+			(xy 127 158.75) (xy 132.08 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4499,6 +4110,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 24.13) (xy 242.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a109dd-3df0-4e86-b578-164682326a20")
+	)
+	(wire
+		(pts
 			(xy 90.17 156.21) (xy 92.71 156.21)
 		)
 		(stroke
@@ -4506,16 +4127,6 @@
 			(type default)
 		)
 		(uuid "c225d0c5-239a-4457-97c0-0ec17c9c468f")
-	)
-	(wire
-		(pts
-			(xy 142.24 158.75) (xy 139.7 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3320819-6ed3-429f-bda4-21f30e87db8d")
 	)
 	(wire
 		(pts
@@ -4539,16 +4150,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 180.34) (xy 147.32 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c886f62e-cb25-4c8e-b1cb-e1cd41d9ac3c")
-	)
-	(wire
-		(pts
 			(xy 128.27 63.5) (xy 128.27 60.96)
 		)
 		(stroke
@@ -4556,16 +4157,6 @@
 			(type default)
 		)
 		(uuid "cfc9e781-5035-4413-8885-ea5ea0beba8c")
-	)
-	(wire
-		(pts
-			(xy 35.56 24.13) (xy 163.83 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0262468-3e4f-436c-a64d-4d63d0b7b7b2")
 	)
 	(wire
 		(pts
@@ -4749,16 +4340,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 158.75) (xy 38.1 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b1c069-4b97-44a2-969c-32beaf2d9cd2")
-	)
-	(wire
-		(pts
 			(xy 44.45 163.83) (xy 44.45 168.91)
 		)
 		(stroke
@@ -4836,16 +4417,6 @@
 			(type default)
 		)
 		(uuid "f4478b13-47a9-44c0-aa94-6ab7de30b532")
-	)
-	(wire
-		(pts
-			(xy 139.7 187.96) (xy 137.16 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f726aa64-422c-401c-8f67-cbac7a01f142")
 	)
 	(wire
 		(pts
@@ -4947,53 +4518,47 @@
 		)
 		(uuid "ff4a3c65-ee41-464f-991d-112eb08b9c44")
 	)
-	(global_label "Buck_In"
+	(label "Buck_In"
+		(at 242.57 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93a1b826-31b0-4856-901a-d110a7a1e644")
+	)
+	(label "Buck_In"
+		(at 30.48 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cec8d6da-c9f0-4ed3-b02f-f6350e96d6e7")
+	)
+	(hierarchical_label "15V"
 		(shape input)
-		(at 33.02 158.75 180)
-		(fields_autoplaced yes)
+		(at 33.02 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5a9ddb5e-010c-4029-9e48-e7567bfb858d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7777 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "df04185a-c769-4989-8704-83f3ef4bea6a")
 	)
-	(global_label "Buck_In"
-		(shape input)
-		(at 237.49 24.13 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 132.08 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7aa69b02-ea6f-4d0d-80f5-8e05ab2f0d11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7323 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "f37eabb9-ff27-4514-bfaf-fce106a4e8de")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5007,7 +4572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02dbc83d-661d-4ac6-8b49-2873dc053118")
-		(property "Reference" "R"
+		(property "Reference" "R3"
 			(at 115.57 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,8 +4634,12 @@
 			(uuid "7844cd99-3176-4239-ab96-b0442f4a16fe")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R3")
 					(unit 1)
 				)
@@ -5089,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "078eb58e-3e66-4b13-bff0-c53a65f7c511")
-		(property "Reference" "R"
+		(property "Reference" "R11"
 			(at 102.87 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,8 +4720,12 @@
 			(uuid "d078c760-5b5e-4644-a6c6-bc5ce816fa6d")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R11")
 					(unit 1)
 				)
@@ -5170,7 +4743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07df67f0-dd6a-43df-b560-160db5707719")
-		(property "Reference" "R"
+		(property "Reference" "R8"
 			(at 180.34 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,8 +4803,12 @@
 			(uuid "e4e14e23-88a9-46dd-8af4-8268af4fff65")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R8")
 					(unit 1)
 				)
@@ -5250,7 +4827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ca4356a-44b8-451e-aa24-4e41248b5874")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR014"
 			(at 190.5 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5308,8 +4885,12 @@
 			(uuid "98ccce59-2ca9-4ef2-92be-072e3bd53e60")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -5328,7 +4909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd4d2f2-07dd-454b-958f-15c981d385bc")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR06"
 			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5386,8 +4967,12 @@
 			(uuid "59bd2ca1-4945-4bfc-bede-cd204297870d")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -5406,7 +4991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f348bda-cc19-497c-a37f-5aabfcc8714a")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR01"
 			(at 129.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5464,8 +5049,12 @@
 			(uuid "a40a10b4-6ef0-4ab1-a531-643e745b3e4d")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -5484,7 +5073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b4c311-e445-4393-a2ba-535a1812ea44")
-		(property "Reference" "C"
+		(property "Reference" "C19"
 			(at 72.39 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,8 +5135,12 @@
 			(uuid "588c3d8b-642f-4f57-9bdf-53d1248a2c5b")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C19")
 					(unit 1)
 				)
@@ -5565,7 +5158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13ef2bf9-270e-4b4e-8e1d-77e98f745d5a")
-		(property "Reference" "R"
+		(property "Reference" "R10"
 			(at 58.42 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,8 +5218,12 @@
 			(uuid "24d3da7e-5b17-494b-a664-d841d98a7aa5")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R10")
 					(unit 1)
 				)
@@ -5645,7 +5242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1544dd22-9006-47c1-a24c-13aca3d813b6")
-		(property "Reference" "C"
+		(property "Reference" "C7"
 			(at 130.81 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,8 +5304,12 @@
 			(uuid "da3cc20a-385b-44e9-9878-4fb7e50a386c")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C7")
 					(unit 1)
 				)
@@ -5726,7 +5327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "156712d0-376b-452f-942d-32bfe452d12f")
-		(property "Reference" "R"
+		(property "Reference" "R2"
 			(at 58.42 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,8 +5387,12 @@
 			(uuid "98eebea6-61f0-4e9d-83e3-047de78a97b4")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R2")
 					(unit 1)
 				)
@@ -5805,7 +5410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223ab5d8-e847-4676-a2bf-0878ba4b6630")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR04"
 			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5863,8 +5468,12 @@
 			(uuid "59191c8a-bfb0-401a-91da-89be97ba9ba1")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -5883,7 +5492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f6b105-7b00-4c7e-b23e-84c95fde34fb")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR010"
 			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5941,8 +5550,12 @@
 			(uuid "719f61b1-91d5-4140-ac37-35cb1048d906")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -5961,7 +5574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3101fa14-adba-4a97-be68-a2bcba541c9f")
-		(property "Reference" "J"
+		(property "Reference" "J6"
 			(at 241.3 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,8 +5758,12 @@
 			(uuid "2bf53136-b4e8-4d0e-9f97-603bd33663c2")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J6")
 					(unit 1)
 				)
@@ -6165,7 +5782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "366abec5-c6b0-4386-83d3-7e93e5304867")
-		(property "Reference" "J"
+		(property "Reference" "J1"
 			(at 209.55 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,8 +5853,12 @@
 			(uuid "1c027050-b17e-4469-9f5d-764ff312d1a1")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J1")
 					(unit 1)
 				)
@@ -6256,7 +5877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36ba564b-dcd6-48ea-957c-275b0e3c8019")
-		(property "Reference" "SW"
+		(property "Reference" "SW1"
 			(at 127 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6318,8 +5939,12 @@
 			(uuid "89049bf2-1865-40d4-99ad-9cbfacdc5f71")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "SW1")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -6338,7 +5963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372fb8d0-300a-4f15-8732-5103cc6400fe")
-		(property "Reference" "C"
+		(property "Reference" "C13"
 			(at 107.95 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,8 +6023,12 @@
 			(uuid "79677285-fd08-4692-afa4-b8f1a03f5c8b")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C13")
 					(unit 1)
 				)
@@ -6418,7 +6047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39954a00-085c-45fd-93ec-263303cde4d6")
-		(property "Reference" "C"
+		(property "Reference" "C20"
 			(at 72.39 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,8 +6109,12 @@
 			(uuid "02285861-c2dc-40b0-b7a6-d499e95cbe55")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C20")
 					(unit 1)
 				)
@@ -6500,7 +6133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf03a77-015a-4123-a502-4407aa507a4f")
-		(property "Reference" "C"
+		(property "Reference" "C17"
 			(at 72.39 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,8 +6195,12 @@
 			(uuid "cb166033-bf71-4910-82cd-2e2ed529a907")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C17")
 					(unit 1)
 				)
@@ -6581,7 +6218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fd785b8-346a-438d-b22b-19cf97125a82")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR07"
 			(at 204.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6639,8 +6276,12 @@
 			(uuid "6034607b-b8e5-44d4-aa9e-d5ad801d8fb5")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -6659,7 +6300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d34a7b-9d21-42ef-91ea-b7549369377b")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR012"
 			(at 35.56 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6717,8 +6358,12 @@
 			(uuid "1540acb8-279f-477d-82d0-7f5ee212401e")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -6736,7 +6381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b2f14da-fb62-4ef6-8244-2f105f9f0488")
-		(property "Reference" "C"
+		(property "Reference" "C10"
 			(at 29.972 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,8 +6443,12 @@
 			(uuid "e69f3b17-eb27-456d-9803-328d05b5ae76")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C10")
 					(unit 1)
 				)
@@ -6818,7 +6467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8e6267-024d-4e0d-955d-db11df66a76d")
-		(property "Reference" "C"
+		(property "Reference" "C12"
 			(at 152.4 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,8 +6529,12 @@
 			(uuid "3f6b9b4d-5a46-47c7-8e05-b6d3ed928346")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C12")
 					(unit 1)
 				)
@@ -6900,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51f854a4-b9bf-4edc-a916-4266b1fc2ca5")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR011"
 			(at 82.55 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6959,8 +6612,12 @@
 			(uuid "e4604248-1c23-4fe5-8ab6-ab7402a3a8b9")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -6979,7 +6636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c0df46-80bc-4fa2-adbe-9a321251f75f")
-		(property "Reference" "U"
+		(property "Reference" "U3"
 			(at 151.7081 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7095,91 +6752,13 @@
 			(uuid "39af5efc-33a4-4db3-859e-ed259ad4135d")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
 					(reference "U3")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c91a040-967f-46f1-bde4-f9b5a705581b")
-		(property "Reference" "J"
-			(at 153.67 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor MCU 2"
-			(at 153.67 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
-			(at 152.4 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f9ab43ca-0b53-4675-a300-ef931258be96")
-		)
-		(pin "1"
-			(uuid "83ba0e60-a461-45f7-be80-f2f0f0d099db")
-		)
-		(instances
-			(project "Power Board"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J7")
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7196,7 +6775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cbad837-4840-4041-8ae7-2da61b270bf9")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR08"
 			(at 204.47 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7254,8 +6833,12 @@
 			(uuid "3569382f-b73d-4022-a21e-60b0978049e9")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -7274,7 +6857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73174c68-e12a-4e79-9b32-b7f2ab684bf8")
-		(property "Reference" "R"
+		(property "Reference" "R12"
 			(at 118.11 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,8 +6919,12 @@
 			(uuid "9a0851ac-95f7-42db-a669-1f782098dae4")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R12")
 					(unit 1)
 				)
@@ -7356,7 +6943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7497bf7f-7ae1-4f10-9f73-b4a60e65139e")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR02"
 			(at 92.71 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -7414,8 +7001,12 @@
 			(uuid "dd37e4ea-60e6-4b62-94c0-9a96e0113797")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -7434,7 +7025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7634b13b-3c40-4e7a-b86c-28b8cfe43a09")
-		(property "Reference" "D"
+		(property "Reference" "D1"
 			(at 234.95 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,8 +7087,12 @@
 			(uuid "a846fd76-db94-4acf-8fd0-1da7972ac3d3")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "D1")
 					(unit 1)
 				)
@@ -7516,7 +7111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76972a14-fdc8-4265-bc21-3d9537564581")
-		(property "Reference" "R"
+		(property "Reference" "R16"
 			(at 58.42 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7576,8 +7171,12 @@
 			(uuid "fbbcd183-8160-4c2e-8903-51c62f244bcc")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R16")
 					(unit 1)
 				)
@@ -7595,7 +7194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "805f1ce6-3ba3-4ca2-92a8-866890c179e5")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR05"
 			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7653,8 +7252,12 @@
 			(uuid "ddbe8dbf-4a31-4398-bb1f-131e94de2785")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -7673,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "826eed7d-5db1-4b81-b80a-f70604b1dd84")
-		(property "Reference" "C"
+		(property "Reference" "C21"
 			(at 72.39 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7735,8 +7338,12 @@
 			(uuid "dcbc6a7e-fc55-4794-bdbb-57b21dcf96f4")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C21")
 					(unit 1)
 				)
@@ -7755,7 +7362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8386629f-1373-475e-a78c-64058c6a1df0")
-		(property "Reference" "U"
+		(property "Reference" "U1"
 			(at 67.31 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7838,8 +7445,12 @@
 			(uuid "60c4ef24-a7ec-46b3-8e1c-7b05f95cf477")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "U1")
 					(unit 1)
 				)
@@ -7858,7 +7469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bf8906-4dea-41e9-9b26-05836c6ff5db")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR013"
 			(at 200.66 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7916,8 +7527,12 @@
 			(uuid "150ce1a4-d3b1-4e1d-9f94-b50b181dfa2e")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -7936,7 +7551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8989d054-5de5-4b68-a1a2-86eb3cc89435")
-		(property "Reference" "R"
+		(property "Reference" "R5"
 			(at 46.99 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,8 +7613,12 @@
 			(uuid "f44d2d74-0f66-4686-b937-227fc71d838a")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R5")
 					(unit 1)
 				)
@@ -8017,7 +7636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a02e00b-a4a0-43db-9b71-3bda965d73dd")
-		(property "Reference" "Rsns"
+		(property "Reference" "Rsns1"
 			(at 107.95 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,8 +7696,12 @@
 			(uuid "9dc66b6d-8af5-4573-9606-fd1122eb22d9")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "Rsns1")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "Rsns1")
 					(unit 1)
 				)
@@ -8097,7 +7720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9028f59c-90bc-42dd-911e-c92465bbb3a9")
-		(property "Reference" "C"
+		(property "Reference" "C16"
 			(at 72.39 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8159,8 +7782,12 @@
 			(uuid "87590b7e-7b03-4a84-928a-cdf7afdd3cbc")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C16")
 					(unit 1)
 				)
@@ -8179,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "963b72db-d8ea-4e2e-b3fc-01a278f86418")
-		(property "Reference" "Q"
+		(property "Reference" "Q2"
 			(at 166.37 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8199,7 +7826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
 			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8275,91 +7902,13 @@
 			(uuid "18079bc9-901b-4cc3-9703-63bd56ae26ae")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
 					(reference "Q2")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1945912-d8ef-495b-a29b-ae434654d495")
-		(property "Reference" "J"
-			(at 153.67 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor MCU 1"
-			(at 153.67 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
-			(at 152.4 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "691f26e3-66e5-486b-909b-6c9731e43eb9")
-		)
-		(pin "1"
-			(uuid "5590b0a7-bc6c-42f3-b61b-d8e7af807c54")
-		)
-		(instances
-			(project "Power Board"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J8")
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8377,7 +7926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a19944c5-9f5b-47fb-8138-5c9212226d25")
-		(property "Reference" "C"
+		(property "Reference" "C2"
 			(at 208.28 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,8 +7988,12 @@
 			(uuid "c252b66d-fd9a-44b9-8d66-d520bdc15258")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C2")
 					(unit 1)
 				)
@@ -8458,7 +8011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5c87141-6e28-43da-8939-fb8e3217890f")
-		(property "Reference" "R"
+		(property "Reference" "R7"
 			(at 153.67 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,8 +8073,12 @@
 			(uuid "72357419-bc77-410f-9e75-e5f7bededf4f")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R7")
 					(unit 1)
 				)
@@ -8540,7 +8097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a77efaad-506a-44ca-ad1f-69e8d67c2ccf")
-		(property "Reference" "C"
+		(property "Reference" "C11"
 			(at 101.6 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,8 +8159,12 @@
 			(uuid "084f02d3-f89f-40c0-8227-037e34f4a29b")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C11")
 					(unit 1)
 				)
@@ -8621,7 +8182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adef762d-dcd6-46a1-8691-1b7820d66de9")
-		(property "Reference" "L"
+		(property "Reference" "L2"
 			(at 105.41 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8681,8 +8242,12 @@
 			(uuid "ca08245b-e09c-458d-ad1f-a2b10dfcfed4")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "L2")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "L2")
 					(unit 1)
 				)
@@ -8701,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21803d6-f4b0-480a-8495-53c11cf2172a")
-		(property "Reference" "J"
+		(property "Reference" "J5"
 			(at 241.3 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,8 +8450,12 @@
 			(uuid "ae90cac7-95fc-45c1-a435-9ba130f3a6fa")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J5")
 					(unit 1)
 				)
@@ -8905,7 +8474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36e6bda-d74a-49cd-87a2-8f9dc5937be7")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR03"
 			(at 232.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8963,8 +8532,12 @@
 			(uuid "b0d6116f-ba16-4f4d-aad2-9c5efe430c2a")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -8983,7 +8556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6d84c66-333a-4e9e-9a86-f2ce7ba1f169")
-		(property "Reference" "R"
+		(property "Reference" "R6"
 			(at 100.33 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9045,8 +8618,12 @@
 			(uuid "f363eb32-fec8-4b73-b206-149d39f9512d")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R6")
 					(unit 1)
 				)
@@ -9064,7 +8641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b861a6b0-e14f-49df-8d68-00dd03e425b4")
-		(property "Reference" "R"
+		(property "Reference" "R17"
 			(at 173.228 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9126,8 +8703,12 @@
 			(uuid "38a39d56-1efd-4028-bce3-bc4d54b45d19")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R17")
 					(unit 1)
 				)
@@ -9145,7 +8726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9a04750-830d-4519-bdee-38539212ffab")
-		(property "Reference" "R"
+		(property "Reference" "R9"
 			(at 58.42 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,8 +8786,12 @@
 			(uuid "12f5bd09-0c46-40ec-aa3b-692368c633d1")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R9")
 					(unit 1)
 				)
@@ -9225,7 +8810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbe6018e-bc29-4678-a884-af39aaf83d5c")
-		(property "Reference" "C"
+		(property "Reference" "C18"
 			(at 194.31 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9287,8 +8872,12 @@
 			(uuid "03682332-3183-4f27-bdd2-a22e929c496e")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C18")
 					(unit 1)
 				)
@@ -9306,7 +8895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be165da4-ae3a-47f1-8c1b-8746e75ac63d")
-		(property "Reference" "C"
+		(property "Reference" "C15"
 			(at 93.98 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9366,8 +8955,12 @@
 			(uuid "c09781d8-b54f-43b7-bdac-34f3185aa2a5")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C15")
 					(unit 1)
 				)
@@ -9386,7 +8979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf699fc5-d864-4623-bdd5-98d0d556c77a")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR09"
 			(at 190.5 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9445,8 +9038,12 @@
 			(uuid "88e9575a-5a7b-423d-82da-d43f86d9d40b")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -9464,7 +9061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d17487aa-9099-4ef2-933e-3a5ef3e9d15a")
-		(property "Reference" "C"
+		(property "Reference" "C6"
 			(at 68.58 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9524,8 +9121,12 @@
 			(uuid "6cffe929-053d-42f1-af86-d02ed609237a")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C6")
 					(unit 1)
 				)
@@ -9543,7 +9144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d543f0f4-0849-44d3-9c95-b49b2a318826")
-		(property "Reference" "R"
+		(property "Reference" "R13"
 			(at 58.42 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,8 +9204,12 @@
 			(uuid "9fde56c8-ccb7-4cdf-bf14-99b99daf38dd")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R13")
 					(unit 1)
 				)
@@ -9622,7 +9227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7cc1b31-48f4-4040-b15a-2124c283d0b5")
-		(property "Reference" "J"
+		(property "Reference" "J3"
 			(at 41.275 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9691,8 +9296,12 @@
 			(uuid "162d3e22-c434-4ef2-88cf-494fef4f8c7b")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J3")
 					(unit 1)
 				)
@@ -9711,7 +9320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df8afedc-f428-4773-b836-6789456be311")
-		(property "Reference" "C"
+		(property "Reference" "C1"
 			(at 208.28 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,211 +9382,13 @@
 			(uuid "6b2da411-e71e-4037-8c3e-32c029b6677e")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
 					(reference "C1")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT60-M:XT60-M")
-		(at 27.94 57.15 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0534652-9e0b-4301-a304-499efa2b9d38")
-		(property "Reference" "J"
-			(at 24.13 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60-M"
-			(at 24.13 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "V1.2"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT60-M"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 27.94 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "P"
-			(uuid "76bc23fa-3169-4f9c-b55d-2ea442f68e88")
-		)
-		(pin "N"
-			(uuid "ff540667-6064-4f60-a1ae-0c2cd98952fd")
-		)
-		(instances
-			(project "Power Board"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J2")
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9995,7 +9406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e369781b-7be5-4dea-a411-4a1a47e9af71")
-		(property "Reference" "R"
+		(property "Reference" "R4"
 			(at 115.57 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10057,8 +9468,12 @@
 			(uuid "e819cdb4-5786-4149-a52b-ed114b42ef41")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R4")
 					(unit 1)
 				)
@@ -10077,7 +9492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8c2f2c0-657b-41c6-abf0-b8c10417cf44")
-		(property "Reference" "C"
+		(property "Reference" "C9"
 			(at 130.81 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10139,8 +9554,12 @@
 			(uuid "9000ce52-bc08-4f0d-8c09-8d4fce54cffc")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C9")
 					(unit 1)
 				)
@@ -10159,7 +9578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0053908-2c86-4719-9ed4-12c7c4781701")
-		(property "Reference" "C"
+		(property "Reference" "C8"
 			(at 130.81 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10221,8 +9640,12 @@
 			(uuid "d31caf0c-0f26-48cb-8572-e13ce7a3e994")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C8")
 					(unit 1)
 				)
@@ -10241,7 +9664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f73abbff-ee68-4751-81d7-2dd35b1cfa80")
-		(property "Reference" "C"
+		(property "Reference" "C14"
 			(at 123.19 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,8 +9724,12 @@
 			(uuid "35ab0412-f374-4a8d-9fa3-d13fa24fd86d")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C14")
 					(unit 1)
 				)
@@ -10321,7 +9748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd631ad-10ba-471e-8026-3a181ee69c42")
-		(property "Reference" "R"
+		(property "Reference" "R1"
 			(at 207.01 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,8 +9810,12 @@
 			(uuid "9e39ca28-0d6c-488e-b9c0-f0ae8ec831f1")
 		)
 		(instances
-			(project "Power Board"
+			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R1")
 					(unit 1)
 				)
