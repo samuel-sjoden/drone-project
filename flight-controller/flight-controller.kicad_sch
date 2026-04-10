@@ -5,7 +5,7 @@
 	(uuid "e1d5dd76-ec41-4f53-aa0b-5d03fb935d99")
 	(paper "A4")
 	(lib_symbols
-		(symbol "XT60-M:XT60-M"
+		(symbol "B2B-PH-SM4-TB:B2B-PH-SM4-TB"
 			(pin_names
 				(offset 1.016)
 			)
@@ -25,7 +25,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "XT60-M"
+			(property "Value" "B2B-PH-SM4-TB"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "XT60-M:AMASS_XT60-M"
+			(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +59,18 @@
 					)
 				)
 			)
-			(property "Description" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "JST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -71,7 +82,7 @@
 					(justify bottom)
 				)
 			)
-			(property "DigiKey_Part_Number" ""
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -83,7 +94,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
+			(property "Package" "NON STANDARD-2 JST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -95,7 +106,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
+			(property "Price" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -107,7 +118,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Package" "Package"
+			(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -119,7 +130,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -131,7 +142,7 @@
 					(justify bottom)
 				)
 			)
-			(property "STANDARD" "IPC 7351B"
+			(property "PARTREV" "N/A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -143,7 +154,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" "V1.2"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -155,7 +166,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "AMASS"
+			(property "MP" "B2B-PH-SM4-TB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -167,7 +178,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "XT60-M"
+			(property "Description_1" "Connector Header Surface Mount 2 position 0.079 (2.00mm)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -179,7 +190,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER" "AMASS"
+			(property "Availability" "In Stock"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -191,7 +202,19 @@
 					(justify bottom)
 				)
 			)
-			(symbol "XT60-M_0_0"
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "B2B-PH-SM4-TB_0_0"
 				(polyline
 					(pts
 						(xy 0 3.81) (xy 0 2.54)
@@ -323,16 +346,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 5.08)
-					(name "NEG"
+					(name "1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "N"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -341,16 +364,581 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 5.08)
-					(name "POS"
+					(name "2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "P"
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XT60PW-F:XT60PW-F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT60PW-F"
+				(at -5.08 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT60PW-F:AMASS_XT60PW-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "KARTHIK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "XT60PW-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "XT60PW-F_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -477,9 +1065,161 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "5V Power Connection\n"
+		(exclude_from_sim no)
+		(at 176.784 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c58fd1f2-8c65-41c6-bacd-407c4847323f")
+	)
+	(junction
+		(at 154.94 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11353ff1-0077-4b18-a224-17923fd0ea91")
+	)
+	(junction
+		(at 226.06 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5040e363-fd0c-430d-bf9f-68150d68ddd5")
+	)
+	(junction
+		(at 149.86 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8915defc-a1f6-4650-a0f4-dca234bb7fde")
+	)
+	(junction
+		(at 152.4 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a9447c9-8a87-46ac-9741-d04c71cbc280")
+	)
+	(junction
+		(at 77.47 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b6bdca3-7216-4504-88e9-9e6351331490")
+	)
+	(junction
+		(at 228.6 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dfaa8f6-c27d-4d12-8bc3-6cc915ef37d2")
+	)
+	(junction
+		(at 231.14 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98d2e4c-6aee-468d-95ed-5a2395e9d7aa")
+	)
+	(junction
+		(at 147.32 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f269bed2-d9f1-426a-8c50-6e743aba2f82")
+	)
+	(no_connect
+		(at 48.26 57.15)
+		(uuid "1a3a8c43-6567-4817-b0c4-2245434c8894")
+	)
 	(wire
 		(pts
-			(xy 152.4 53.34) (xy 165.1 53.34)
+			(xy 226.06 72.39) (xy 226.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026ab471-127c-44a1-8bad-12be87e7315e")
+	)
+	(wire
+		(pts
+			(xy 234.95 64.77) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2f69b3-d38c-4027-ad16-2f58419226e9")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1e5738-85ab-4d21-9579-178eecd42d19")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1314808b-41b4-41a7-8f45-3b95e0ff1925")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16903044-06a4-45cd-9c29-f5590f1611b2")
+	)
+	(wire
+		(pts
+			(xy 231.14 64.77) (xy 231.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1841359c-b122-43bf-8709-899ce59f910c")
+	)
+	(wire
+		(pts
+			(xy 53.34 54.61) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c491482-2af7-405f-9548-3c1bdd174fc0")
+	)
+	(wire
+		(pts
+			(xy 149.86 50.8) (xy 154.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2002f0a2-7361-4419-844e-206ae13a6df4")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224c004a-d3d1-4a03-a082-717c3ccb5a47")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 165.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 165.1 63.5)
+			(xy 140.97 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +1239,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 50.8) (xy 165.1 50.8)
+			(xy 77.47 54.61) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f438985-f948-4509-8450-6ee69ad2c689")
+	)
+	(wire
+		(pts
+			(xy 152.4 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40eeed23-6d80-4813-a924-33cfcd393130")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +1269,37 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 165.1 58.42)
+			(xy 157.48 102.87) (xy 149.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4403b21c-5f79-42fe-82ee-2c3ed41087be")
+	)
+	(wire
+		(pts
+			(xy 228.6 67.31) (xy 228.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3d4dca-5680-48e8-90e7-cc9e419f3e69")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599737eb-f511-4cc7-aa41-a2da635022b3")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +1309,77 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 106.68 50.8)
+			(xy 53.34 54.61) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa18a1a-f29f-4624-ae11-9bf5124cc5d4")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c56906f-7540-4cb7-a7bc-a39d93699dc8")
+	)
+	(wire
+		(pts
+			(xy 228.6 52.07) (xy 234.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857e8ae3-9a4a-415c-9762-e6ce8c4e95fd")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c434a5-fcd5-47bf-b0c4-d513172f792b")
+	)
+	(wire
+		(pts
+			(xy 210.82 67.31) (xy 217.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a365159-7b01-415e-a87d-c12c3fc1c1ef")
+	)
+	(wire
+		(pts
+			(xy 234.95 72.39) (xy 226.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac23414-d24c-48ab-ac60-e51851bce63f")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 217.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a031ab05-f0ba-411b-b345-db6e67b86d2f")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 95.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +1389,137 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 165.1 60.96)
+			(xy 210.82 52.07) (xy 228.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79e2344-19ea-45e1-b7c0-29294ce23059")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 55.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25e83bf-3b35-4e1d-bcf2-d8146b956f48")
+	)
+	(wire
+		(pts
+			(xy 217.17 54.61) (xy 234.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28f0ac6-b23d-40e0-9742-072f1245fa6e")
+	)
+	(wire
+		(pts
+			(xy 210.82 57.15) (xy 226.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7aa07b9-8cf3-4c46-ac35-fa9ea65e9a58")
+	)
+	(wire
+		(pts
+			(xy 140.97 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8162d9c-e1d8-41f8-8e72-f83760ba562a")
+	)
+	(wire
+		(pts
+			(xy 234.95 67.31) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c5739e-5f51-4410-a5d3-5e81396dc440")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4e9578-a43f-4509-ba38-4471c7a3f7bd")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1f5228-756c-46be-91a4-19b42dccb023")
+	)
+	(wire
+		(pts
+			(xy 226.06 57.15) (xy 234.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1adcd6e-4398-4fb5-b99a-c206d2d7bbf4")
+	)
+	(wire
+		(pts
+			(xy 95.25 54.61) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d6701a-fcb7-4096-9928-ac1d8a97c0e3")
+	)
+	(wire
+		(pts
+			(xy 210.82 49.53) (xy 231.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8db470c-5888-4089-98cd-ffc7b469e648")
+	)
+	(wire
+		(pts
+			(xy 149.86 102.87) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddeaedf6-d35a-4f15-aeb8-9f7650866781")
+	)
+	(wire
+		(pts
+			(xy 231.14 49.53) (xy 234.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ca712b-bb43-43dc-aade-16dc8a3d995e")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +1529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 48.26 90)
+		(at 77.47 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -548,9 +1538,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a109aa0d-6a62-4288-8aba-4380d9ba9b76")
+		(uuid "526b7d8d-4925-445e-ad47-e664666b60f1")
 		(property "Reference" "#PWR015"
-			(at 73.66 48.26 0)
+			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -561,18 +1551,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 48.2599 90)
+			(at 80.01 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 48.26 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -583,7 +1573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 48.26 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -594,7 +1584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 48.26 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -605,7 +1595,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "00eec06d-5c5f-4418-b8c5-827bb000365b")
+			(uuid "75e403a5-ffcc-42ef-9683-94d7120f5ecb")
 		)
 		(instances
 			(project "flight-controller"
@@ -617,8 +1607,8 @@
 		)
 	)
 	(symbol
-		(lib_id "XT60-M:XT60-M")
-		(at 62.23 48.26 180)
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 240.03 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -627,9 +1617,32 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ba430587-5596-429f-8fe4-ab9b199e70ce")
-		(property "Reference" "J7"
-			(at 58.42 40.64 0)
+		(uuid "57871bdb-8a02-435a-a109-9cb9046b817d")
+		(property "Reference" "J4"
+			(at 241.3 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Driver_2"
+			(at 241.3 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+			(at 240.03 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -638,8 +1651,9 @@
 				)
 			)
 		)
-		(property "Value" "XT60-M"
-			(at 58.42 43.18 0)
+		(property "Datasheet" ""
+			(at 240.03 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -648,8 +1662,74 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
-			(at 62.23 48.26 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 240.03 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7ef961bf-b8ed-4079-aa24-d2acb03129a7")
+		)
+		(pin "2"
+			(uuid "4a71c076-5955-45af-9e60-42977a2f4502")
+		)
+		(pin "4"
+			(uuid "db70efe5-8fe9-45bd-bb49-bb8eaba6422a")
+		)
+		(pin "1"
+			(uuid "5a9fed7e-72fa-4f47-809d-a7baaf8b480a")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B2B-PH-SM4-TB:B2B-PH-SM4-TB")
+		(at 162.56 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797f2be1-de9d-4c3b-bba6-bd029502f94d")
+		(property "Reference" "J6"
+			(at 171.45 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MD2_5V"
+			(at 171.45 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -661,7 +1741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 48.26 0)
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -671,8 +1751,8 @@
 				)
 			)
 		)
-		(property "Description" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 62.23 48.26 0)
+		(property "Description" ""
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -680,23 +1760,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "DigiKey_Part_Number" ""
-			(at 62.23 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 62.23 48.26 0)
+		(property "MF" "JST"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -707,8 +1774,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 62.23 48.26 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -719,8 +1786,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "Package"
-			(at 62.23 48.26 0)
+		(property "Package" "NON STANDARD-2 JST"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -731,8 +1798,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 62.23 48.26 0)
+		(property "Price" "None"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -743,8 +1810,8 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "IPC 7351B"
-			(at 62.23 48.26 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -755,8 +1822,451 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "V1.2"
-			(at 62.23 48.26 0)
+		(property "PARTREV" "N/A"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "B2B-PH-SM4-TB"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "B2B-PH-SM4-TB"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db792314-3757-489d-a1d2-d3896b036a0d")
+		)
+		(pin "1"
+			(uuid "18e8b36a-c4dc-49ef-9938-0266d21eabeb")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 240.03 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c5c3c8d-7849-42df-8838-7e0485ce7c94")
+		(property "Reference" "J1"
+			(at 241.3 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Driver_1"
+			(at 241.3 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c3653fb1-9983-44e6-8429-82fe2400f06c")
+		)
+		(pin "2"
+			(uuid "d6da6cc9-77a6-4ee9-a7f8-9a7982d3bcb9")
+		)
+		(pin "4"
+			(uuid "f0a43f70-d7cb-4a63-9009-ea288e3f7e5a")
+		)
+		(pin "1"
+			(uuid "c7fe1fe7-806c-4a33-ade5-20d971ab0c77")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B2B-PH-SM4-TB:B2B-PH-SM4-TB")
+		(at 162.56 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e2bca78-5659-4148-a09a-c29c9ea5e927")
+		(property "Reference" "J5"
+			(at 171.45 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MD1_5V"
+			(at 171.45 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "JST"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "NON STANDARD-2 JST"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "B2B-PH-SM4-TB"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "B2B-PH-SM4-TB"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 162.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f40b1fd-d426-422c-ae26-bc1aed11b115")
+		)
+		(pin "1"
+			(uuid "38c0869c-496c-4294-b5ea-82fe8f0b8084")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT60PW-F:XT60PW-F")
+		(at 53.34 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b044832f-334c-400b-8099-1cfae54f3945")
+		(property "Reference" "J8"
+			(at 59.69 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-F"
+			(at 59.69 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT"
+			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -768,7 +2278,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 62.23 48.26 0)
+			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -779,8 +2289,116 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT60-M"
-			(at 62.23 48.26 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=eda"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-F/AMASS/view-part/?ref=snap"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60PW-F"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -792,7 +2410,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 62.23 48.26 0)
+			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -803,23 +2421,29 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
-			(uuid "aa2a4e55-e49d-49d7-b3ed-56e1477c6d32")
+		(pin "1"
+			(uuid "282a43d8-15ef-46d5-9eeb-c0c767e1c816")
 		)
-		(pin "N"
-			(uuid "f339134b-85b5-4e48-bc2b-f579b64e4aca")
+		(pin "2"
+			(uuid "b645c0c5-dd28-4d19-a092-421accd5b116")
+		)
+		(pin "SH1"
+			(uuid "08c63197-63f1-406c-96ad-cc31e4c2f520")
+		)
+		(pin "SH2"
+			(uuid "c9641cda-284c-4082-8a6c-c4b33e77f41c")
 		)
 		(instances
 			(project "flight-controller"
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 106.68 44.45)
+		(at 95.25 44.45)
 		(size 45.72 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -835,7 +2459,7 @@
 		)
 		(uuid "0ae66413-31be-46ac-8f24-41e2814c9afd")
 		(property "Sheetname" "BMS"
-			(at 106.68 43.7384 0)
+			(at 95.25 43.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -846,7 +2470,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS.kicad_sch"
-			(at 106.68 76.7846 0)
+			(at 95.25 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -857,7 +2481,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 152.4 50.8 0)
+			(at 140.97 50.8 0)
 			(uuid "72590852-596e-41ec-864f-bb31ce483584")
 			(effects
 				(font
@@ -867,7 +2491,7 @@
 			)
 		)
 		(pin "15V" input
-			(at 106.68 50.8 180)
+			(at 95.25 50.8 180)
 			(uuid "e88b0afc-e2d2-4efa-b043-665b422448ba")
 			(effects
 				(font
@@ -876,28 +2500,8 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_BMS" input
-			(at 152.4 58.42 0)
-			(uuid "2d1d8e36-52b7-447f-8aa8-ce6ea94f4a0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA_BMS" bidirectional
-			(at 152.4 60.96 0)
-			(uuid "24fc2ade-35c8-4208-8094-6bcdc394948d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PWR_BTN" output
-			(at 152.4 53.34 0)
+			(at 140.97 53.34 0)
 			(uuid "c7c2c58b-fc14-4436-b9ae-8c61cf5a49e9")
 			(effects
 				(font
@@ -907,8 +2511,48 @@
 			)
 		)
 		(pin "INT_BMS" output
-			(at 152.4 63.5 0)
+			(at 140.97 63.5 0)
 			(uuid "bd325ac3-45c9-453c-a35b-8d30062c5d3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 95.25 54.61 180)
+			(uuid "4e01820b-ffa5-4286-b952-1fec1612142e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 140.97 60.96 0)
+			(uuid "b51942b5-a6f6-40b2-b5c8-8abf453ce463")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 140.97 58.42 0)
+			(uuid "afbe9d1d-6f6f-48f0-b342-8b96d9ae018d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND1" input
+			(at 140.97 71.12 0)
+			(uuid "602804ef-67f6-4143-b183-4d27c7021ec7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,9 +2636,59 @@
 				(justify left)
 			)
 		)
-		(pin "SDA_BMS" bidirectional
-			(at 165.1 60.96 180)
-			(uuid "d823f7b8-f257-4977-b012-fa83c7777674")
+		(pin "CS_MD1" output
+			(at 210.82 67.31 0)
+			(uuid "c12a9405-fc68-4b88-be34-8251f61da746")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_MD2" output
+			(at 210.82 69.85 0)
+			(uuid "ca5bdf03-c30c-4e66-9a04-f920a92ad840")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" output
+			(at 210.82 52.07 0)
+			(uuid "5d129424-f59d-4d78-84f8-360f15aa6d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" output
+			(at 210.82 57.15 0)
+			(uuid "f36a9766-fa0e-4863-a3ea-19ceab1e7b06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 210.82 49.53 0)
+			(uuid "c958961a-db51-4ea1-92c2-6858e1b8c987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 165.1 58.42 180)
+			(uuid "e850d8bc-4ff2-45aa-83f4-180e7fd01403")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,9 +2696,19 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_BMS" output
-			(at 165.1 58.42 180)
-			(uuid "e5e70086-47f6-462d-81fa-5c129738b8fd")
+		(pin "SDA" bidirectional
+			(at 165.1 60.96 180)
+			(uuid "da011523-00d1-42be-9e71-c8605ccc5f47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND1" output
+			(at 165.1 71.12 180)
+			(uuid "eb4113b2-265c-4d5d-8020-6598cfcc8c00")
 			(effects
 				(font
 					(size 1.27 1.27)
