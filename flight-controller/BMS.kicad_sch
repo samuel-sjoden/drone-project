@@ -2814,7 +2814,7 @@
 	)
 	(text "BMS"
 		(exclude_from_sim no)
-		(at 36.576 18.034 0)
+		(at 22.606 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2824,13 +2824,19 @@
 	)
 	(text "5V/5A buck converter"
 		(exclude_from_sim no)
-		(at 24.638 137.668 0)
+		(at 31.242 136.906 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e14971da-5275-4444-b529-40b7cbee2f75")
+	)
+	(junction
+		(at 171.45 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01da32d4-5232-4b39-8706-e7014e841c76")
 	)
 	(junction
 		(at 68.58 66.04)
@@ -2893,12 +2899,6 @@
 		(uuid "48be7fcb-0b78-45ec-aa8f-5c87a384a439")
 	)
 	(junction
-		(at 171.45 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49721ec5-ca7c-4e7d-9449-2419b04eccda")
-	)
-	(junction
 		(at 68.58 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2909,12 +2909,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "539933fb-7f75-45e5-8233-2405c00e982e")
-	)
-	(junction
-		(at 190.5 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e67d765-9bbc-46ba-8854-c43b0a8050d1")
 	)
 	(junction
 		(at 204.47 24.13)
@@ -2963,6 +2957,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a498e902-d7f4-4449-bedc-a99e1b107244")
+	)
+	(junction
+		(at 171.45 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5056258-08de-4154-a927-102279275d80")
 	)
 	(junction
 		(at 115.57 101.6)
@@ -3065,6 +3065,16 @@
 			(type default)
 		)
 		(uuid "00927d92-83c8-47bb-bd3b-961136024249")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 171.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026c7d6b-5adc-4eaf-8ced-8ca02d104c55")
 	)
 	(wire
 		(pts
@@ -3358,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 67.31) (xy 171.45 87.63)
+			(xy 171.45 86.36) (xy 171.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3405,6 +3415,16 @@
 			(type default)
 		)
 		(uuid "3cc8932d-e4bc-4f62-8b91-be97064ff64e")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef81203-4aaf-4872-877e-e58702838bbf")
 	)
 	(wire
 		(pts
@@ -3478,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 161.29 68.58)
+			(xy 168.91 68.58) (xy 161.29 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3588,16 +3608,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 81.28) (xy 203.2 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d78d240-9804-44df-973e-61e7f445ee01")
-	)
-	(wire
-		(pts
 			(xy 227.33 63.5) (xy 220.98 63.5)
 		)
 		(stroke
@@ -3628,7 +3638,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 204.47 53.34)
+			(xy 203.2 68.58) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a50dfb9-29f4-4002-98eb-4ef61ba1d314")
+	)
+	(wire
+		(pts
+			(xy 161.29 53.34) (xy 198.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 54.61) (xy 204.47 53.34)
+			(xy 198.12 54.61) (xy 198.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +3738,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 203.2 78.74)
+			(xy 182.88 66.04) (xy 171.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbd4560-1958-4de0-9813-016e08aee8f5")
+	)
+	(wire
+		(pts
+			(xy 168.91 71.12) (xy 203.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3845,16 +3875,6 @@
 			(type default)
 		)
 		(uuid "92d706f9-9234-4707-9d21-ab75f0b3cf72")
-	)
-	(wire
-		(pts
-			(xy 186.69 71.12) (xy 190.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c1d1ce-4b8d-4f87-b9b5-09c31e7c066f")
 	)
 	(wire
 		(pts
@@ -4048,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 59.69) (xy 171.45 58.42)
+			(xy 171.45 78.74) (xy 171.45 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4188,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 177.8 78.74)
+			(xy 168.91 71.12) (xy 168.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4338,16 +4358,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 71.12) (xy 203.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed042e8e-aa76-4f2b-9524-b0f8b05a68c9")
-	)
-	(wire
-		(pts
 			(xy 163.83 82.55) (xy 163.83 24.13)
 		)
 		(stroke
@@ -4405,16 +4415,6 @@
 			(type default)
 		)
 		(uuid "f7d56fbc-b4fc-4138-bef9-e960bf1a8faa")
-	)
-	(wire
-		(pts
-			(xy 190.5 71.12) (xy 190.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f85ef9ef-d855-446e-a707-77ae48b56ced")
 	)
 	(wire
 		(pts
@@ -4476,16 +4476,6 @@
 		)
 		(uuid "fe14c088-98ef-4ccd-ab09-926ac05566d1")
 	)
-	(wire
-		(pts
-			(xy 200.66 83.82) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4a3c65-ee41-464f-991d-112eb08b9c44")
-	)
 	(label "Buck_In"
 		(at 242.57 24.13 0)
 		(effects
@@ -4506,29 +4496,38 @@
 		)
 		(uuid "cec8d6da-c9f0-4ed3-b02f-f6350e96d6e7")
 	)
-	(global_label "5V"
-		(shape input)
-		(at 186.69 71.12 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "INT_BMS"
+		(shape output)
+		(at 203.2 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f05336d1-aaeb-4434-9f9c-956c6a98da42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4067 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "4b2bb8e4-0c34-460f-bd9e-eac3e7a96bc7")
+	)
+	(hierarchical_label "SCL_BMS"
+		(shape input)
+		(at 203.2 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "620487d6-8a27-4ae6-affe-21cf220f8762")
+	)
+	(hierarchical_label "PWR_BTN"
+		(shape output)
+		(at 203.2 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9302c29d-6e3e-4f9c-9e82-13a4469331c6")
 	)
 	(hierarchical_label "15V"
 		(shape input)
@@ -4540,6 +4539,17 @@
 			(justify right)
 		)
 		(uuid "df04185a-c769-4989-8704-83f3ef4bea6a")
+	)
+	(hierarchical_label "SDA_BMS"
+		(shape bidirectional)
+		(at 203.2 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e16d2b63-e166-47d6-b448-f619ad5cb86c")
 	)
 	(hierarchical_label "5V"
 		(shape output)
@@ -4627,10 +4637,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R3")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R3")
 					(unit 1)
@@ -4791,10 +4797,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R11")
 					(unit 1)
@@ -4874,10 +4876,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R8")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R8")
 					(unit 1)
@@ -4956,10 +4954,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR06")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR06")
 					(unit 1)
@@ -5038,10 +5032,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR01")
 					(unit 1)
@@ -5124,10 +5114,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C19")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C19")
 					(unit 1)
@@ -5207,10 +5193,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R10")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R10")
 					(unit 1)
@@ -5293,10 +5275,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C7")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C7")
 					(unit 1)
@@ -5376,10 +5354,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R2")
 					(unit 1)
@@ -5457,10 +5431,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR04")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR04")
 					(unit 1)
@@ -5665,107 +5635,8 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J6")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 208.28 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "366abec5-c6b0-4386-83d3-7e93e5304867")
-		(property "Reference" "J1"
-			(at 209.55 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCU I2C"
-			(at 209.55 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 208.28 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f2569a5-be50-4657-af6b-059fd86ad4e7")
-		)
-		(pin "3"
-			(uuid "f6e00393-3374-4a2e-95f6-24522942e3ab")
-		)
-		(pin "5"
-			(uuid "c50c2690-3902-4be3-baa4-e31b77507612")
-		)
-		(pin "4"
-			(uuid "03ea0ef2-0989-4c19-99a8-ab2c17dfe9d8")
-		)
-		(pin "2"
-			(uuid "1c027050-b17e-4469-9f5d-764ff312d1a1")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J1")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5846,10 +5717,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "SW1")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "SW1")
 					(unit 1)
@@ -5930,10 +5797,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C13")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C13")
 					(unit 1)
@@ -6016,10 +5879,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C20")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C20")
 					(unit 1)
@@ -6102,10 +5961,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C17")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C17")
 					(unit 1)
@@ -6115,7 +5970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 62.23 0)
+		(at 198.12 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6125,7 +5980,7 @@
 		(dnp no)
 		(uuid "3fd785b8-346a-438d-b22b-19cf97125a82")
 		(property "Reference" "#PWR07"
-			(at 204.47 68.58 0)
+			(at 198.12 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +5991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 66.548 0)
+			(at 200.66 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6146,7 +6001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 62.23 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 62.23 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 62.23 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,10 +6038,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR07")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR07")
 					(unit 1)
@@ -6265,10 +6116,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR012")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR012")
 					(unit 1)
@@ -6350,10 +6197,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C10")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C10")
 					(unit 1)
@@ -6436,10 +6279,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C12")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C12")
 					(unit 1)
@@ -6519,10 +6358,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR011")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR011")
 					(unit 1)
@@ -6659,10 +6494,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "U3")
 					(unit 1)
@@ -6818,10 +6649,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR08")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR08")
 					(unit 1)
@@ -6982,10 +6809,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R12")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R12")
 					(unit 1)
@@ -7068,10 +6891,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "D1")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "D1")
 					(unit 1)
@@ -7152,10 +6971,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R16")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R16")
 					(unit 1)
@@ -7233,10 +7048,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR05")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR05")
 					(unit 1)
@@ -7319,10 +7130,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C21")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C21")
 					(unit 1)
@@ -7426,94 +7233,8 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "U1")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 200.66 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87bf8906-4dea-41e9-9b26-05836c6ff5db")
-		(property "Reference" "#PWR013"
-			(at 200.66 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 200.66 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 200.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "150ce1a4-d3b1-4e1d-9f94-b50b181dfa2e")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7594,10 +7315,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R5")
 					(unit 1)
@@ -7677,10 +7394,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "Rsns1")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "Rsns1")
 					(unit 1)
@@ -7763,90 +7476,8 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C16")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 190.5 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95d0a8ea-da2b-43d8-b4b2-c35dab3b6b59")
-		(property "Reference" "#PWR014"
-			(at 190.5 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 190.5 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b825c79-ddf9-42e1-a950-191a5de967c8")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7961,10 +7592,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "Q2")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "Q2")
 					(unit 1)
@@ -8047,10 +7674,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C2")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C2")
 					(unit 1)
@@ -8132,10 +7755,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R7")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R7")
 					(unit 1)
@@ -8218,10 +7837,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C11")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C11")
 					(unit 1)
@@ -8301,10 +7916,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "L2")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "L2")
 					(unit 1)
@@ -8509,10 +8120,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J5")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J5")
 					(unit 1)
@@ -8595,10 +8202,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R6")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R6")
 					(unit 1)
@@ -8608,7 +8211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 63.5 0)
+		(at 171.45 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8618,7 +8221,7 @@
 		(dnp no)
 		(uuid "b861a6b0-e14f-49df-8d68-00dd03e425b4")
 		(property "Reference" "R17"
-			(at 173.228 62.484 0)
+			(at 173.228 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8629,7 +8232,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 173.228 65.024 0)
+			(at 173.228 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8640,7 +8243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 169.672 63.5 90)
+			(at 169.672 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 63.5 0)
+			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8662,7 +8265,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 63.5 0)
+			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,10 +8283,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R17")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R17")
 					(unit 1)
@@ -8763,98 +8362,8 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R9")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 190.5 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbe6018e-bc29-4678-a884-af39aaf83d5c")
-		(property "Reference" "C18"
-			(at 194.31 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 194.31 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.4652 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 190.5 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ecaf65c5-0f65-4323-806a-8012451b34fe")
-		)
-		(pin "2"
-			(uuid "03682332-3183-4f27-bdd2-a22e929c496e")
-		)
-		(instances
-			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8932,10 +8441,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C15")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C15")
 					(unit 1)
@@ -9015,10 +8520,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "#PWR09")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "#PWR09")
 					(unit 1)
@@ -9098,10 +8599,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C6")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C6")
 					(unit 1)
@@ -9181,10 +8678,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R13")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R13")
 					(unit 1)
@@ -9273,10 +8766,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "J3")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "J3")
 					(unit 1)
@@ -9286,7 +8775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 58.42 0)
+		(at 198.12 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9297,7 +8786,7 @@
 		(fields_autoplaced yes)
 		(uuid "df8afedc-f428-4773-b836-6789456be311")
 		(property "Reference" "C1"
-			(at 208.28 57.1499 0)
+			(at 201.93 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9308,7 +8797,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 208.28 59.6899 0)
+			(at 201.93 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9319,7 +8808,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 205.4352 62.23 0)
+			(at 199.0852 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9330,7 +8819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 58.42 0)
+			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +8830,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 58.42 0)
+			(at 198.12 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,10 +8848,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C1")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C1")
 					(unit 1)
@@ -9445,10 +8930,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R4")
 					(unit 1)
@@ -9531,10 +9012,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C9")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C9")
 					(unit 1)
@@ -9617,10 +9094,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C8")
 					(unit 1)
@@ -9701,10 +9174,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "C14")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "C14")
 					(unit 1)
@@ -9787,10 +9256,6 @@
 		)
 		(instances
 			(project "flight-controller"
-				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/e1d5dd76-ec41-4f53-aa0b-5d03fb935d99/0ae66413-31be-46ac-8f24-41e2814c9afd"
 					(reference "R1")
 					(unit 1)

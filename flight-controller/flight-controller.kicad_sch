@@ -479,7 +479,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 165.1 50.8)
+			(xy 152.4 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25181233-8bc3-4930-beb2-88cb9b252254")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c440305-7c5f-43d1-89d8-dee9e0d7dbc4")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 165.1 50.8)
 		)
 		(stroke
 			(width 0)
@@ -489,13 +509,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 114.3 50.8)
+			(xy 152.4 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d46b218-5e1d-46f4-85e3-ed03573c1fd9")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a56f5d3d-6d88-448e-9cd2-2658d8ccfcd8")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7330e48-8a63-4e40-87f0-f8ec066e77fa")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -779,7 +819,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 44.45)
+		(at 106.68 44.45)
 		(size 45.72 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -795,7 +835,7 @@
 		)
 		(uuid "0ae66413-31be-46ac-8f24-41e2814c9afd")
 		(property "Sheetname" "BMS"
-			(at 114.3 43.7384 0)
+			(at 106.68 43.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -806,7 +846,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS.kicad_sch"
-			(at 114.3 76.7846 0)
+			(at 106.68 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -817,7 +857,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 160.02 50.8 0)
+			(at 152.4 50.8 0)
 			(uuid "72590852-596e-41ec-864f-bb31ce483584")
 			(effects
 				(font
@@ -827,13 +867,53 @@
 			)
 		)
 		(pin "15V" input
-			(at 114.3 50.8 180)
+			(at 106.68 50.8 180)
 			(uuid "e88b0afc-e2d2-4efa-b043-665b422448ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SCL_BMS" input
+			(at 152.4 58.42 0)
+			(uuid "2d1d8e36-52b7-447f-8aa8-ce6ea94f4a0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_BMS" bidirectional
+			(at 152.4 60.96 0)
+			(uuid "24fc2ade-35c8-4208-8094-6bcdc394948d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_BTN" output
+			(at 152.4 53.34 0)
+			(uuid "c7c2c58b-fc14-4436-b9ae-8c61cf5a49e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_BMS" output
+			(at 152.4 63.5 0)
+			(uuid "bd325ac3-45c9-453c-a35b-8d30062c5d3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -885,6 +965,46 @@
 		(pin "5V" input
 			(at 165.1 50.8 180)
 			(uuid "4fd0c56a-6dfd-4771-8797-b9383595722d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_BTN" input
+			(at 165.1 53.34 180)
+			(uuid "f226d22a-4bc5-4c1f-a260-8ac5425537db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_BMS" input
+			(at 165.1 63.5 180)
+			(uuid "55c35915-0fad-493b-80b7-4211c6c543d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_BMS" bidirectional
+			(at 165.1 60.96 180)
+			(uuid "d823f7b8-f257-4977-b012-fa83c7777674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_BMS" output
+			(at 165.1 58.42 180)
+			(uuid "e5e70086-47f6-462d-81fa-5c129738b8fd")
 			(effects
 				(font
 					(size 1.27 1.27)
