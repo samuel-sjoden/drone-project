@@ -7569,7 +7569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.6252 113.665 0)
 			(effects
 				(font
@@ -9698,7 +9698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11d9d085-c54b-4c49-9199-7de89aca3948")
-		(property "Reference" "RUN"
+		(property "Reference" "RUN1"
 			(at 131.0005 158.75 0)
 			(effects
 				(font
@@ -9850,7 +9850,7 @@
 		(instances
 			(project ""
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "RUN")
+					(reference "RUN1")
 					(unit 1)
 				)
 			)
@@ -10652,7 +10652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d486eec-8312-4885-bcbf-08577a1f1102")
-		(property "Reference" "BOOT"
+		(property "Reference" "BOOT1"
 			(at 134.62 131.8894 90)
 			(effects
 				(font
@@ -10806,7 +10806,7 @@
 		(instances
 			(project ""
 				(path "/2980fc7e-b297-4843-ba9f-cceafa384b2f/fc9ab5c1-5213-4422-8df6-375c5f661fb4"
-					(reference "BOOT")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -10910,7 +10910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.385 126.873 90)
 			(effects
 				(font

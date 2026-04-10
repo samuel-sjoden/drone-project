@@ -3034,7 +3034,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 96.52 68.58 90)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 95.25 140.97 90)
 			(effects
 				(font
