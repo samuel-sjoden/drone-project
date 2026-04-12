@@ -2416,7 +2416,7 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(color 164 248 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "2f904d17-17ae-4a9d-ac5f-e6bb3191a3f4")
 		(property "Sheetname" "inverter_w"
@@ -2581,7 +2581,7 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(color 164 248 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "63ac6fcd-c469-40cb-85df-0f41f3a5177a")
 		(property "Sheetname" "inverter_v"
@@ -2826,7 +2826,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 185 229 1.0000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "ac62132b-3509-4a1c-a20a-99fe7376af0d")
 		(property "Sheetname" "gate-driver"
@@ -3143,7 +3143,7 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(color 164 248 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "f60ce443-a199-4869-b113-ff19f2313a8a")
 		(property "Sheetname" "inverter_u"
