@@ -645,7 +645,7 @@
         "uuid": "e1d5dd76-ec41-4f53-aa0b-5d03fb935d99"
       }
     ],
-    "used_designators": "J1,J4-6,J8-10,SW2,R14-15,#PWR14-15,#PWR25-26,#PWR30-31,U7,D2-3,C18,C25",
+    "used_designators": "R18-19,U5-7,A1,C3,C23-27,#PWR13,#PWR22-24,#PWR26-27,#PWR29-32",
     "variants": []
   },
   "sheets": [
@@ -659,7 +659,11 @@
     ],
     [
       "ab31c291-e8bf-479a-b3ea-b25df21dfdbf",
-      "Flight_Controller"
+      "ESP32"
+    ],
+    [
+      "277c179b-7039-44c5-b5fe-a293c5ba4a2c",
+      "Sensors"
     ]
   ],
   "text_variables": {},
